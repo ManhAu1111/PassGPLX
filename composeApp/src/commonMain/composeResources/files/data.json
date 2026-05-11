@@ -1,0 +1,1955 @@
+[
+    {
+        "id": "p1",
+        "code": "P.101",
+        "name": "Đường cấm",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Báo hiệu “không được đi vào đường này với bất kỳ phương tiện nào” (trừ các xe được ưu tiên theo quy định) Người điều khiển xe máy đi vào đường có biển P.101: phạt 4 – 6 triệu đồng (nếu vi phạm như vào đường cao tốc, v.v.) Ô tô đi vào đường có biển cấm: phạt 2 – 3 triệu đồng + trừ 02 điểm GPLX (ví dụ khung phổ biến) Nếu gây tai nạn: mức phạt cao hơn (10 – 14 triệu đồng hoặc hơn tùy loại phương tiện)",
+        "image": "p_101.png"
+    },
+    {
+        "id": "p2",
+        "code": "P.102",
+        "name": "Cấm đi ngược chiều",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển hình tròn, nền đỏ với một gạch ngang trắng ở giữa. Được đặt ở đầu tuyến đường hoặc đoạn đường một chiều để cấm phương tiện đi vào theo hướng đặt biển (không được đi ngược chiều) Người điều khiển ô tô đi ngược chiều hoặc vào đường có biển P.102: phạt từ khoảng 18.000.000 đ đến 20.000.000 đ và bị trừ 04 điểm GPLX nếu vi phạm trên đường một chiều hoặc đường có biển “Cấm đi ngược chiều”. Nếu hành vi vi phạm gây tai nạn giao thông: phạt từ 20.000.000 đ đến 22.000.000 đ, bị trừ 10 điểm GPLX. Nếu vi phạm trên đường cao tốc (ngược chiều): phạt từ 30.000.000 đ đến 40.000.000 đ, trừ 10 điểm. Đối với mô tô/xe máy: mức phạt phổ biến từ 4.000.000 đ đến 6.000.000 đ nếu đi vào đường có biển P.102 mà không gây tai nạn.",
+        "image": "p_102.png"
+    },
+    {
+        "id": "p3",
+        "code": "P.103a",
+        "name": "Cấm xe ô tô",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.103a đặt tại những đoạn đường nơi cấm tất cả các loại xe ô tô (cơ giới có 4 bánh trở lên, xe chở người/xe tải, kể cả xe máy 3 bánh có thùng) đi qua. Thường trừ lại xe máy 2 bánh, xe gắn máy, xe ưu tiên. Đối với ô tô (người điều khiển xe ô tô đi vào đường có biển P.103a): phạt tiền từ 4.000.000₫ đến 6.000.000₫, đồng thời bị trừ 02 điểm giấy phép lái xe (GPLX) (gồm lỗi thông thường “đi vào đường có biển cấm ô tô”) Nếu vì vi phạm biển P.103a mà gây tai nạn giao thông, thì phạt tiền từ 20.000.000₫ đến 22.000.000₫ và bị trừ 10 điểm GPLX.",
+        "image": "p_103a.png"
+    },
+    {
+        "id": "p4",
+        "code": "P.103b",
+        "name": "Cấm xe ô tô rẽ phải",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển đặt tại ngã tư hoặc đoạn đường nơi cấm mọi xe ô tô (kể cả các loại ô tô tải, khách, xe 3 bánh thùng) rẽ phải theo hướng đặt biển, trừ xe máy hai bánh, xe gắn máy và các xe ưu tiên theo quy định. Đối với ô tô vi phạm: phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng khi điều khiển ô tô rẽ phải ở nơi có biển P.103b Đối với xe máy hoặc mô tô, xe gắn máy vi phạm tương tự: phạt tiền từ khoảng 600.000 đồng đến 800.000 đồng.",
+        "image": "p_103b.png"
+    },
+    {
+        "id": "p5",
+        "code": "P.103c",
+        "name": "Cấm xe ô tô rẽ trái",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Được đặt tại ngã tư hoặc đoạn đường nơi có biển này tức là cấm tất cả các loại xe cơ giới (bao gồm ô tô, xe máy 3 bánh có thùng) rẽ trái theo hướng chỉ trên biển; trừ xe mô tô hai bánh, xe gắn máy và các xe ưu tiên theo quy định. Đối với ô tô rẽ trái nơi có biển P.103c: phạt khoảng 2.000.000 đ đến 3.000.000 đồng. Đối với xe máy (vi phạm tương tự): phạt khoảng 600.000 đ đến 800.000 đồng. Nếu vi phạm gây tai nạn giao thông: mức phạt ô tô có thể lên khoảng 20.000.000 đ đến 22.000.000 đồng hoặc hơn.",
+        "image": "p_103c.png"
+    },
+    {
+        "id": "p6",
+        "code": "P.104",
+        "name": "Cấm mô tô",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.104 đặt ở đoạn đường để cấm tất cả các loại xe mô tô (xe máy hai bánh, ba bánh hoặc tương tự) đi qua đoạn đường đó, trừ các xe được ưu tiên theo quy định (ví dụ: xe cứu thương, xe cứu hỏa, xe công vụ đang làm nhiệm vụ). Biển này không áp dụng cho người dắt xe máy (không phải điều khiển chạy) thì vẫn được. Theo Nghị định 168/2024/NĐ‑CP – xử phạt vi phạm hiệu lệnh, chỉ dẫn của biển báo, vạch kẻ đường: khung phạt từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe máy khi không chấp hành hiệu lệnh biển báo/ vạch kẻ đường. Vì biển P.104 là “cấm mô tô”, nên nếu người điều khiển mô tô đi vào đường có biển này sẽ bị áp dụng khung phạt tương ứng với việc “không chấp hành biển báo cấm”. Dù văn bản không ghi riêng cho P.104, nhưng theo các tổng hợp: người điều khiển xe máy vi phạm biển cấm có thể bị phạt 600.000 đ đến 800.000 đ hoặc nhiều hơn tùy hành vi, phạm vi vi phạm.",
+        "image": "p_104.png"
+    },
+    {
+        "id": "p7",
+        "code": "P.105",
+        "name": "Cấm xe ô tô và mô tô",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.105 được đặt ở đoạn đường mà tất cả các loại xe cơ giới và xe máy (ô tô + xe máy hai bánh, ba bánh) không được phép đi vào, trừ trường hợp phương tiện ưu tiên theo quy định. Người điều khiển xe ô tô đi vào đường có đặt biển P.105 (đường cấm ô tô & xe máy): phạt khoảng từ 2.000.000 đồng đến 3.000.000 đồng và có thể bị tước giấy phép lái xe từ 1–3 tháng. Người điều khiển xe máy/ mô tô vi phạm “đi vào đường có biển cấm ô tô và xe máy” có mức phạt từ khoảng 400.000 đồng đến 600.000 đồng (hoặc tùy mức, có nguồn nói ~600.000-800.000) khi không gây tai nạn.",
+        "image": "p_105.png"
+    },
+    {
+        "id": "p8",
+        "code": "P.106a",
+        "name": "Cấm xe tải",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.106a được đặt để cấm tất cả các loại xe ô tô tải (bao gồm xe tải chở hàng, máy kéo, xe máy chuyên dùng) lưu thông vào đoạn đường có đặt biển, trừ những xe ưu tiên. Khi xe ô tô tải lưu thông vào đoạn đường có đặt biển P.106a: theo các tổng hợp thì mức phạt có thể từ 1.000.000 đồng đến 2.000.000 đồng (ở các nghị định trước như Nghị định 100/2019) Ngoài phạt tiền, vi phạm còn có thể bị tước GPLX, trừ điểm nếu gây hậu quả lớn (theo các quy định chung về vi phạm biển báo cấm).",
+        "image": "p_106a.png"
+    },
+    {
+        "id": "p9",
+        "code": "P.106b",
+        "name": "Cấm xe tải trên 2,5T",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này đặt tại tuyến đường nơi cấm các phương tiện là xe ô tô tải (và cả máy kéo, xe máy chuyên dùng) có khối lượng chuyên chở theo giấy kiểm định lớn hơn trị số (tấn) ghi trên biển được đi vào đoạn đường đó. Người điều khiển xe tải vi phạm đi vào đường có biển P.106b bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng và có thể bị tước quyền sử dụng GPLX từ 01 tháng đến 03 tháng. Trường hợp vi phạm gây tai nạn giao thông: mức phạt có thể lên 10.000.000 đồng đến 12.000.000 đồng hoặc hơn.",
+        "image": "p_106b.png"
+    },
+    {
+        "id": "p10",
+        "code": "P.106c",
+        "name": "Cấm xe tải chở hàng nguy hiểm",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển được đặt tại đoạn đường hoặc khu vực mà cấm các xe chở hàng nguy hiểm (bao gồm xe tải chở các chất nổ, chất khí, chất lỏng dễ cháy, chất độc, phóng xạ, ăn mòn…) đi vào. Theo một nguồn (Dẫn chi tiết từ Nghị định 46/2016/NĐ-CP) thì người điều khiển xe vi phạm “đi vào đường cấm, khu vực cấm” (áp dụng cả với xe chở hàng nguy hiểm) bị phạt 800.000 đồng đến 1.200.000 đồng. Theo tổng hợp gần đây hơn cho nhóm biển cấm xe tải/xe chuyên dùng: nếu “xe tải/xe chuyên dùng đi vào đường có biển cấm xe tải” thì phạt từ 2.000.000 đồng đến 3.000.000 đồng và bị tước GPLX 01–03 tháng, trường hợp gây tai nạn thì phạt từ 10.000.000 đồng đến 12.000.000 đồng.",
+        "image": "p_106c.png"
+    },
+    {
+        "id": "p11",
+        "code": "P.107",
+        "name": "Cấm xe khách và xe tải",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.107 được đặt tại đoạn đường mà cấm các loại xe ô tô chở khách (thường là từ 10 chỗ ngồi trở lên) và xe ô tô tải lưu thông qua, kể cả các loại máy kéo và xe máy chuyên dùng, trừ các xe được ưu tiên theo quy định. Khi người điều khiển xe ô tô chở khách hoặc xe tải đi vào đoạn đường có biển P.107: phạt tiền khoảng từ 2.000.000 đồng đến 3.000.000 đồng đối với ô tô. Đối với các phương tiện nhỏ hơn hoặc trường hợp khác (như máy kéo, xe máy chuyên dùng) vi phạm tương tự: phạt tiền khoảng 400.000 đồng đến 600.000 đồng.",
+        "image": "p_107.png"
+    },
+    {
+        "id": "p12",
+        "code": "P.107a",
+        "name": "Cấm xe khách",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.107a đặt tại tuyến đường hoặc khu vực mà mọi xe ô tô khách (thường từ 10 chỗ ngồi trở lên) không được phép đi vào, trừ các xe ưu tiên theo quy định. Biển này không cấm xe buýt thường được phép. Với người điều khiển ké ô tô đi vào đường có đặt biển P.107a: bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 02 điểm GPLX. Với người điều khiển xe mô tô, xe gắn máy đi vào đường có biển P.107a (không phải xe ô tô khách): bị phạt từ 2.000.000 đồng đến 3.000.000 đồng, và bị trừ 02 điểm GPLX",
+        "image": "p_107a.png"
+    },
+    {
+        "id": "p13",
+        "code": "P.107b",
+        "name": "Cấm xe taxi",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.107b được đặt tại đoạn đường/cổng vào khu vực mà cấm xe taxi (ô tô loại taxi) lưu thông. Nếu cấm taxi theo giờ cụ thể, sẽ có bảng phụ ghi giờ áp dụng đặt kèm biển P.107b.  Theo cập nhật năm 2024–2025 (ví dụ tham khảo Nghị định 168/2024/NĐ-CP): người điều khiển ô tô (taxi) đi vào đoạn đường có biển P.107b bị phạt tiền khoảng 4.000.000 đồng đến 6.000.000 đồng, kèm theo bị trừ 02 điểm giấy phép lái xe.  Người điều khiển mô tô, xe gắn máy hoặc các loại xe tương đương vi phạm tương tự cũng có thể bị phạt tiền khoảng 2.000.000 đồng đến 3.000.000 đồng và trừ 02 điểm GPLX. ",
+        "image": "p_107b.png"
+    },
+    {
+        "id": "p14",
+        "code": "P.108",
+        "name": "Cấm xe kéo rơ-moóc",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Đặt ở đoạn đường nơi cấm tất cả các loại xe cơ giới kéo theo rơ-moóc (bao gồm xe máy, máy kéo, ô tô khách kéo rơ-moóc) đi qua, trừ loại xe sơ-mi rơ-moóc và các xe được ưu tiên theo quy định. Mặc dù không tìm thấy mức phạt được công bố riêng cho biển P.108 trong văn bản công khai, nhưng theo quy định chung của Nghị định 168/2024/NĐ‑CP về xử phạt hành vi đi vào đường có biển báo hiệu nội dung cấm đi vào đối với loại phương tiện đang điều khiển — mức phạt dao động khoảng 8.000.000 đồng đến 10.000.000 đồng hoặc hơn (đối với ô tô); với xe máy/ phương tiện nhỏ hơn thường ở mức 600.000 đồng đến 800.000 đồng hoặc hơn nếu gây tai nạn.",
+        "image": "p_108.png"
+    },
+    {
+        "id": "p15",
+        "code": "P.109",
+        "name": "Cấm máy kéo",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Đặt ở đoạn đường mà tất cả loại máy kéo (kể cả máy kéo bánh hơi và bánh xích) không được phép đi vào phần đường có biển đặt. Người điều khiển máy kéo đi vào đoạn đường có biển P.109 bị phạt khoảng 800.000 đồng đến 1.200.000 đồng.  Ngoài ra, nếu vi phạm gây tai nạn hoặc nghiêm trọng sẽ bị tước giấy phép lái xe từ 02 đến 04 tháng (theo nguồn cũ Nghị định 46/2016) ",
+        "image": "p_109.png"
+    },
+    {
+        "id": "p16",
+        "code": "P.110a",
+        "name": "Cấm xe đạp",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này được đặt tại đoạn đường mà tất cả xe đạp (không kể loại chở hàng hay không) không được phép đi qua. Biển không có hiệu lực cấm người đẩy hoặc dắt xe đạp — nghĩa là nếu người đi bộ dắt xe đạp thì vẫn được phép. Theo nguồn: Người điều khiển xe đạp đi vào đường có đặt biển P.110a sẽ bị phạt từ 100.000 đồng đến 200.000 đồng. Lưu ý: Đây là mức phạt cho xe đạp — các phương tiện lớn hơn sẽ chịu khung khác nếu cùng điều kiện “đi vào đường có biển báo cấm”.",
+        "image": "p_110a.png"
+    },
+    {
+        "id": "p17",
+        "code": "P.110b",
+        "name": "Cấm xe đạp thồ",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này đặt tại đoạn đường mà xe đạp thồ (loại xe đạp có thùng hoặc gánh hàng) không được phép đi qua. Biển này không áp dụng cho người dắt xe đạp thồ — nghĩa là nếu người đẩy/gánh xe thay vì lái thì vẫn được phép. Theo tổng hợp: Người điều khiển xe đạp thồ vi phạm đi vào đoạn đường có biển P.110b sẽ bị phạt từ 100.000 đồng đến 200.000 đồng. Mức phạt này là đối với phương tiện “xe đạp thồ”. Nếu vi phạm kết hợp với hành vi khác (ví dụ gây tai nạn, ô nhiễm, cản trở giao thông) hoặc là xe khác thay vì đạp thồ đi vào thì mức phạt có thể khác theo khung chung “đi vào đường có biển báo cấm”.",
+        "image": "p_110b.png"
+    },
+    {
+        "id": "p18",
+        "code": "P.111a",
+        "name": "Cấm xe gắn máy",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển đặt tại đoạn đường mà tất cả các loại xe gắn máy (ví dụ: xe hai bánh có động cơ dung tích nhỏ, tốc độ thiết kế ≤ 50 km/h) không được phép đi vào Biển này không có giá trị đối với xe đạp (người đi bộ hoặc đẩy xe đạp vẫn được) và phân biệt với biển “Cấm xe máy” (P.104) dành cho xe máy dung tích lớn hơn. Với người điều khiển xe gắn máy đi vào đường có biển “Cấm xe gắn máy (P.111a)”: theo Nghị định 168/2024/NĐ‑CP, mức phạt từ 2.000.000 đồng đến 3.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.  Nếu vi phạm gây tai nạn giao thông: mức phạt từ 10.000.000 đồng đến 14.000.000 đồng và bị trừ 10 điểm. ",
+        "image": "p_111a.png"
+    },
+    {
+        "id": "p19",
+        "code": "P.111b",
+        "name": "Cấm xe lam",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này được đặt tại đoạn đường mà các phương tiện là xe ba bánh có động cơ (ví dụ xe lam, xe xích lô máy, xe lôi máy) không được lưu thông. Có nguồn cho biết: người điều khiển xe ba bánh máy vi phạm đi vào đường có đặt biển P.111b có thể bị phạt lên tới khoảng 500.000 đồng.  Hành vi “đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển” theo các nghị định liên quan có khung phạt phổ biến như: với xe máy/loại nhỏ: ~ 400.000-600.000 đồng hoặc hơn. ",
+        "image": "p_111b.png"
+    },
+    {
+        "id": "p20",
+        "code": "P.111c",
+        "name": "Cấm xe lôi máy",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.111c được đặt tại đoạn đường mà cấm các loại xe ba bánh có động cơ như xe lam, xe xích-lô máy, xe lôi máy đi vào. Có thể áp dụng mức phạt khoảng 400.000 đồng đến 600.000 đồng cho phương tiện nhỏ (ví dụ xe ba bánh) nếu không gây hậu quả nghiêm trọng. Nếu vi phạm gây tai nạn hoặc hậu quả lớn thì mức phạt sẽ cao hơn, và có thể kèm theo tước giấy phép hoặc tước quyền điều khiển phương tiện (tuỳ theo loại phương tiện và mức độ vi phạm).",
+        "image": "p_111c.png"
+    },
+    {
+        "id": "p21",
+        "code": "P.111d",
+        "name": "Cấm xe xích lô",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển đặt tại đoạn đường mà cấm tất cả các loại xe ba bánh không có động cơ (ví dụ: xích lô, xe lôi đạp…) đi vào. Thông tin cho biết: người điều khiển xe ba bánh loại không có động cơ vi phạm đi vào đường có đặt biển P.111d có thể bị phạt tổng mức lên tới ~500.000 đồng.  Lưu ý: Mức phạt này được trích từ tài liệu không phải trực tiếp từ nghị định mới nhất cho từng loại phương tiện; nếu vi phạm kèm theo hành vi nghiêm trọng hơn thì mức phạt có thể cao hơn theo khung chung “vi phạm biển báo cấm”. ",
+        "image": "p_111d.png"
+    },
+    {
+        "id": "p22",
+        "code": "P.112",
+        "name": "Cấm người đi bộ",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.112 được đặt tại đoạn đường cấm người đi bộ qua lại hoặc đi trên phần đường xe chạy. Người đi bộ chỉ được phép đi trên vỉa hè hoặc lối dành riêng khi có biển này. Hình dạng: Tròn, viền đỏ, nền trắng, bên trong là hình người đi bộ màu đen bị gạch chéo đỏ. Đi vào đường có biển “Cấm người đi bộ” (P.112) phạt 60.000 – 100.000 đồng Gây cản trở giao thông, tai nạn phạt 100.000 – 200.000 đồng, có thể bị buộc rời khỏi khu vực vi phạm",
+        "image": "p_112.png"
+    },
+    {
+        "id": "p23",
+        "code": "P.113",
+        "name": "Cấm xe người kéo/đẩy",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này đặt tại đoạn đường mà cấm các loại phương tiện thô sơ do người kéo hoặc đẩy (ví dụ xe kéo tay, xe đẩy hàng, xe kéo không máy) lưu thông.  Biển không áp dụng để cấm những xe nôi của trẻ em và phương tiện chuyên dùng dành cho người tàn tật.  Theo nguồn: vi phạm biển P.113 (người kéo/đẩy xe vào đoạn đường có biển cấm) có mức phạt khoảng 60.000 đồng đến 80.000 đồng cho hành vi thông thường như không chấp hành biển báo, v.v.  Trong trường hợp nghiêm trọng hơn (ví dụ đi vào đường cao tốc hoặc gây cản trở lớn) mức phạt lên tới 100.000 đồng đến 200.000 đồng. ",
+        "image": "p_113.png"
+    },
+    {
+        "id": "p24",
+        "code": "P.114",
+        "name": "Cấm xe súc vật kéo",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển được đặt ở đoạn đường mà cấm tất cả các phương tiện vận tải bằng súc vật kéo hoặc chở trên lưng súc vật, dù là kéo xe hay chở hàng/hành khách. Đây là hành vi “đi vào đường có biển báo cấm đi vào đối với loại phương tiện đang điều khiển” (súc vật kéo) nên theo các khung chung vi phạm biển cấm, mức phạt có thể rơi vào khoảng 100.000 đồng đến vài trăm nghìn đồng đối với loại phương tiện thô sơ",
+        "image": "p_114.png"
+    },
+    {
+        "id": "p25",
+        "code": "P.115",
+        "name": "Hạn chế trọng lượng xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.115 được đặt để cấm các xe (cơ giới và thô sơ) — kể cả xe ưu tiên — nếu tổng trọng tải (trọng tải bản thân xe + người + hành lý + hàng hóa) vượt quá trị số ghi trên biển. Các nguồn tổng hợp cho biết: nếu xe có tổng trọng tải vượt trị số ghi trên biển P.115 và vẫn đi vào đoạn đường có biển này → phạt tiền từ ~800.000 đồng đến vài triệu đồng hoặc hơn tùy tình huống (xe lớn, gây hậu quả).",
+        "image": "p_115.png"
+    },
+    {
+        "id": "p26",
+        "code": "P.116",
+        "name": "Hạn chế trọng lượng trên trục xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.116 được đặt tại đoạn đường mà các loại xe (cơ giới và thô sơ), kể cả xe được ưu tiên theo quy định, nếu tải trọng xe và hàng hóa phân bổ trên một trục bất kỳ của xe (tải trọng trục xe) vượt quá trị số ghi trên biển thì không được đi vào đoạn đường đó. Với các xe bị hạn chế tải trọng trục nhưng vẫn đi vào: phạt tiền có thể từ ~ 800.000 đồng đến vài triệu đồng tùy loại xe và mức vượt. Ngoài ra có thể bị tước quyền sử dụng GPLX hoặc bị xử lý bổ sung nếu gây hậu quả nghiêm trọng.",
+        "image": "p_116.png"
+    },
+    {
+        "id": "p27",
+        "code": "P.117",
+        "name": "Hạn chế chiều cao xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.117 được đặt tại đoạn đường mà cẩm các loại xe (cơ giới và thô sơ), kể cả các xe được ưu tiên nếu “chiều cao (tính từ mặt đường/mặt cầu tới điểm cao nhất của xe hoặc hàng hóa xếp trên xe)” vượt quá trị số ghi trên biển thì không được đi qua. Trị số ghi trên biển được xác định là: khoảng cách từ điểm cao nhất của mặt đường đến điểm thấp nhất của chướng ngại vật vượt trên đường (chiều cao tĩnh không) trừ 0,5 m, sau đó làm tròn tới bước 0,1 m theo hướng tăng. Theo một nguồn tổng hợp: “Nếu vi phạm biển hạn chế chiều cao (P.117) thì phạt từ 2.000.000 đồng đến 3.000.000 đồng và bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng.” Lưu ý: Đây là khung “tiêu biểu” cho hành vi xe có chiều cao vượt quá trị số ghi biển. Mức phạt có thể khác tùy loại phương tiện, mức vượt, và có thể có phạt cao hơn nếu gây hậu quả nghiêm trọng.",
+        "image": "p_117.png"
+    },
+    {
+        "id": "p28",
+        "code": "P.118",
+        "name": "Hạn chế chiều ngang xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.118 được đặt tại những đoạn đường, khu vực có chướng ngại vật hoặc lối đi bị thu hẹp để cấm tất cả các phương tiện (cơ giới và thô sơ), kể cả các xe được ưu tiên, nếu “chiều ngang của xe + hàng hóa” vượt quá trị số ghi trên biển thì không được đi qua. Trị số ghi trên biển là khoảng cách theo chiều ngang (giữa chướng ngại vật hai bên hoặc giữa mép đường) trừ một khoảng theo quy định. Theo quy định chung của Nghị định 168/2024/NĐ‑CP về hành vi “không chấp hành hiệu lệnh, chỉ dẫn của biển báo, vạch kẻ đường” thì mức phạt tối thiểu là 400.000 – 600.000 đồng đối với người điều khiển ô tô vi phạm báo hiệu biển/ vạch.",
+        "image": "p_118.png"
+    },
+    {
+        "id": "p29",
+        "code": "P.119",
+        "name": "Hạn chế chiều dài xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.119 được đặt tại đoạn đường mà cấm tất cả các loại xe (cơ giới và thô sơ), kể cả các xe ưu tiên, có độ dài toàn bộ (xe + hàng hoá nếu có) lớn hơn trị số ghi trên biển đi vào. Trị số ghi trên biển là chiều dài tối đa cho phép tính bằng mét đối với xe đơn chiếc (không kéo moóc) nhằm ngăn nguy cơ ách tắc hoặc khó đi trên đoạn đường cong nhỏ, dốc, hẹp. Theo tổng hợp thông tin năm 2025: người điều khiển phương tiện đi vào đường có đặt biển P.119 (không tuân trị số chiều dài) bị phạt tiền khoảng 1.000.000 đồng đến 2.000.000 đồng và có thể bị tước quyền sử dụng giấy phép lái xe 01 tháng đến 03 tháng. Trong khung thấp hơn (đối với vi phạm nhẹ hơn): phạt khoảng 800.000 đồng đến 1.200.000 đồng.",
+        "image": "p_119.png"
+    },
+    {
+        "id": "p30",
+        "code": "P.120",
+        "name": "Hạn chế chiều dài xe cơ giới kéo theo rơ-moóc hoặc sơ-mi rơ moóc",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển đặt tại đoạn đường mà các loại xe cơ giới kéo theo rơ-moóc hoặc sơ-mi-rơ-moóc (kể cả ô tô sơ-mi-rơ-moóc và các xe được ưu tiên) nếu chiều dài toàn bộ của đoàn xe (xe + moóc + hàng hóa) vượt quá trị số ghi trên biển thì không được phép đi qua. Trị số ghi trên biển là chiều dài lớn nhất cho phép tính bằng mét đối với toàn bộ đoàn xe kể cả hàng hóa. Theo một nguồn: “Nếu xe kéo moóc hoặc sơ-mi-rơ-moóc có chiều dài vượt trị số ghi trên biển P.120 thì chủ phương tiện (cá nhân) bị phạt khoảng 2.000.000 đồng đến 4.000.000 đồng; nếu là tổ chức thì mức phạt khoảng 4.000.000 đồng đến 8.000.000 đồng.” ",
+        "image": "p_120.png"
+    },
+    {
+        "id": "p31",
+        "code": "P.121",
+        "name": "Cự ly tối thiểu giữa hai xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.121 được đặt ở đoạn đường mà các xe ô tô (kể cả xe được ưu tiên) bắt buộc phải cách nhau ít nhất khoảng cách ghi trên biển, tính theo mét. “Số ghi trên biển cho biết khoảng cách tối thiểu tính bằng mét. Biển có hiệu lực cấm các xe ô tô … đi cách nhau một cự ly nhỏ hơn trị số ghi trên biển báo.” Theo thông tin: Người điều khiển xe ô tô không giữ khoảng cách an toàn theo biển P.121 hoặc đi cách xe trước từ cự ly nhỏ hơn trị số ghi trên biển, có thể bị phạt: từ 100.000 đồng đến 200.000 đồng nếu đơn giản vi phạm khoảng cách. Trường hợp nghiêm trọng hơn, như chạy trên đường cao tốc mà không giữ khoảng cách an toàn, mức phạt có thể lên tới 800.000 đồng đến 1.200.000 đồng, và nếu gây tai nạn thì phạt cao hơn, có thể bị tước GPLX.",
+        "image": "p_121.png"
+    },
+    {
+        "id": "p32",
+        "code": "P.123a",
+        "name": "Cấm rẽ trái",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.123a được đặt tại những vị trí đường giao nhau để cấm các loại xe (kể cả xe cơ giới và thô sơ), trừ xe được ưu tiên, rẽ sang trái theo hướng mũi tên chỉ. Biển này không có giá trị cấm quay đầu xe.  Theo Nghị định 168/2024/NĐ‑CP thì hành vi “không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường” bị phạt từ 400.000 đồng đến 600.000 đồng (dành cho các phương tiện nhỏ) khi thực hiện hành vi vi phạm chung. Cụ thể với biển P.123a, có nguồn cho biết: “hành vi rẽ trái tại các đoạn đường có biển cấm rẽ trái hoặc cấm rẽ phải … phạt từ 600.000 đồng đến 800.000 đồng.”",
+        "image": "p_123a.png"
+    },
+    {
+        "id": "p33",
+        "code": "P.123b",
+        "name": "Cấm rẽ phải",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Được đặt tại đoạn đường giao nhau để cấm tất cả các loại xe (cơ giới và thô sơ) rẽ phải theo hướng mũi tên chỉ trên biển. Biển không có giá trị cấm quay đầu xe (tức là nếu chỉ đặt biển P.123b thì việc quay đầu xe không bị cấm theo biển này). Với người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện) vi phạm: mức phạt từ 400.000 đồng đến 600.000 đồng. Với người điều khiển ô tô và các loại xe tương tự ô tô: mức phạt từ 800.000 đồng đến 1.000.000 đồng (theo các nguồn trích dẫn trước sửa đổi). ",
+        "image": "p_123b.png"
+    },
+    {
+        "id": "p34",
+        "code": "P.124a",
+        "name": "Cấm quay đầu xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.124a được đặt tại vị trí (thường trước giao lộ hoặc đoạn đường) mà cấm tất cả các loại phương tiện (cơ giới và thô sơ, trừ xe ưu tiên theo quy định) thực hiện hành vi quay đầu xe theo kiểu chữ U theo chiều chỉ định bởi mũi tên trên biển. Với cá nhân điều khiển phương tiện vi phạm: phạt tiền từ khoảng 400.000 đồng đến 600.000 đồng hoặc hơn, tùy loại phương tiện và mức độ vi phạm. Với vi phạm nghiêm trọng (kết quả gây TNGT, khu vực đường cao tốc…) có thể bị phạt cao hơn và bị tước GPLX hoặc bị xử lý bổ sung.",
+        "image": "p_124a.png"
+    },
+    {
+        "id": "p35",
+        "code": "P.124b",
+        "name": "Cấm xe ô tô quay đầu",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.124b được đặt ở đoạn đường để cấm xe ô tô (và xe máy 3 bánh “side-car”) quay đầu theo kiểu chữ U theo hướng chỉ của mũi tên trên biển, trừ các xe được ưu tiên theo quy định. Biển này chỉ cấm quay đầu (không cấm rẽ trái hay rẽ phải nếu không có thêm hiệu lệnh khác) — nên sử dụng đúng vị trí có nhu cầu cấm quay đầu ô tô. Đối với người điều khiển ô tô quay đầu xe tại nơi có biển P.124b: Mức phạt được tổng hợp thông tin năm 2025 cho hành vi “quay đầu xe tại nơi có biển báo hiệu có nội dung cấm quay đầu” là từ 2.000.000 đồng đến 3.000.000 đồng. Đối với hành vi nghiêm trọng hơn (gây ùn tắc giao thông, gây tai nạn) hoặc trên đường cao tốc: có thể bị phạt tới 4.000.000 đồng đến 6.000.000 đồng (có trừ điểm lái xe) hoặc hơn.",
+        "image": "p_124b.png"
+    },
+    {
+        "id": "p36",
+        "code": "P.125",
+        "name": "Cấm vượt",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.125 được đặt để cấm tất cả các loại xe cơ giới (kể cả xe được ưu tiên theo quy định) vượt nhau trên đoạn đường có đặt biển này. Biển không cấm việc vượt xe máy 2 bánh, xe gắn máy trong một số trường hợp theo quy định.  Biển mất hiệu lực khi gặp biển “DP.133 – Hết cấm vượt” hoặc “DP.135 – Hết tất cả các lệnh cấm”.  Người điều khiển ô tô và các loại xe tương tự ô tô vượt ở đoạn đường có biển P.125: phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng, và bị tước quyền sử dụng giấy phép lái xe từ 01 tháng đến 03 tháng.  Người điều khiển xe mô tô, xe gắn máy vượt ở đoạn đường có biển P.125: phạt từ 800.000 đồng đến 1.000.000 đồng (theo các trích dẫn). ",
+        "image": "p_125.png"
+    },
+    {
+        "id": "p37",
+        "code": "P.126",
+        "name": "Cấm xe tải vượt",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Thông tin áp dụng: Biển được đặt tại đoạn đường mà các loại ô tô tải có khối lượng chuyên chở lớn hơn 3.500 kg (theo giấy kiểm định) được cấm vượt xe cơ giới khác.  Mức phạt tiêu biểu khi vi phạm: Khi ô tô tải vi phạm biển này (vượt nơi có biển P.126): phạt tiền từ khoảng 2.000.000 đồng đến 3.000.000 đồng và có thể bị tước giấy phép lái xe 01 tháng. ",
+        "image": "p_126.png"
+    },
+    {
+        "id": "p38",
+        "code": "P.127",
+        "name": "Tốc độ tối đa cho phép",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.127 được đặt ở đoạn đường để cấm các loại xe cơ giới chạy với vận tốc vượt quá trị số ghi trên biển.  Trừ các xe được ưu tiên theo quy định (ví dụ: xe cứu thương, xe cứu hỏa đang làm nhiệm vụ, v.v.).  Số ghi trên biển là vận tốc tối đa được phép tính bằng km/h.  Vượt từ 5 km/h đến dưới 10 km/h: phạt từ 800.000 đồng đến 1.000.000 đồng.  Vượt từ 10 km/h đến 20 km/h: phạt từ 4.000.000 đồng đến 6.000.000 đồng và tước GPLX 1-3 tháng.  Vượt trên 20 đến 35 km/h: phạt từ 6.000.000 đồng đến 8.000.000 đồng và tước GPLX 2-4 tháng.  Vượt trên 35 km/h hoặc gây tai nạn: phạt từ 10.000.000 đồng đến 12.000.000 đồng và tước GPLX 2-4 tháng. ",
+        "image": "p_127.png"
+    },
+    {
+        "id": "p39",
+        "code": "P.127a",
+        "name": "Tốc độ tối đa cho phép vào ban đêm",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển được đặt tại một số đoạn đường — thường là qua khu đông dân cư — để quy định tốc độ tối đa cho phép về ban đêm cho các phương tiện.  Biển có hiệu lực trong khoảng thời gian ghi trên biển (ban đêm) và từ vị trí đặt biển đến vị trí biển “Hết đoạn đường qua khu đông dân cư” (ví dụ biển R.421) hoặc cho tới biển hết hiệu lực tương ứng.  Nếu vi phạm tốc độ (vượt quá trị số ghi trên biển P.127a): Điều khoản xử phạt theo các mức phạt chạy quá tốc độ được trích dẫn như từ ~ 4.000.000 đồng đến 6.000.000 đồng cho ô tô khi vượt trên 10-20 km/h so với giá trị trên biển.  Nếu vượt nhiều hơn (ví dụ >20km/h) hoặc gây tai nạn: phạt có thể lên tới 7.000.000 – 8.000.000 đồng hoặc hơn. ",
+        "image": "p_127a.png"
+    },
+    {
+        "id": "p40",
+        "code": "P.128",
+        "name": "Cấm sử dụng còi",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Thông tin áp dụng: Biển đặt tại đoạn đường mà cấm tất cả các loại xe cơ giới (trừ xe được ưu tiên theo quy định) sử dụng còi (bóp còi, hú còi) khi qua đoạn đường đó.  Đối với người điều khiển ô tô vi phạm “bấm còi tại nơi có biển cấm sử dụng còi (P.128)”: phạt từ 300.000 đồng đến 400.000 đồng.  Đối với người điều khiển xe mô tô/xe gắn máy: phạt từ 100.000 đồng đến 200.000 đồng nếu bấm còi tại nơi có biển cấm sử dụng còi.  Lưu ý: Nếu vi phạm nghiêm trọng hơn (ví dụ: bấm còi liên tục, sử dụng còi hơi trong khu dân cư…) thì mức phạt có thể cao hơn lên tới 800.000 đồng đến 1.000.000 đồng đối với ô tô. ",
+        "image": "p_128.png"
+    },
+    {
+        "id": "p41",
+        "code": "P.129",
+        "name": "Trạm thuế quan",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Thông tin áp dụng: Biển P.129 được đặt tại nơi có trạm kiểm tra giao thông để báo các phương tiện phải dừng lại để làm thủ tục kiểm tra, kiểm soát phương tiện vận tải theo quy định.  Đối với ô tô và các loại xe tương tự: bị phạt khoảng 800.000 đến 1.200.000 đồng.  Đối với mô tô/xe máy và các loại xe tương tự: bị phạt khoảng 200.000 đến 400.000 đồng.  Có thể bị tước giấy phép lái xe từ 01 tháng nếu vi phạm nghiêm trọng. ",
+        "image": "p_129.png"
+    },
+    {
+        "id": "p42",
+        "code": "P.130",
+        "name": "Cấm dừng xe và đỗ xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này được đặt tại đoạn đường mà cấm tất cả các loại xe cơ giới dừng hoặc đỗ lại ở phía đường có biển, trừ các xe ưu tiên theo quy định.  Hiệu lực cấm bắt đầu từ vị trí đặt biển đến vị trí đường giao nhau tiếp theo hoặc đến nơi quy định đỗ/dừng xe hoặc gặp biển “Hết tất cả các lệnh cấm” (DP.135) nếu có.  Đối với ô tô dừng xe nơi có biển: phạt từ 400.000 đồng đến 600.000 đồng.  Đối với ô tô đỗ xe (không chỉ dừng) tại nơi có biển: phạt từ 800.000 đồng đến 1.000.000 đồng.  Đối với xe máy: dừng hoặc đỗ xe nơi có biển này, mức phạt từ khoảng 200.000 đồng đến 300.000 đồng. ",
+        "image": "p_130.png"
+    },
+    {
+        "id": "p43",
+        "code": "P.131a",
+        "name": "Cấm đỗ xe",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Thông tin áp dụng: Biển P.131a được đặt tại đoạn đường mà tất cả các loại xe cơ giới (trừ xe được ưu tiên theo quy định) không được phép đỗ xe ở phía đường có đặt biển.  Đối với ô tô đỗ tại nơi có biển cấm đỗ xe: phạt 800.000 đồng đến 1.000.000 đồng.  Đối với xe máy (xe cơ giới nhỏ) đỗ tại nơi có biển này: phạt khoảng 300.000 đồng đến 400.000 đồng. ",
+        "image": "p_131a.png"
+    },
+    {
+        "id": "p44",
+        "code": "P.131b",
+        "name": "Cấm đỗ xe ngày lẻ",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển này được đặt tại đoạn đường nơi cấm tất cả phương tiện cơ giới đỗ vào các ngày lẻ trong tháng (1, 3, 5, … ) tại phía đường có đặt biển, trừ các xe được ưu tiên theo quy định.  Theo tổng hợp: người điều khiển phương tiện cơ giới đỗ xe nơi có biển P.131b bị phạt từ 600.000 đồng đến 800.000 đồng.  Theo thông tin quy định chung đối với biển “Cấm đỗ xe” thì ô tô vi phạm có thể bị phạt từ 800.000 đồng đến 1.000.000 đồng hoặc hơn. ",
+        "image": "p_131b.png"
+    },
+    {
+        "id": "p45",
+        "code": "P.131c",
+        "name": "Cấm đỗ xe ngày chẵn",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Thông tin áp dụng: Biển P.131c đặt tại đoạn đường để cấm tất cả các phương tiện giao thông cơ giới đỗ xe ở phía đường có đặt biển vào những ngày chẵn trong tháng, trừ các phương tiện được ưu tiên theo quy định.  Đối với ô tô: 800.000 đồng đến 1.000.000 đồng khi đỗ xe tại nơi có biển “Cấm đỗ xe”.  Đối với xe máy (mô tô hai bánh): 200.000 đồng đến 300.000 đồng khi đỗ xe tại nơi có biển “Cấm đỗ xe”. ",
+        "image": "p_131c.png"
+    },
+    {
+        "id": "p46",
+        "code": "P.132",
+        "name": "Nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển được đặt tại các đoạn đường hoặc cầu hẹp mà chỉ đủ một chiều xe chạy hoặc có chướng ngại vật, và nơi xe từ hai chiều đang hoặc có thể đi ngược chiều gặp nhau. Khi đặt biển P.132, các xe đến từ phía “có biển” phải nhường đường cho xe cơ giới (ô tô, máy kéo, mô tô) đang đi theo hướng ngược lại.  Biển có hiệu lực từ vị trí đặt biển trở đi theo hướng đi của người nhìn thấy biển.  Đối với người điều khiển ô tô vi phạm (không nhường đường khi có biển P.132): mức phạt từ 4.000.000 đồng đến 6.000.000 đồng theo Nghị định 168/2024/NĐ-CP.  Đối với người điều khiển mô tô, xe gắn máy hoặc xe tương tự: mức phạt khoảng 200.000 đồng đến 400.000 đồng. (Nếu vi phạm gây tai nạn hoặc hậu quả nghiêm trọng thì mức phạt có thể cao hơn—ví dụ trường hợp ô tô không nhường đường gây tai nạn: phạt từ ~20.000.000 đồng trở lên) ",
+        "image": "p_132.png"
+    },
+    {
+        "id": "p47",
+        "code": "DP.133",
+        "name": "Hết cấm vượt",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển báo DP.133 thông báo cho người tham gia giao thông biết rằng hiệu lực của các biển báo cấm vượt trước đó (như P.125 – Cấm vượt và P.126 – Cấm ô tô tải vượt) đã hết. Khi gặp biển này, các phương tiện cơ giới được phép vượt nhau, nhưng phải tuân thủ các quy định về điều kiện và an toàn khi vượt. Biển DP.133 thường được đặt ở cuối các đoạn đường có hiệu lực của biển P.125 hoặc P.126, nhằm thông báo cho người lái xe rằng lệnh cấm vượt đã chấm dứt.  Biển này thường được lắp đặt ở phía bên phải của đường, dễ nhìn thấy và ngay sau đoạn đường có lệnh cấm vượt, thường ở vị trí mà điều kiện đường sá đã đảm bảo an toàn cho việc vượt nhau. Biển DP.133 có dạng hình tròn, nền trắng, viền màu xanh dương, với hình ảnh hai chiếc ô tô song song và một đường chéo màu đen cắt ngang ",
+        "image": "dp_133.png"
+    },
+    {
+        "id": "p48",
+        "code": "DP.134",
+        "name": "Hết hạn chế tốc độ tối đa",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển báo DP.134 thông báo cho người tham gia giao thông biết rằng hiệu lực của biển báo P.127 (tốc độ tối đa cho phép) đã hết. Kể từ vị trí đặt biển DP.134, các phương tiện được phép di chuyển với tốc độ tối đa theo quy định của Luật Giao thông đường bộ. Biển DP.134 thường được đặt sau biển P.127 để thông báo kết thúc đoạn đường có hạn chế tốc độ tối đa cho phép. Ngoài ra, biển DP.134 cũng có thể được đặt sau biển DP.127a, DP.127b, hoặc DP.127c, tùy thuộc vào từng trường hợp cụ thể. Từ 5 đến dưới 10 km/h: Phạt tiền từ 600.000 đến 800.000 đồng. Từ 10 đến dưới 20 km/h: Phạt tiền từ 2.000.000 đến 3.000.000 đồng. Từ trên 20 đến 30 km/h: Phạt tiền từ 4.000.000 đến 6.000.000 đồng, tước quyền sử dụng giấy phép lái xe trong 1 tháng.",
+        "image": "dp_134.png"
+    },
+    {
+        "id": "p49",
+        "code": "DP.135",
+        "name": "Hết tất cả các lệnh cấm",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển DP.135 thông báo cho người tham gia giao thông biết rằng hiệu lực của các biển báo cấm trước đó (như P.121, P.125 đến P.131a/b/c) đã hết, cho phép thực hiện lại các hành vi bị cấm trước đó như vượt xe, dừng đỗ, quay đầu xe, đi ngược chiều, v.v. Được đặt tại vị trí cuối cùng của đoạn đường có nhiều biển báo cấm, thường là trước giao lộ hoặc điểm chuyển tiếp sang khu vực không còn hạn chế. Biển tròn, nền trắng, viền xanh lam, có 5 vạch chéo màu đen cắt nhau, tượng trưng cho các lệnh cấm trước đó đã hết hiệu lực. ",
+        "image": "dp_135.png"
+    },
+    {
+        "id": "p50",
+        "code": "P.136",
+        "name": "Cấm đi thẳng",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.136 được đặt tại vị trí trước nút giao hoặc đoạn đường để cấm tất cả các loại xe (trừ xe được ưu tiên theo quy định) đi thẳng theo hướng chỉ định bởi mũi tên trên biển. Biển này không cấm rẽ trái, rẽ phải hoặc quay đầu xe — chỉ cấm đi thẳng tại vị trí có biển. Thường được sử dụng để điều tiết giao thông, tránh ùn tắc hoặc tai nạn tại các giao lộ phức tạp.  Với người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện): phạt từ 400.000 đồng đến 600.000 đồng. Với người điều khiển ô tô và các loại xe tương tự ô tô: phạt từ 800.000 đồng đến 1.000.000 đồng.",
+        "image": "p_136.png"
+    },
+    {
+        "id": "p51",
+        "code": "P.137",
+        "name": "Cấm rẽ trái và rẽ phải",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Chức năng: Cấm tất cả các loại xe (cơ giới và thô sơ) rẽ trái và rẽ phải tại vị trí đặt biển Vị trí đặt biển: Trước nút giao đường cấm rẽ trái và rẽ phải Biển báo phụ: Có thể kèm theo biển báo phụ để chỉ rõ thời gian hoặc loại xe cấm Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với hành vi không chấp hành hiệu lệnh của biển báo hiệu, vạch kẻ đường Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với hành vi rẽ trái hoặc rẽ phải tại nơi có biển báo cấm rẽ trái hoặc rẽ phải",
+        "image": "p_137.png"
+    },
+    {
+        "id": "p52",
+        "code": "P.138",
+        "name": "Cấm đi thẳng và rẽ trái",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển báo này được đặt tại các nút giao thông (ngã ba, ngã tư) để cấm tất cả các loại xe (cơ giới và thô sơ, trừ xe được ưu tiên theo quy định) thực hiện hành vi đi thẳng và rẽ trái theo hướng chỉ định bởi mũi tên trên biển. Đối với người điều khiển ô tô: Mức phạt từ 2.000.000 đồng đến 3.000.000 đồng. Đối với hành vi nghiêm trọng hơn (gây ùn tắc giao thông, gây tai nạn) hoặc trên đường cao tốc: có thể bị phạt tới 4.000.000 đồng đến 6.000.000 đồng (có trừ điểm lái xe) hoặc hơn.",
+        "image": "p_138.png"
+    },
+    {
+        "id": "p53",
+        "code": "P.139",
+        "name": "Cấm đi thẳng và rẽ phải",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Thông tin áp dụng: Biển P.139 được đặt tại vị trí giao lộ để cấm tất cả các loại xe (trừ xe được ưu tiên theo quy định) thực hiện hành vi đi thẳng và rẽ phải theo hướng mũi tên chỉ trên biển. Biển này không cấm hành vi rẽ trái hoặc quay đầu xe.  Đối với người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện): Mức phạt từ 400.000 đồng đến 600.000 đồng. Đối với người điều khiển ô tô và các loại xe tương tự ô tô: Mức phạt từ 800.000 đồng đến 1.000.000 đồng.",
+        "image": "p_139.png"
+    },
+    {
+        "id": "p54",
+        "code": "P.140",
+        "name": "Cấm xe công nông và các loại xe tương tự",
+        "type": "Biển báo cấm",
+        "category": "Cấm",
+        "detail": "Biển P.140 được đặt tại các đoạn đường để cấm tất cả các loại xe công nông và các loại xe tương tự (bao gồm máy kéo, xe máy kéo, xe chuyên dùng, xe ba bánh có động cơ, xe lam, xe xích lô máy, xe lôi máy, xe ba gác máy, v.v.) lưu thông vào khu vực có biển báo này. Biển không áp dụng đối với các phương tiện ưu tiên theo quy định của pháp luật. Theo Nghị định 168/2024/NĐ‑CP, hành vi “không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường” có thể bị xử phạt hành chính. Mức phạt cụ thể tùy thuộc vào loại phương tiện và tình huống vi phạm. ",
+        "image": "p_140.png"
+    },
+    {
+        "id": "p55",
+        "code": "W.201a",
+        "name": "Chỗ ngoặt nguy hiểm vòng bên trái",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.201a được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một chỗ ngoặt nguy hiểm vòng bên trái. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_201a.png"
+    },
+    {
+        "id": "p56",
+        "code": "W.201b",
+        "name": "Chỗ ngoặt nguy hiểm vòng bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.201b được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một chỗ ngoặt nguy hiểm vòng bên phải. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_201b.png"
+    },
+    {
+        "id": "p57",
+        "code": "W.201c",
+        "name": "Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.201c được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái. Biển này đặc biệt quan trọng đối với các phương tiện có trọng tâm cao và tải trọng lớn như xe tải, xe buýt giường nằm, xe chở chất lỏng, v.v.",
+        "image": "w_201c.png"
+    },
+    {
+        "id": "p58",
+        "code": "W.201d",
+        "name": "Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên trái",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.201d được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một chỗ ngoặt nguy hiểm vòng bên phải, đặc biệt là đối với các phương tiện có trọng tâm cao và tải trọng lớn như xe tải, xe buýt giường nằm, xe chở chất lỏng, v.v. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_201d.png"
+    },
+    {
+        "id": "p59",
+        "code": "W.202a",
+        "name": "Hai chỗ ngoặt ngược chiều nhau liên tiếp bên trái",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.202a được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến hai chỗ ngoặt nguy hiểm liên tiếp, trong đó chỗ ngoặt đầu tiên hướng vòng bên trái. Hai chỗ ngoặt này được xem là \"gần nhau\" khi đoạn thẳng từ tiếp cuối của đường cong trước đến tiếp đầu của đường cong tiếp theo nhỏ hơn 160 m. ",
+        "image": "w_202a.png"
+    },
+    {
+        "id": "p60",
+        "code": "W.202b",
+        "name": "Hai chỗ ngoặt ngược chiều nhau liên tiếp bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.202b được đặt tại các đoạn đường để cảnh báo người tham gia giao thông về sự hiện diện của hai chỗ ngoặt nguy hiểm liên tiếp, trong đó chỗ ngoặt đầu tiên hướng vòng bên phải. Biển này giúp người lái xe nhận biết và chuẩn bị giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này. ",
+        "image": "w_202b.png"
+    },
+    {
+        "id": "p61",
+        "code": "W.203a",
+        "name": "Đường bị thu hẹp cả hai bên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.203a được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một đoạn đường bị hẹp đột ngột ở cả hai bên. Đoạn đường bị thu hẹp là đoạn đường mà phần xe chạy bị thu hẹp lại, gây khó khăn và nguy hiểm cho các làn xe đi ngược chiều. Khả năng thông qua trên đoạn đường này giảm đột ngột so với đoạn đường trước đó",
+        "image": "w_203a.png"
+    },
+    {
+        "id": "p62",
+        "code": "W.203b",
+        "name": "Đường bị thu hẹp bên trái",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.203b được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một chỗ đường bị hẹp đột ngột về phía bên trái. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_203b.png"
+    },
+    {
+        "id": "p63",
+        "code": "W.203c",
+        "name": "Đường bị thu hẹp bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.203c được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một đoạn đường bị hẹp đột ngột về phía bên phải. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_203c.png"
+    },
+    {
+        "id": "p64",
+        "code": "W.204",
+        "name": "Đường 2 chiều",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.204 được đặt để báo trước sắp đến đoạn đường do sửa chữa hoặc có trở ngại ở một phía đường, mà phải tổ chức đi lại cho phương tiện cả hai chiều trên phía đường còn lại. Biển cũng được sử dụng để báo trước đoạn đường đôi tạm thời hoặc đoạn đường có chiều xe đi và về đi chung. Ngoài ra, biển này còn được đặt tại các đoạn đầu và cuối đường có dải phân cách giữa chuyển tiếp sang đường đi chung hai chiều hoặc khi hết đoạn đường một chiều.",
+        "image": "w_204.png"
+    },
+    {
+        "id": "p65",
+        "code": "W.205a",
+        "name": "Đường giao nhau",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.205a được đặt trước nơi giao nhau của các tuyến đường cùng cấp theo kiểu chữ thập, tức là có ít nhất bốn nhánh giao nhau tại một điểm. Biển này nhằm cảnh báo người tham gia giao thông về sự xuất hiện của điểm giao nhau phức tạp phía trước, giúp họ chủ động giảm tốc độ và chú ý quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_205a.png"
+    },
+    {
+        "id": "p66",
+        "code": "W.205b",
+        "name": "Đường giao nhau",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.205b được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến nơi giao nhau cùng cấp có nhánh đường rẽ phải. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_205b.png"
+    },
+    {
+        "id": "p67",
+        "code": "W.205c",
+        "name": "Đường giao nhau",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.205c được đặt để báo trước sắp đến nơi giao nhau cùng mức của các tuyến đường cùng cấp, trong đó có một nhánh giao nhau nằm bên trái. Biển này giúp người tham gia giao thông nhận biết và chuẩn bị cho việc nhường đường khi cần thiết.",
+        "image": "w_205c.png"
+    },
+    {
+        "id": "p68",
+        "code": "W.205d",
+        "name": "Đường giao nhau",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.205d được đặt trước nơi giao nhau của các tuyến đường cùng cấp (không có đường nào ưu tiên) trên cùng một mặt bằng. Biển này nhằm cảnh báo cho người tham gia giao thông biết trước về sự xuất hiện của đường giao nhau cùng cấp phía trước, giúp họ chủ động giảm tốc độ và chú ý quan sát để đảm bảo an toàn khi qua khu vực này.",
+        "image": "w_205d.png"
+    },
+    {
+        "id": "p69",
+        "code": "W.205e",
+        "name": "Đường giao nhau",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.205e được đặt tại các đoạn đường để cảnh báo người tham gia giao thông sắp đến một đường giao nhau cùng cấp phía trước. Đây là loại giao lộ mà không có đường nào là đường ưu tiên, yêu cầu người tham gia giao thông phải chú ý quan sát và nhường đường khi cần thiết.",
+        "image": "w_205e.png"
+    },
+    {
+        "id": "p70",
+        "code": "W.206",
+        "name": "Đường giao nhau chạy theo vòng xuyến",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.206 được đặt tại các đoạn đường để báo trước nơi giao nhau có bố trí đảo an toàn ở giữa nút giao, yêu cầu các phương tiện phải chạy vòng theo đảo an toàn theo chiều mũi tên trên biển. Biển này giúp người tham gia giao thông nhận biết và chuẩn bị xử lý tình huống khi tiếp cận vòng xuyến. ",
+        "image": "w_206.png"
+    },
+    {
+        "id": "p71",
+        "code": "W.207a",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.207a được đặt trên đường ưu tiên để báo trước sắp đến nơi giao nhau với đường không ưu tiên ở bên phải. Biển này giúp người lái xe nhận biết và chuẩn bị nhường đường cho phương tiện từ đường không ưu tiên khi giao nhau. ",
+        "image": "w_207a.png"
+    },
+    {
+        "id": "p72",
+        "code": "W.207b",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.207b được đặt trên đường ưu tiên để báo trước sắp đến nơi giao nhau với đường không ưu tiên ở bên phải. Biển này giúp người lái xe nhận biết và giảm tốc độ, tăng cường quan sát khi tiếp cận nơi giao nhau với đường không ưu tiên từ bên phải.",
+        "image": "w_207b.png"
+    },
+    {
+        "id": "p73",
+        "code": "W.207c",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.207c được đặt trên đường ưu tiên, nhằm báo trước sắp đến nơi giao nhau với đường không ưu tiên ở bên trái. Biển này giúp người điều khiển phương tiện nhận biết và giảm tốc độ khi tiếp cận khu vực giao nhau, đảm bảo an toàn giao thông.",
+        "image": "w_207c.png"
+    },
+    {
+        "id": "p74",
+        "code": "W.207d",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển W.207d được đặt trước nơi giao nhau với đường không ưu tiên, đặc biệt khi đường ưu tiên giao với nhiều đường không ưu tiên liên tiếp với mật độ lớn. Biển này giúp người điều khiển phương tiện nhận biết và chuẩn bị nhường đường khi cần thiết. ",
+        "image": "w_207d.png"
+    },
+    {
+        "id": "p75",
+        "code": "W.207e",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Được đặt trên đường ưu tiên, nhằm báo trước sắp tới nơi giao nhau với đường không ưu tiên hoặc đường nhánh.  Đối với biến thể W.207e: được sử dụng khi đường ưu tiên giao với nhiều đường không ưu tiên liên tiếp và kết hợp với biển phụ để xác định phạm vi tác dụng của biển.  Khi đang đi trên đường có đặt biển này, phương tiện đó có quyền ưu tiên qua nơi giao nhau trước, các phương tiện từ đường không ưu tiên phải nhường. ",
+        "image": "w_207e.png"
+    },
+    {
+        "id": "p76",
+        "code": "W.207f",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển được đặt trên đường ưu tiên, để báo trước sắp đến nơi giao nhau với đường không ưu tiên (đường nhánh). Khi gặp biển này, phương tiện đi trên đường ưu tiên có quyền ưu tiên qua giao nhau; các xe từ đường không ưu tiên phải nhường. ",
+        "image": "w_207f.png"
+    },
+    {
+        "id": "p77",
+        "code": "W.207g",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin: Được đặt trên đường ưu tiên để báo trước sắp đến nơi giao nhau với đường không ưu tiên. Các xe đi trên đường có biển này được ưu tiên qua nơi giao nhau (chỉ phải nhường đường cho xe được quyền ưu tiên).",
+        "image": "w_207g.png"
+    },
+    {
+        "id": "p78",
+        "code": "W.207h",
+        "name": "Đường bị hẹp về bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Cảnh báo phía trước đường bị thu hẹp về bên phải, người lái cần giảm tốc độ và chú ý tránh va chạm với xe ngược chiều.",
+        "image": "w_207h.png"
+    },
+    {
+        "id": "p79",
+        "code": "W.207i",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển được đặt trên đường ưu tiên, để báo trước sắp đến nơi giao nhau với đường không ưu tiên. Khi thấy biển, người điều khiển phương tiện trên đường ưu tiên được quyền đi trước, còn phương tiện từ đường không ưu tiên phải nhường đường. Đối với xe mô tô, xe gắn máy: phạt tiền từ 300.000 đồng đến 400.000 đồng khi không nhường đường ở nơi đường giao nhau (khi phải nhường theo quy định). Đối với xe ô tô: mức phạt có thể cao hơn khi không nhường đường, hoặc không chấp hành biển báo/hiệu lệnh – ví dụ các vi phạm nghiêm trọng tới từ 800.000 đồng trở lên. ",
+        "image": "w_207i.png"
+    },
+    {
+        "id": "p80",
+        "code": "W.207k",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Được đặt trên đường ưu tiên để báo trước sắp đến nơi giao nhau với đường không ưu tiên; phương tiện trên đường có biển này được quyền ưu tiên qua nơi giao nhau, chỉ phải nhường cho các loại xe được quyền ưu tiên theo luật Đối với phương tiện xe máy: phạt tiền từ 200.000 đ đến 400.000 đ.  Đối với ô tô: phạt tiền từ 400.000 đ đến 600.000 đ. ",
+        "image": "w_207k.png"
+    },
+    {
+        "id": "p81",
+        "code": "W.207l",
+        "name": "Giao nhau với đường không ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển báo được đặt trên đường ưu tiên, để báo trước sắp đến nơi giao nhau với đường không ưu tiên. Khi nhìn thấy biển này, phương tiện đang đi trên đường ưu tiên được quyền đi trước tại nút giao, chỉ phải nhường đường cho xe ưu tiên theo quy định. Đối với xe ô tô: phạt tiền từ khoảng 800.000 đ – 1.000.000 đ (theo Nghị định 100/2019/NĐ‑CP sửa đổi) nếu không tuân thủ biển báo đường ưu tiên.",
+        "image": "w_207l.png"
+    },
+    {
+        "id": "p82",
+        "code": "W.208",
+        "name": "Giao nhau với đường ưu tiên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Được đặt trên đường không ưu tiên để báo trước sắp tới điểm giao nhau với đường ưu tiên.  Khi đi trên đường có đặt biển này, người điều khiển phương tiện phải nhường đường cho phương tiện đi trên đường ưu tiên khi qua nơi giao nhau — trừ các xe được quyền ưu tiên. ",
+        "image": "w_208.png"
+    },
+    {
+        "id": "p83",
+        "code": "W.209",
+        "name": "Giao nhau có tín hiệu đèn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo trước nơi giao nhau có điều khiển giao thông bằng tín hiệu đèn trong trường hợp người tham gia giao thông khó quan sát đèn tín hiệu. Trường hợp dễ dàng nhận biết tín hiệu thì không nên đặt biển này. Với ô tô: phạt từ 300.000 đồng đến 400.000 đồng, và nếu gây tai nạn có thể bị tước GPLX từ 2-4 tháng. Với xe mô tô, xe gắn máy: phạt từ 100.000 đồng đến 200.000 đồng, nếu gây tai nạn bị tước GPLX từ 1-3 tháng.",
+        "image": "w_209.png"
+    },
+    {
+        "id": "p84",
+        "code": "W.210",
+        "name": "Giao nhau với đường sắt có rào chắn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.210 được đặt ở đoạn đường để báo trước sắp đến chỗ giao nhau giữa đường bộ và đường sắt có rào chắn (rào kín hoặc rào một phần), hoặc nơi có nhân viên ngành đường sắt điều khiển giao thông. ",
+        "image": "w_210.png"
+    },
+    {
+        "id": "p85",
+        "code": "W.211a",
+        "name": "Giao nhau với đường sắt không có rào chắn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Được đặt trên đường bộ để cảnh báo người tham gia giao thông biết rằng phía trước có nơi giao với đường sắt mà không có rào chắn, không có người gác.  Khi tới đoạn giao này, người lái xe cần: quan sát cả hai phía đường ray, đảm bảo không có tàu đang tới, rồi mới đi qua; tuyệt đối không được vượt xe, không được quay đầu, không được lùi xe, không dừng/đỗ trong phạm vi an toàn của đường sắt.  Với ô tô: phạt 4-6 triệu đồng + tước GPLX 1-3 tháng nếu vượt xe tại nơi giao nhau cùng mức với đường sắt. Với xe máy: phạt 800.000-1.000.000 đồng cho hành vi vượt xe. ",
+        "image": "w_211a.png"
+    },
+    {
+        "id": "p86",
+        "code": "W.211b",
+        "name": "Giao nhau cùng mức với đường tàu điện",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.211b được đặt tại nơi đường bộ giao nhau cùng mức với đường tàu điện.  Mục đích là cảnh báo người tham gia giao thông biết trước sắp tới đoạn giao cắt với đường tàu điện (vốn có nguy hiểm cao do phương tiện đường sắt/tram điện) và từ đó giảm tốc độ, chú ý quan sát. ",
+        "image": "w_211b.png"
+    },
+    {
+        "id": "p87",
+        "code": "W.212",
+        "name": "Cầu hẹp",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.212 được đặt trước đoạn đường mà sắp tới là một cầu hẹp — cụ thể: cầu có chiều rộng phần xe chạy nhỏ hơn hoặc bằng khoảng 4,5 m (tức một làn đường) hoặc nơi lưu thông có thể bị nguy hiểm do hẹp.  Khi thấy biển này, người tham gia giao thông cần: giảm tốc độ, quan sát, nhường đường hoặc chờ tại đầu cầu nếu cần, để đảm bảo an toàn khi qua chỗ hẹp. ",
+        "image": "w_212.png"
+    },
+    {
+        "id": "p88",
+        "code": "W.213",
+        "name": "Cầu tạm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Khi đặt biển W.213 có nghĩa là “sắp đến cầu tạm” — tài xế cần quan sát, đi chậm, đặc biệt nếu khổ cầu hẹp hoặc trọng tải cầu thấp thì có thể kèm thêm biển “Hạn chế trọng lượng” hoặc “Hạn chế chiều ngang” Đối với xe ô tô và các loại tương tự: phạt từ 300.000 – 400.000 đồng nếu không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu.  Đối với xe mô tô, xe gắn máy: phạt từ 100.000 – 200.000 đồng.  Đối với người đi bộ: phạt từ 60.000 – 100.000 đồng nếu không chấp hành biển báo hiệu. ",
+        "image": "w_213.png"
+    },
+    {
+        "id": "p89",
+        "code": "W.214",
+        "name": "Cầu xoay – cầu cất",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển được đặt để thông báo phía trước có cầu quay hoặc cầu cất — loại cầu mà trong một số thời điểm sẽ quay hoặc nâng nhịp thông thuyền, làm gián đoạn giao thông đường bộ.  Khi gặp biển này, người điều khiển phương tiện phải giảm tốc độ, quan sát và chuẩn bị dừng hoặc chờ đợi, vì đường có thể bị ngắt cho tàu thuyền qua lại.  Đối với ô tô và các loại xe tương tự ô tô: phạt tiền từ 300.000 đồng đến 400.000 đồng nếu không chấp hành biển báo nguy hiểm chung.  Đối với mô tô, xe gắn máy: phạt từ 100.000 đồng đến 200.000 đồng. ",
+        "image": "w_214.png"
+    },
+    {
+        "id": "p90",
+        "code": "W.215a",
+        "name": "Kè – vực sâu phía trước",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông tin áp dụng: Biển được đặt tại các đoạn đường mà phía trước có kè chắn hoặc vực sâu hoặc sông suối sát đường — mục đích là cảnh báo người điều khiển phương tiện “ở phía trước có vực sâu, cần chú ý và cẩn trọng” chứ không phải cấm đi.  Với ô tô: phạt từ 300.000 – 400.000 đồng nếu không chấp hành chỉ dẫn biển báo.  Với xe máy: phạt từ 100.000 – 200.000 đồng nếu không chấp hành chỉ dẫn biển báo. ",
+        "image": "w_215a.png"
+    },
+    {
+        "id": "p91",
+        "code": "W.215b",
+        "name": "Kè, vực sâu bên đường phía bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo trước sắp tới vị trí có kè chắn hoặc vực sâu, hoặc bờ sông suối sát đường bên phải — người tham gia giao thông cần đề phòng, giảm tốc độ, tránh rơi xuống vực hoặc sông. Với ô tô: phạt từ 300.000 – 400.000 đồng nếu không chấp hành chỉ dẫn biển báo.  Với xe máy: phạt từ 100.000 – 200.000 đồng nếu không chấp hành chỉ dẫn biển báo. ",
+        "image": "w_215b.png"
+    },
+    {
+        "id": "p92",
+        "code": "W.215c",
+        "name": "Kè – vực sâu phía trước",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo trước sắp tới vị trí có kè chắn, vực sâu hoặc bờ sông suối sát đường bên trái (của chiều đi) → người điều khiển phương tiện cần giảm tốc độ, quan sát và đề phòng rơi xuống vực. Xe máy, xe mô tô: 100.000 đ – 200.000 đ.  Ô tô và các loại xe tương tự: 300.000 đ – 400.000 đ.  ",
+        "image": "w_215c.png"
+    },
+    {
+        "id": "p93",
+        "code": "W.216a",
+        "name": "Đường ngầm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.216a được đặt trước những vị trí có đường ngầm (đường tràn) — tức là đoạn đường nơi nước có thể chảy qua mặt đường, hoặc khi trời mưa lớn có nguy cơ đọng nước, tràn nước, hoặc nơi có phần đường bị thấp hơn và có khả năng bị ngập.  Khi đến nơi đặt biển này, người điều khiển phương tiện nên giảm tốc độ, quan sát kỹ điều kiện đường, có thể cần chuyển số thấp hơn để vượt qua an toàn, hoặc nếu thấy nước quá lớn thì dừng lại chờ. ",
+        "image": "w_216a.png"
+    },
+    {
+        "id": "p94",
+        "code": "W.216b",
+        "name": "Đường ngầm có nguy cơ lũ quét",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.216b được đặt trước đoạn đường ngầm mà tại đó thường xuyên có nước tràn hoặc nguy cơ lũ quét — người tham gia giao thông cần được cảnh báo sớm để giảm tốc độ, chú ý quan sát.  Biển có hình tam giác đều, nền vàng, viền đỏ, và trên đó có hình biểu tượng cảnh báo (ví dụ dấu chấm than + mô hình đường ngầm) để nhắc người lái xe. ",
+        "image": "w_216b.png"
+    },
+    {
+        "id": "p95",
+        "code": "W.217",
+        "name": "Bến phà",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển có hình tam giác đều, viền đỏ, nền vàng, bên trong có hình vẽ tượng trưng “bến phà”.  Được sử dụng để cảnh báo người tham gia giao thông biết trước rằng phía trước là khu vực bến phà và phải tuân theo nội quy bến phà.  Đối với ô tô: phạt tiền khoảng 400.000 đ – 600.000 đ.  Đối với xe máy: phạt khoảng 200.000 đ – 400.000 đ. ",
+        "image": "w_217.png"
+    },
+    {
+        "id": "p96",
+        "code": "W.218",
+        "name": "Cửa chui",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.218 được sử dụng để báo trước đoạn đường có “cửa chui” — tức là nơi có cổng chắn ngang, vòm hẹp, cầu vượt dạng vòm hoặc cổng thành,… có thể ảnh hưởng đến phương tiện tham gia giao thông.  Khi gặp biển này, người điều khiển phương tiện cần giảm tốc độ, chú ý quan sát, chuẩn bị phản ứng vì tuyến đường tiếp theo có chướng ngại vật hoặc hình dạng đường đặc biệt. ",
+        "image": "w_218.png"
+    },
+    {
+        "id": "p97",
+        "code": "W.219",
+        "name": "Dốc xuống nguy hiểm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo trước sắp đến vị trí giao nhau với đường ưu tiên, người lái xe phải giảm tốc độ, chú ý quan sát và nhường đường cho các phương tiện đang đi trên đường ưu tiên. Ô tô: Phạt từ 400.000 – 600.000 đồng (theo Nghị định 100/2019/NĐ-CP, Điều 5, khoản 3, điểm g). Xe máy: Phạt từ 100.000 – 200.000 đồng (Điều 6, khoản 1, điểm l).",
+        "image": "w_219.png"
+    },
+    {
+        "id": "p98",
+        "code": "W.220",
+        "name": "Dốc lên nguy hiểm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người lái xe biết sắp đến đoạn đường đôi (khi xe đi vào) hoặc hết đoạn đường đôi (khi xe đi ra). Giúp người điều khiển chú ý thay đổi điều kiện giao thông (ví dụ: có dải phân cách hoặc không còn dải phân cách giữa hai chiều xe). Ô tô: 4.000.000 – 6.000.000 đồng, tước GPLX 1–3 tháng.Xe máy: 1.000.000 – 2.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "w_220.png"
+    },
+    {
+        "id": "p99",
+        "code": "W.221a",
+        "name": "Đường không bằng phẳng",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Được đặt trước đoạn đường mà mặt đường đang tốt nhưng sắp tới sẽ có đoạn bị lồi lõm, ổ gà, gập ghềnh, khi xe chạy nhanh sẽ gặp nguy hiểm.  Biển mã W.221a là biến thể “a” của nhóm biển W.221 “Đường không bằng phẳng (a, b)”. Biến thể “a” dùng cho tình huống ổ gà/lồi lõm đột ngột.  Chiều dài đoạn đường nguy hiểm có thể được chỉ dẫn thêm bằng biển phụ S.501 “Phạm vi tác dụng của biển”. ",
+        "image": "w_221a.png"
+    },
+    {
+        "id": "p100",
+        "code": "W.221b",
+        "name": "Đường không bằng phẳng",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo trước đoạn đường có gồ giảm tốc, hoặc tiếp giáp đầu cầu/cống bị lún, võng; yêu cầu người điều khiển phương tiện giảm tốc độ, chạy chậm lại để đảm bảo an toàn. Với ô tô: phạt tiền từ 300.000 đ đến 400.000 đ (và có thể bị tước GPLX 2-4 tháng nếu gây tai nạn)  Với mô tô, xe máy: phạt tiền từ 100.000 đ đến 200.000 đ (và tước GPLX 2-4 tháng nếu gây tai nạn) ",
+        "image": "w_221b.png"
+    },
+    {
+        "id": "p101",
+        "code": "W.222a",
+        "name": "Đường trơn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.222a được đặt để cảnh báo trước đoạn đường có khả năng trơn trượt, đặc biệt khi trời mưa hoặc mặt đường trơn, người tham gia giao thông cần giảm tốc độ, tăng khoảng cách an toàn và đi cẩn trọng. Với ô tô: phạt từ 300.000 đồng đến 400.000 đồng, và có thể bị tước giấy phép lái xe từ 02 tháng đến 04 tháng.  Với xe máy: phạt từ 100.000 đồng đến 200.000 đồng. ",
+        "image": "w_222a.png"
+    },
+    {
+        "id": "p102",
+        "code": "W.222b",
+        "name": "Lề nguy hiểm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.222b được đặt tại những vị trí mà lề đường không ổn định (có thể bị văng đất/ đá, hoặc xe dễ bị bánh lật khi đi sát lề) để cảnh báo người tham gia giao thông giảm tốc, tránh đi sát lề đường. ",
+        "image": "w_222b.png"
+    },
+    {
+        "id": "p103",
+        "code": "W.223a",
+        "name": "Vách núi nguy hiểm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.223a được đặt ở đoạn đường sắp tới nơi có vách núi hoặc ta luy dương sát bên trái đường, phần đường hẹp hoặc tầm nhìn bị hạn chế.  Mục đích: cảnh báo người điều khiển phương tiện cần giảm tốc độ, quan sát kỹ phần vách bên đường và thận trọng khi lưu thông. ",
+        "image": "w_223a.png"
+    },
+    {
+        "id": "p104",
+        "code": "W.223b",
+        "name": "Giao nhau với đường sắt có rào chắn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Cảnh báo phía trước có đường sắt giao cắt với đường bộ và có rào chắn. Người lái xe cần giảm tốc độ, quan sát kỹ, sẵn sàng dừng lại khi rào chắn đóng hoặc có tín hiệu cảnh báo tàu đến. Ô tô: Không chấp hành hiệu lệnh, tín hiệu khi rào chắn đã đóng – phạt từ 4.000.000 đến 6.000.000 đồng, tước GPLX 1–3 tháng (theo Nghị định 100/2019/NĐ-CP, Điều 5). Xe máy: Phạt từ 600.000 đến 1.000.000 đồng, tước GPLX 1–3 tháng (Điều 6).",
+        "image": "w_223b.png"
+    },
+    {
+        "id": "p105",
+        "code": "W.224",
+        "name": "Đường dành cho người đi bộ cắt ngang",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.224 đặt để báo trước sắp tới đoạn đường mà người đi bộ có thể sang đường – nghĩa là tại vị trí này, các xe cơ giới phải giảm tốc độ, nhường ưu tiên cho người đi bộ, và chỉ được chạy khi không gây nguy hiểm cho người đi bộ. Ô tô bị phạt khoảng 300.000 đồng đến 400.000 đồng.  Xe máy (mô tô, xe gắn máy) bị phạt khoảng 100.000 đồng đến 200.000 đồng. ",
+        "image": "w_224.png"
+    },
+    {
+        "id": "p106",
+        "code": "W.225",
+        "name": "Trẻ em",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người điều khiển phương tiện biết phía trước là khu vực thường có trẻ em qua đường (gần trường học, khu vui chơi, nhà trẻ...) để giảm tốc độ, chú ý quan sát. Ô tô: phạt từ 800.000 – 1.000.000 đồng, có thể bị tước GPLX 1–3 tháng. Xe máy: phạt từ 400.000 – 600.000 đồng.",
+        "image": "w_225.png"
+    },
+    {
+        "id": "p107",
+        "code": "W.226",
+        "name": "Đường người đi xe đạp cắt ngang",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.226 được đặt ở vị trí “gần tới đoạn đường thường có người đi xe đạp từ những đường nhỏ cắt ngang qua hoặc từ đường dành cho xe đạp đi nhập vào đường ôtô”. Khi nhìn thấy biển này, lái xe cần chú ý, giảm tốc độ và quan sát phần đường bên phải/sau hoặc giao lộ để phòng người đi xe đạp. Xe ô tô vi phạm: phạt tiền khoảng 4.000.000 đồng đến 6.000.000 đồng khi vi phạm nghiêm trọng (ví dụ không giảm tốc độ, gây tai nạn) .  Xe mô tô, xe gắn máy: phạt khoảng 800.000 đồng đến 1.000.000 đồng khi vi phạm biển báo nguy hiểm và gây hậu quả .  Đối với trường hợp vi phạm nhẹ (như không chú ý biển cảnh báo mà không gây hậu quả) có thông tin: ô tô bị phạt từ khoảng 300.000 đồng đến 400.000 đồng, xe máy từ 100.000 đồng đến 200.000 đồng. ",
+        "image": "w_226.png"
+    },
+    {
+        "id": "p108",
+        "code": "W.227",
+        "name": "Công trường",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người tham gia giao thông biết phía trước có đoạn đường đang thi công, sửa chữa — cần giảm tốc độ, quan sát cẩn thận, chú ý an toàn. Ô tô: phạt 800.000 – 1.000.000 đồng (có thể tước GPLX 1–3 tháng). Xe máy: phạt 400.000 – 600.000 đồng.",
+        "image": "w_227.png"
+    },
+    {
+        "id": "p109",
+        "code": "W.228a",
+        "name": "Đá lở",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.228a được đặt báo trước đoạn đường mà có hiện tượng đất đá từ ta luy dương sụt lở bất ngờ về phía bên trái đường — từ phía mặt đường nhìn đường hoặc từ bên phải sang trái (tức là khu vực nguy hiểm bên trái làn xe) thì người điều khiển phương tiện phải đặc biệt chú ý.  Biển giúp thông báo cho người tham gia giao thông biết để giảm tốc độ, tăng quan sát, không dừng đỗ dưới ta luy, đặc biệt ở các tuyến đường miền núi, đường đèo, sau mưa lớn hoặc mưa đá.  Ô tô: phạt từ 800.000 – 1.000.000 đồng, tước GPLX 1–3 tháng Xe máy: phạt từ 400.000 – 600.000 đồng.",
+        "image": "w_228a.png"
+    },
+    {
+        "id": "p110",
+        "code": "W.228b",
+        "name": "Đá lở",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người tham gia giao thông biết phía trước đoạn đường có nguy cơ đá rơi, đá lở từ sườn núi phía bên phải. Người lái xe cần giảm tốc độ, chú ý quan sát và tránh dừng đỗ ở khu vực nguy hiểm này. Ô tô: phạt từ 800.000 – 1.000.000 đồng, tước GPLX 1–3 tháng Xe máy: phạt từ 400.000 – 600.000 đồng.",
+        "image": "w_228b.png"
+    },
+    {
+        "id": "p111",
+        "code": "W.228c",
+        "name": "Sỏi đá bắn lên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người điều khiển phương tiện biết đoạn đường phía trước có sỏi đá dễ bắn lên, có thể gây trơn trượt hoặc làm hư hại xe; cần giảm tốc độ, giữ khoảng cách an toàn, tránh vượt.",
+        "image": "w_228c.png"
+    },
+    {
+        "id": "p112",
+        "code": "W.228d",
+        "name": "Nền đường yếu",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người tham gia giao thông biết phía trước là đoạn đường có nền yếu, xe nặng đi qua dễ gây lún, sụt, nên giảm tốc độ, tránh phanh gấp hoặc dừng đột ngột. ",
+        "image": "w_228d.png"
+    },
+    {
+        "id": "p113",
+        "code": "W.229",
+        "name": "Dải máy bay lên xuống",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người điều khiển phương tiện biết phía trước là khu vực có dải máy bay lên xuống cắt ngang hoặc nằm gần đường giao thông, cần quan sát kỹ và giảm tốc độ để tránh nguy hiểm do hoạt động của máy bay. ",
+        "image": "w_229.png"
+    },
+    {
+        "id": "p114",
+        "code": "W.230",
+        "name": "Gia súc",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.230 được đặt ở đoạn đường “thường có gia súc thả rông hoặc lùa qua ngang đường, hoặc đường ở vùng đồng cỏ/nông trường chăn nuôi, vùng thảo nguyên”.  Khi gặp biển này, người tham gia giao thông cần giảm tốc độ, quan sát kỹ, chuẩn bị dừng lại nếu cần để đảm bảo an toàn cho cả mình và gia súc.  Hành vi “không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường” (như biển cảnh báo) với xe ô tô có thể bị phạt tiền từ 300.000 đồng tới 400.000 đồng.  Đối với xe máy và các loại tương tự: phạt tiền từ 100.000 đồng tới 200.000 đồng khi vi phạm hiệu lệnh biển báo nói chung. ",
+        "image": "w_230.png"
+    },
+    {
+        "id": "p115",
+        "code": "W.231",
+        "name": "Thú rừng vượt qua đường",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người lái xe biết phía trước là khu vực thường có thú rừng qua đường, cần giảm tốc độ, chú ý quan sát, tránh gây tai nạn. Biển thường đặt ở khu vực rừng, vườn quốc gia, vùng đồi núi hoang dã.",
+        "image": "w_231.png"
+    },
+    {
+        "id": "p116",
+        "code": "W.232",
+        "name": "Gió ngang",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.232 được đặt để báo trước đoạn đường mà thường có gió thổi mạnh theo hướng ngang đường gây nguy hiểm, cần người điều khiển phương tiện giảm tốc độ, tăng cường quan sát và đề phòng khả năng bị gió lật xe.  Biển này theo quy chuẩn được đặt ngoài phạm vi khu dân cư, thành phố, tại vị trí có nguy cơ do gió ngang.  Đối với ô tô và phương tiện tương tự: phạt từ 300.000 đồng đến 400.000 đồng, và nếu gây tai nạn thì có thể bị tước quyền sử dụng GPLX từ 2–4 tháng.  Đối với xe máy/xe mô tô: phạt từ 100.000 đồng đến 200.000 đồng. ",
+        "image": "w_232.png"
+    },
+    {
+        "id": "p117",
+        "code": "W.233",
+        "name": "Nguy hiểm khác",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.233 được sử dụng để cảnh báo chung về “những nguy hiểm khác” chưa được liệt kê cụ thể trong các biển từ W.201a đến W.232.  Đối với ô tô: phạt tiền từ 300.000 đồng đến 400.000 đồng nếu “không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu” (như không chú ý, không giảm tốc độ tại nơi có biển cảnh báo) và bị tước GPLX từ 02–04 tháng nếu gây tai nạn.  Đối với xe mô tô, xe gắn máy: phạt tiền từ 100.000 đồng đến 200.000 đồng nếu vi phạm tương tự. ",
+        "image": "w_233.png"
+    },
+    {
+        "id": "p118",
+        "code": "W.234",
+        "name": "Giao nhau với đường 2 chiều",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người lái xe biết phía trước là nơi đường một chiều giao với đường hai chiều, để chủ động giảm tốc độ, quan sát và nhường đường an toàn. Ô tô: phạt từ 800.000 – 1.000.000 đồng, có thể tước GPLX 1–3 tháng.Xe máy: phạt từ 400.000 – 600.000 đồng.",
+        "image": "w_234.png"
+    },
+    {
+        "id": "p119",
+        "code": "W.235",
+        "name": "Đường đôi",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển báo “Đường đôi” được đặt để báo trước đoạn đường mà chiều đi và chiều về được phân biệt bằng dải phân cách cứng (ví dụ dải phân cách bê tông, hộ lan) — tức là mỗi chiều có làn riêng và có phân cách rõ ràng. Nếu người điều khiển không tuân các báo hiệu nguy hiểm/cảnh báo (ví dụ: không giảm tốc, đi ngược chiều, vượt ẩu…) dẫn đến vi phạm quy định giao thông thì sẽ bị xử phạt theo các khung vi phạm chung. Ví dụ: không chấp hành hiệu lệnh, chỉ dẫn của biển báo nguy hiểm thì: người lái xe ô tô: 300.000 đồng đến 400.000 đồng. Nếu vi phạm liên quan đến “đi ngược chiều” trên đường đôi (mà biển W.235 báo trước) có mức phạt cao hơn: ví dụ xe ô tô đi ngược chiều trên đường đôi: phạt khoảng 3.000.000 đồng đến 5.000.000 đồng.",
+        "image": "w_235.png"
+    },
+    {
+        "id": "p120",
+        "code": "W.236",
+        "name": "Hết đường đôi",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo trước đoạn đường đôi (có dải phân cách giữa hai chiều) sắp kết thúc, từ đó hai chiều xe đi ngược nhau không còn cách ly bằng dải phân cách — người lái xe cần giảm tốc độ, chú ý xe đối diện. Ô tô: phạt 3.000.000 – 5.000.000 đồng, tước GPLX 1–3 tháng. Xe máy: phạt 400.000 – 600.000 đồng.",
+        "image": "w_236.png"
+    },
+    {
+        "id": "p121",
+        "code": "W.237",
+        "name": "Cầu vòng",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển W.237 được đặt ở đoạn đường mà sắp tới có công trình có độ vồng lớn (như cây cầu vòm hoặc cấu trúc đường cong vồng) ảnh hưởng tới tầm nhìn của người lái xe. Biển nhắc nhở người điều khiển phương tiện cần thận trọng, giảm tốc độ và quan sát kỹ.",
+        "image": "w_237.png"
+    },
+    {
+        "id": "p122",
+        "code": "W.238",
+        "name": "Đường cao tốc phía trước",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Báo cho người lái xe biết phía trước là đoạn đường cao tốc, cần chuẩn bị chuyển làn, điều chỉnh tốc độ hoặc chú ý quy định riêng của đường cao tốc (chỉ cho phép xe cơ giới lưu thông, cấm xe thô sơ, xe máy...). Xe máy: phạt 2.000.000 – 3.000.000 đồng, tước GPLX 1–3 tháng. Ô tô: phạt 4.000.000 – 6.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "w_238.png"
+    },
+    {
+        "id": "p123",
+        "code": "W.239a",
+        "name": "Đường cáp điện ở phía trên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Cảnh báo người điều khiển phương tiện biết rằng phía trên có đường dây điện cao thế, cần chú ý đến chiều cao an toàn của phương tiện (đặc biệt là xe tải, xe container, xe chở hàng cồng kềnh) để tránh va chạm gây nguy hiểm. Biển này có tác dụng cảnh báo, không quy định mức xử phạt riêng, nhưng nếu người điều khiển để phương tiện hoặc hàng hóa va chạm, làm hư hỏng công trình điện hoặc gây tai nạn, thì sẽ bị xử lý theo quy định chung về gây mất an toàn giao thông hoặc thiệt hại công trình công cộng.",
+        "image": "w_239a.png"
+    },
+    {
+        "id": "p124",
+        "code": "W.239b",
+        "name": "Chiều cao an toàn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Được đặt ở những nơi có giới hạn chiều cao như cầu, hầm, gầm cầu vượt, hoặc đường có vật cản phía trên. Biển cho biết chiều cao tối đa cho phép của phương tiện (tính cả hàng hóa trên xe) khi đi qua khu vực đó. Người điều khiển phương tiện không được đi vào nếu chiều cao của xe vượt quá giới hạn ghi trên biển.  Ô tô vượt quá chiều cao cho phép bị phạt từ 800.000 – 1.000.000 đồng, và tước GPLX từ 1–3 tháng nếu gây tai nạn; đối với xe máy, phạt từ 400.000 – 600.000 đồng.",
+        "image": "w_239b.png"
+    },
+    {
+        "id": "p125",
+        "code": "W.240",
+        "name": "Đường hầm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Thông báo cho người điều khiển phương tiện biết phía trước có đường hầm giao thông, cần bật đèn chiếu sáng, giảm tốc độ, giữ khoảng cách an toàn và không vượt xe khác trong hầm. Ngoài ra, người điều khiển không được dừng hoặc đỗ xe trong đường hầm. Hành vi dừng hoặc đỗ xe trong hầm đường bộ bị phạt từ 10.000.000 – 12.000.000 đồng đối với ô tô và từ 800.000 – 1.000.000 đồng đối với xe máy; đồng thời bị tước GPLX từ 1–3 tháng.",
+        "image": "w_240.png"
+    },
+    {
+        "id": "p126",
+        "code": "W.241",
+        "name": "Ùn tắc giao thông",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Cảnh báo người lái xe biết đoạn đường phía trước thường xuyên xảy ra ùn tắc, đặc biệt vào giờ cao điểm hoặc khi có công trình, chướng ngại vật. Người điều khiển cần giảm tốc độ, giữ khoảng cách an toàn, không chen lấn, không đi lên vỉa hè hoặc làn ngược chiều để tránh gây thêm ùn tắc. Nếu người điều khiển sẽ bị xử phạt từ 400.000 – 1.000.000 đồng đối với xe máy và từ 2.000.000 – 3.000.000 đồng đối với ô tô.",
+        "image": "w_241.png"
+    },
+    {
+        "id": "p127",
+        "code": "W.243a",
+        "name": "Nơi đường sắt giao không vuông góc với đường bộ",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "cảnh báo phía trước có giao cắt giữa đường sắt và đường bộ theo hướng chéo, từ trái sang phải. Người điều khiển phương tiện cần giảm tốc độ, quan sát kỹ hai bên, và chỉ đi qua khi không có tàu đang tới. Biển thường được đặt cách điểm giao cắt khoảng 50 – 150m, tùy điều kiện thực tế. Ô tô vi phạm phạt 600.000 – 1.000.000 đồng. Xe máy vi phạm phạt 400.000 – 600.000 đồng. Đi khi có tín hiệu cảnh báo tàu tới: phạt 4.000.000 – 6.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "w_243a.png"
+    },
+    {
+        "id": "p128",
+        "code": "W.243b",
+        "name": "Nơi đường sắt giao không vuông góc với đường bộ",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển báo này có ý nghĩa tương tự W.243a nhưng đường sắt cắt chéo từ phải sang trái. Người điều khiển xe phải giảm tốc độ, quan sát kỹ bên phải và trái, tuân thủ tín hiệu cảnh báo hoặc barie. Biển thường được đặt cách điểm giao cắt khoảng 50 – 150m, tùy điều kiện thực tế. Ô tô vi phạm phạt 600.000 – 1.000.000 đồng. Xe máy vi phạm phạt 400.000 – 600.000 đồng. Đi khi có tín hiệu cảnh báo tàu tới: phạt 4.000.000 – 6.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "w_243b.png"
+    },
+    {
+        "id": "p129",
+        "code": "W.243c",
+        "name": "Nơi đường sắt giao không vuông góc với đường bộ",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển này được dùng để báo hiệu nơi đường sắt đôi (hai tuyến đường sắt song song) giao chéo với đường bộ không vuông góc. Người lái xe cần đặc biệt chú ý, vì tàu có thể đến từ hai chiều khác nhau. Phải giảm tốc độ, quan sát kỹ cả hai bên, và chỉ qua khi không còn tàu nào đang tới. Ô tô vi phạm phạt 600.000 – 1.000.000 đồng. Xe máy vi phạm phạt 400.000 – 600.000 đồng. Đi khi có tín hiệu cảnh báo tàu tới: phạt 4.000.000 – 6.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "w_243c.png"
+    },
+    {
+        "id": "p130",
+        "code": "W.244",
+        "name": "Đoạn đường hay xảy ra tai nạn",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển này dùng để cảnh báo người tham gia giao thông biết phía trước là đoạn đường thường xảy ra tai nạn, do các yếu tố như: đường cong, dốc, giao cắt nguy hiểm, khu vực đông dân cư hoặc tầm nhìn hạn chế. Người điều khiển phương tiện khi gặp biển này cần giảm tốc độ, giữ khoảng cách an toàn, chú ý quan sát và chủ động xử lý tình huống. Biển được đặt trước khu vực nguy hiểm khoảng 50–100m, tùy theo điều kiện đường.",
+        "image": "w_244.png"
+    },
+    {
+        "id": "p131",
+        "code": "W.245a",
+        "name": "Đi chậm",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển báo “Đi chậm” được đặt tại những đoạn đường nguy hiểm, có tầm nhìn hạn chế, có chướng ngại vật, hoặc gần khu vực trường học, bệnh viện, ngã ba – ngã tư, khu đông dân cư…. Biển yêu cầu người điều khiển phương tiện giảm tốc độ, quan sát kỹ tình huống giao thông phía trước, và chuẩn bị sẵn sàng phanh khi cần thiết.",
+        "image": "w_245a.png"
+    },
+    {
+        "id": "p132",
+        "code": "W.246a",
+        "name": "Chú ý chướng ngại vật – Vòng tránh ra hai bên",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển này dùng để báo cho người điều khiển phương tiện biết phía trước có chướng ngại vật nằm chính giữa mặt đường (như công trình, đảo giao thông…). Phương tiện được phép vòng tránh sang cả hai bên trái hoặc phải để đi qua. Người lái xe cần giảm tốc độ, quan sát kỹ, nhường đường cho các xe đang đi ngược chiều khi vòng tránh.",
+        "image": "w_246a.png"
+    },
+    {
+        "id": "p133",
+        "code": "W.246b",
+        "name": "Chú ý chướng ngại vật – Vòng tránh sang bên trái",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển này báo hiệu chướng ngại vật phía trước nằm lệch, phương tiện phải vòng tránh sang bên trái để đi qua. Tuyệt đối không vòng sang phải, tránh gây va chạm hoặc đi vào khu vực cấm. Người điều khiển cần giảm tốc độ, bật xi-nhan trái và chú ý xe ngược chiều.",
+        "image": "w_246b.png"
+    },
+    {
+        "id": "p134",
+        "code": "W.246c",
+        "name": "Chú ý chướng ngại vật – Vòng tránh sang bên phải",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển này báo có chướng ngại vật phía trước lệch về phía trái, yêu cầu phương tiện vòng tránh sang bên phải. Không được vòng tránh sang trái vì có thể đi ngược chiều hoặc vào vùng nguy hiểm. Cần giảm tốc độ, bật xi-nhan phải, quan sát người đi bộ và xe đang nhập làn.",
+        "image": "w_246c.png"
+    },
+    {
+        "id": "p135",
+        "code": "W.247",
+        "name": "Chú ý xe đỗ",
+        "type": "Biển báo nguy hiểm",
+        "category": "Khác",
+        "detail": "Biển báo “Chú ý xe đỗ” được đặt trước đoạn đường thường xuyên có phương tiện dừng, đỗ hai bên, gây thu hẹp mặt đường, giảm tầm nhìn, và tăng nguy cơ va chạm hoặc ùn tắc. Khi gặp biển, người điều khiển phương tiện phải giảm tốc độ, quan sát kỹ, và giữ khoảng cách an toàn với các xe đang dừng/đỗ hoặc có khả năng mở cửa bất ngờ. Thường được sử dụng ở khu dân cư, chợ, bệnh viện, bến xe, hoặc đường hẹp.",
+        "image": "w_247.png"
+    },
+    {
+        "id": "p136",
+        "code": "R.122",
+        "name": "Dừng lại",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Dừng lại” dùng để cảnh báo người điều khiển phương tiện phải dừng lại trước khi đi tiếp, vì phía trước có tình huống nguy hiểm, khu vực giao cắt, công trường, hoặc điểm mất an toàn. Tài xế phải dừng hẳn xe tại vị trí quy định, quan sát an toàn, sau đó mới tiếp tục di chuyển. Biển này khác với biển STOP hiệu lệnh — biển cảnh báo này thường đi kèm vạch/dụng cụ hỗ trợ, tùy tình huống thực tế.",
+        "image": "r_122.png"
+    },
+    {
+        "id": "p137",
+        "code": "R.301a",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Phương tiện chỉ được đi thẳng, không được rẽ trái, rẽ phải hay quay đầu tại vị trí có biển. Mức xử phạt khi vi phạm (không chấp hành chỉ dẫn biển báo): người điều khiển xe mô tô/xe máy có thể bị phạt khoảng 200.000–300.000 đồng, ô tô bị phạt khoảng 800.000–1.000.000 đồng",
+        "image": "r_301a.png"
+    },
+    {
+        "id": "p138",
+        "code": "R.301b",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển chỉ dẫn bắt buộc: phải đi vòng (chuyển hướng) theo mũi tên được chỉ định (biển này thường chỉ việc vòng tránh chướng ngại tại đảo giao thông hoặc cọc tiêu). Không được đi theo hướng khác. Mức xử phạt khi vi phạm: như mục trên (vi phạm chỉ dẫn biển báo: xe máy ~200.000–300.000; ô tô ~800.000–1.000.000)",
+        "image": "r_301b.png"
+    },
+    {
+        "id": "p139",
+        "code": "R.301c",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển hiệu lệnh: phải vòng tránh sang phải theo mũi tên; cấm đi sang hướng khác. Mức xử phạt khi vi phạm: tham khảo mức phạt chung cho “không chấp hành chỉ dẫn biển báo” (xe máy ~200k–300k; ô tô ~800k–1.000k)",
+        "image": "r_301c.png"
+    },
+    {
+        "id": "p140",
+        "code": "R.301d",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển chỉ dẫn: phương tiện phải rẽ trái tại điểm này; không được đi thẳng, rẽ phải hay quay đầu. Mức xử phạt khi vi phạm: áp dụng mức phạt chung cho không chấp hành biển báo (xe máy ~200k–300k; ô tô ~800k–1.000k)",
+        "image": "r_301d.png"
+    },
+    {
+        "id": "p141",
+        "code": "R.301e",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển chỉ dẫn: phải rẽ phải; các hướng khác bị cấm tại vị trí này. Mức xử phạt khi vi phạm: như trên (không chấp hành chỉ dẫn biển báo)",
+        "image": "r_301e.png"
+    },
+    {
+        "id": "p142",
+        "code": "R.301f",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển chỉ dẫn: phương tiện được phép đi thẳng hoặc rẽ trái; các hướng khác (ví dụ rẽ phải, quay đầu) không được phép. Mức xử phạt khi vi phạm: nếu đi sai hướng so với biển, bị xử phạt theo quy định về “không chấp hành chỉ dẫn biển báo”",
+        "image": "r_301f.png"
+    },
+    {
+        "id": "p143",
+        "code": "R.301g",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển chỉ dẫn: được đi thẳng hoặc rẽ phải; các hướng khác bị cấm. Mức xử phạt khi vi phạm: áp dụng mức chung cho không chấp hành biển báo",
+        "image": "r_301g.png"
+    },
+    {
+        "id": "p144",
+        "code": "R.301h",
+        "name": "Hướng đi phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển chỉ dẫn: phải rẽ trái hoặc rẽ phải; tức không được đi thẳng tại vị trí này. Mức xử phạt khi vi phạm: nếu đi thẳng hoặc không chấp hành, bị xử phạt theo quy định “không chấp hành chỉ dẫn biển báo” (tham khảo mức: xe máy ~200k–300k; ô tô ~800k–1.000k)",
+        "image": "r_301h.png"
+    },
+    {
+        "id": "p145",
+        "code": "R.302a",
+        "name": "Hướng phải đi vòng chướng ngại vật",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển hiệu lệnh bắt buộc: phương tiện phải đi vòng sang bên phải để tránh chướng ngại vật hoặc đảo giao thông; không được đi thẳng, rẽ trái hoặc quay đầu ở vị trí này.",
+        "image": "r_302a.png"
+    },
+    {
+        "id": "p146",
+        "code": "R.302b",
+        "name": "Hướng phải đi vòng chướng ngại vật",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển hiệu lệnh bắt buộc: phương tiện phải đi vòng sang bên trái để tránh chướng ngại vật; không được đi thẳng, rẽ phải hoặc quay đầu tại vị trí này.",
+        "image": "r_302b.png"
+    },
+    {
+        "id": "p147",
+        "code": "R.302c",
+        "name": "Hướng phải đi vòng chướng ngại vật",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển hiệu lệnh: phương tiện phải đi vòng theo hướng mũi tên bao quanh chướng ngại vật (thường là vòng đảo giao thông); tuyệt đối không đi vào phần giữa đảo hoặc đi lệch hướng.",
+        "image": "r_302c.png"
+    },
+    {
+        "id": "p148",
+        "code": "R.303",
+        "name": "Nơi giao nhau chạy theo vòng xuyến",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo nguy hiểm nhằm cảnh báo phía trước là nút giao thông theo hình vòng xuyến. Tại khu vực này, phương tiện phải nhường đường cho xe đang lưu thông trong vòng xuyến, giảm tốc độ, quan sát kỹ và tuân thủ đúng hướng di chuyển theo chiều mũi tên. Biển được đặt trước vòng xuyến theo khoảng cách tùy theo loại đường để người lái chuẩn bị kịp thời.",
+        "image": "r_303.png"
+    },
+    {
+        "id": "p149",
+        "code": "R.304",
+        "name": "Đường dành cho xe thô sơ",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn cho biết đoạn đường phía trước dành riêng cho xe thô sơ, bao gồm: xe đạp, xe xích lô, xe súc vật kéo, xe lăn, v.v. Các phương tiện cơ giới (ô tô, xe máy, xe máy điện…) không được phép đi vào đoạn đường này. Người điều khiển phải quan sát và chọn tuyến đường phù hợp nếu điều khiển phương tiện cơ giới. Ô tô đi vào đường dành cho xe thô sơ: phạt 2.000.000 – 3.000.000 đồng, tước GPLX 1–3 tháng. Xe máy đi vào sai phần đường/làn đường: phạt 400.000 – 600.000 đồng.",
+        "image": "r_304.png"
+    },
+    {
+        "id": "p150",
+        "code": "R.305",
+        "name": "Đường dành cho người đi bộ",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn cho biết đoạn đường phía trước dành riêng cho người đi bộ. Các phương tiện không được phép đi vào phần đường này (trừ trường hợp được cơ quan có thẩm quyền cho phép). Người điều khiển phương tiện cần chủ động giảm tốc độ, nhường đường và đi theo tuyến phù hợp. Ô tô đi vào đường dành cho người đi bộ: phạt 2.000.000 – 3.000.000 đồng, tước GPLX 1–3 tháng. Xe máy đi vào khu vực dành cho người đi bộ: phạt 400.000 – 600.000 đồng. Người đi bộ đi không đúng phần đường quy định: phạt 60.000 – 100.000 đồng.",
+        "image": "r_305.png"
+    },
+    {
+        "id": "p151",
+        "code": "R.306",
+        "name": "Tốc độ tối thiểu cho phép",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo hiệu tốc độ tối thiểu mà phương tiện bắt buộc phải duy trì khi lưu thông trên đoạn đường đặt biển. Phương tiện đi dưới tốc độ ghi trên biển (nếu không có lý do chính đáng như ùn tắc, điều kiện thời tiết xấu, sự cố…) sẽ bị coi là vi phạm quy định giao thông. Biển thường được đặt trên đường cao tốc hoặc đường có nhiều làn xe cơ giới để đảm bảo lưu thông thông suốt. Ô tô chạy dưới tốc độ tối thiểu: phạt 800.000 – 1.000.000 đồng. Xe máy chạy quá chậm gây cản trở giao thông: phạt 100.000 – 200.000 đồng.",
+        "image": "r_306.png"
+    },
+    {
+        "id": "p152",
+        "code": "R.307",
+        "name": "Hết tốc độ tối thiểu",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo cho biết hết hiệu lực của biển tốc độ tối thiểu đã được quy định trước đó. Từ vị trí đặt biển này, phương tiện không còn bắt buộc phải duy trì tốc độ tối thiểu, nhưng vẫn phải tuân thủ tốc độ tối đa cho phép trên đường và quy tắc an toàn giao thông chung. Người điều khiển được quyền điều chỉnh tốc độ phù hợp điều kiện thực tế (đường đông, thời tiết xấu, chướng ngại vật…).",
+        "image": "r_307.png"
+    },
+    {
+        "id": "p153",
+        "code": "R.308a",
+        "name": "Tuyến đường cầu vượt cắt qua",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn vị trí đường cầu vượt cắt ngang phía trước theo hướng từ trái sang phải. Người điều khiển phương tiện cần quan sát, giảm tốc độ phù hợp, nhường đường theo quy tắc giao thông tại khu vực giao cắt. Biển giúp xác định hướng tuyến cầu vượt, tránh nhầm lẫn với cầu vượt dành cho người đi bộ.",
+        "image": "r_308a.png"
+    },
+    {
+        "id": "p154",
+        "code": "R.308b",
+        "name": "Tuyến đường cầu vượt cắt qua",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn vị trí đường cầu vượt cắt ngang phía trước theo hướng từ phải sang trái. Người điều khiển phương tiện cần quan sát kỹ luồng giao thông trên cầu vượt, điều chỉnh tốc độ và nhường đường khi cần thiết. Biển giúp định hướng không gian giao thông tránh gây nhầm lẫn tại khu vực giao cắt.",
+        "image": "r_308b.png"
+    },
+    {
+        "id": "p155",
+        "code": "R.309",
+        "name": "Ấn còi",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn cho biết khu vực phía trước yêu cầu người điều khiển phương tiện bắt buộc phải sử dụng còi để cảnh báo an toàn khi lưu thông. Thường đặt tại các vị trí: Đoạn đường quanh co, khuất tầm nhìn Giao cắt nguy hiểm Đường hẹp có vật cản Nơi thường xuyên có người hoặc phương tiện băng ngang Ô tô không sử dụng còi khi cần thiết: phạt 800.000 – 1.000.000 đồng. Xe máy: phạt 100.000 – 200.000 đồng. Bấm còi không đúng quy định, gây ồn cũng bị phạt theo từng nhóm lỗi khác.",
+        "image": "r_309.png"
+    },
+    {
+        "id": "p156",
+        "code": "R.310a",
+        "name": "Hướng đi phải theo cho các xe chở hàng nguy hiểm",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn các phương tiện chở hàng nguy hiểm (chất cháy nổ, hóa chất độc hại, hàng phóng xạ, khí nén… theo quy định) bắt buộc phải đi theo hướng mũi tên chỉ dẫn. Biển thường đặt tại: Khu dân cư đông đúc Cầu hẹp, đường cấm Đường hầm Khu gần nguồn nước, kho xăng dầu Ô tô chở hàng nguy hiểm không đi đúng hướng quy định: phạt 1.000.000 – 2.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "r_310a.png"
+    },
+    {
+        "id": "p157",
+        "code": "R.310b",
+        "name": "Hướng đi phải theo cho các xe chở hàng nguy hiểm",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển yêu cầu xe chở hàng nguy hiểm bắt buộc rẽ phải theo hướng mũi tên góc gấp (vuông góc). Thường đặt ở vị trí: Giao lộ cấm đi thẳng Khu công nghiệp Cầu yếu Đường cấm hóa chất Không tuân thủ gây nguy hiểm vì hàng nguy hiểm dễ phản ứng tại nơi không phù hợp. Ô tô chở hàng nguy hiểm không đi đúng hướng quy định: phạt 1.000.000 – 2.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "r_310b.png"
+    },
+    {
+        "id": "p158",
+        "code": "R.310c",
+        "name": "Hướng đi phải theo cho các xe chở hàng nguy hiểm",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển yêu cầu phương tiện chở hàng nguy hiểm phải đi thẳng, không được rẽ tại giao lộ phía trước. Mục đích: Tránh khu vực đông dân cư, kho đông lạnh, nhà máy Giảm nguy cơ gây cháy, nổ, rò rỉ hóa chất Ô tô chở hàng nguy hiểm không đi đúng hướng quy định: phạt 1.000.000 – 2.000.000 đồng, tước GPLX 1–3 tháng.",
+        "image": "r_310c.png"
+    },
+    {
+        "id": "p159",
+        "code": "R.403a",
+        "name": "Đường dành cho xe ô tô",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn đoạn đường phía trước chỉ dành cho các loại xe ô tô được phép lưu thông. Các phương tiện khác như: xe máy, xe thô sơ, xe đạp, xe xích lô, xe súc vật kéo… không được phép đi vào đoạn đường này. Biển nhằm: Tách luồng giao thông Đảm bảo tốc độ ổn định Giảm nguy cơ va chạm giữa xe cơ giới và xe nhỏ Thường đặt ở: Tuyến quốc lộ Khu đô thị mới Cầu vượt dành riêng cho ô tô Xe máy đi vào đường dành cho ô tô: phạt 400.000 – 600.000 đồng. Xe thô sơ đi vào: phạt 60.000 – 100.000 đồng. Ô tô tuân thủ đúng không bị xử phạt theo biển này (nhưng vẫn bị phạt nếu vi phạm lỗi khác).",
+        "image": "r_403a.png"
+    },
+    {
+        "id": "p160",
+        "code": "R.403b",
+        "name": "Đường dành cho xe ô tô, xe máy",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn đoạn đường phía trước dành riêng cho xe ô tô và xe máy được phép lưu thông. Các phương tiện không thuộc nhóm này như: xe đạp, xe đạp điện, xe thô sơ, xe xích lô, xe súc vật kéo… không được phép đi vào đoạn đường này. Mục đích: Phân luồng giao thông rõ ràng Đảm bảo tốc độ di chuyển ổn định Giảm xung đột giao thông với xe thô sơ Thường xuất hiện tại: Tuyến đường tốc độ cao Đường vành đai đô thị Cầu vượt, hầm chui dành cho cơ giới Xe đạp, xe thô sơ đi vào: phạt 60.000 – 100.000 đồng. Phương tiện cấm khác đi vào: áp dụng mức phạt theo nhóm lỗi “đi vào đường có biển cấm”.",
+        "image": "r_403b.png"
+    },
+    {
+        "id": "p161",
+        "code": "R.403c",
+        "name": "Đường dành cho xe buýt",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn đoạn đường phía trước chỉ dành cho xe buýt được phép lưu thông. Các phương tiện khác như: ô tô con, xe máy, xe tải, xe thô sơ… không được phép đi vào phần đường/làn đường thuộc biển này. Mục đích: Đảm bảo luồng di chuyển ưu tiên cho xe buýt Giảm ùn tắc, tăng hiệu quả vận tải công cộng Tránh tình trạng phương tiện khác cản trở xe buýt Thường đặt tại: Làn đường dành riêng cho xe buýt trong đô thị Tuyến BRT Khu vực bến đón/trả khách Ô tô đi vào làn đường dành cho xe buýt: phạt 3.000.000 – 5.000.000 đồng, tước GPLX 1–3 tháng. Xe máy đi vào làn buýt: phạt 400.000 – 600.000 đồng.",
+        "image": "r_403c.png"
+    },
+    {
+        "id": "p162",
+        "code": "R.403d",
+        "name": "Đường dành cho xe ô tô con",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn đoạn đường phía trước chỉ dành cho xe ô tô con (xe từ 9 chỗ ngồi trở xuống, không tính lái xe) được phép lưu thông. Các phương tiện khác như: xe tải, xe buýt, xe máy, xe thô sơ… không được phép đi vào phạm vi tác dụng của biển. Biển nhằm: Phân luồng giao thông hợp lý Đảm bảo tốc độ lưu thông ổn định cho xe con Hạn chế ùn tắc trong khu đô thị Biển thường đặt tại: Khu vực nội đô đông đúc Đường hẹp Tuyến dành riêng cho xe du lịch, taxi, dịch vụ Ô tô tải, xe buýt đi vào đường dành cho ô tô con: phạt 800.000 – 1.000.000 đồng và có thể tước GPLX 1–3 tháng tùy mức độ. Xe máy đi vào: phạt 400.000 – 600.000 đồng. Xe thô sơ đi vào: phạt 60.000 – 100.000 đồng.",
+        "image": "r_403d.png"
+    },
+    {
+        "id": "p163",
+        "code": "R.403e",
+        "name": "Đường dành cho xe máy",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo chỉ dẫn đoạn đường phía trước chỉ dành cho xe mô tô hai bánh được phép lưu thông. Các phương tiện không phải xe máy như ô tô, xe đạp, xe thô sơ, xe ba gác, xe súc vật kéo… không được phép đi vào. Biển nhằm: Phân tách dòng phương tiện theo đặc tính Giảm nguy cơ va chạm giữa xe máy và ô tô Tối ưu lưu thông trong khu vực đông phương tiện Thường đặt tại: Cầu hẹp hoặc đường nhỏ trong đô thị Tuyến tách làn riêng cho xe máy Ô tô đi vào đường dành cho xe máy: phạt 3.000.000 – 5.000.000 đồng, tước GPLX 1–3 tháng. Xe thô sơ đi vào: phạt 60.000 – 100.000 đồng.",
+        "image": "r_403e.png"
+    },
+    {
+        "id": "p164",
+        "code": "R.403f",
+        "name": "Đường dành cho xe máy và xe đạp",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển “Đường dành cho xe máy và xe đạp” được đặt tại đầu đoạn đường chỉ cho phép xe mô tô hai bánh, xe gắn máy và xe đạp lưu thông. Khi gặp biển này, các phương tiện khác như ô tô con, ô tô tải, xe buýt, xe chở hàng nguy hiểm và các loại xe cơ giới không thuộc nhóm trên đều không được phép đi vào. Biển thường sử dụng để phân luồng giao thông tại khu dân cư, đường nội bộ hoặc tuyến có hạ tầng phù hợp cho xe thô sơ và xe máy, giúp giảm xung đột với các phương tiện lớn. Người điều khiển phương tiện được phép đi vào vẫn phải tuân thủ tốc độ, làn đường và các quy định an toàn khác.",
+        "image": "r_403f.png"
+    },
+    {
+        "id": "p165",
+        "code": "R.404a",
+        "name": "Hết đoạn đường dành cho xe ô tô",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường dành cho xe ô tô” với mã hiệu R.404a được sử dụng để thông báo cho người tham gia giao thông biết rằng đoạn đường dành riêng cho xe ô tô theo biển chỉ dẫn trước đó đã kết thúc. Kể từ vị trí đặt biển này, xe ô tô không còn được ưu tiên lưu thông trên phần đường riêng, và việc tổ chức giao thông sẽ quay trở lại theo quy định chung. Người lái xe cần chú ý quan sát biển báo tiếp theo để tuân thủ các quy tắc giao thông áp dụng trên đoạn đường sau khi hết hiệu lực biển chỉ dẫn dành riêng cho xe ô tô.",
+        "image": "r_404a.png"
+    },
+    {
+        "id": "p166",
+        "code": "R.404b",
+        "name": "Hết đoạn đường dành cho xe ô tô, xe máy",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường dành cho xe ô tô, xe máy” với mã hiệu R.404b được sử dụng để thông báo cho người tham gia giao thông biết rằng đoạn đường dành riêng cho xe ô tô và xe máy theo biển chỉ dẫn trước đó đã kết thúc. Sau vị trí đặt biển này, các phương tiện sẽ không còn lưu thông theo tổ chức ưu tiên dành riêng nữa và phải tuân theo các quy định giao thông chung áp dụng trên tuyến đường tiếp theo. Người điều khiển phương tiện cần chú ý các biển báo kế tiếp để đảm bảo tuân thủ đúng quy tắc và an toàn giao thông.",
+        "image": "r_404b.png"
+    },
+    {
+        "id": "p167",
+        "code": "R.404c",
+        "name": "Hết đoạn đường dành cho xe buýt",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường dành cho xe buýt” với mã hiệu R.404c được đặt tại vị trí kết thúc đoạn đường mà trước đó chỉ dành riêng hoặc ưu tiên cho xe buýt lưu thông. Khi biển này xuất hiện, xe buýt không còn được hưởng quyền lưu thông theo làn hoặc khu vực ưu tiên nữa và phải tuân theo quy định giao thông chung áp dụng cho toàn bộ phương tiện trên tuyến đường tiếp theo. Người điều khiển cần chú ý quan sát biển báo và vạch kẻ đường tiếp sau để đảm bảo di chuyển đúng làn, đúng quy định và an toàn.",
+        "image": "r_404c.png"
+    },
+    {
+        "id": "p168",
+        "code": "R.404d",
+        "name": "Hết đoạn đường dành cho xe ô tô con",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường dành cho xe ô tô con” với mã hiệu R.404d được đặt tại vị trí chấm dứt đoạn đường mà trước đó chỉ dành riêng hoặc ưu tiên cho xe ô tô con lưu thông. Từ sau biển này, ô tô con phải tuân theo quy định giao thông chung áp dụng cho mọi phương tiện, không còn quyền sử dụng làn hay khu vực ưu tiên trước đó. Người điều khiển cần quan sát kỹ biển báo, vạch kẻ đường và điều chỉnh hướng đi, làn đường phù hợp để đảm bảo an toàn và đúng luật.",
+        "image": "r_404d.png"
+    },
+    {
+        "id": "p169",
+        "code": "R.404e",
+        "name": "Hết đoạn đường dành cho xe máy",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường dành cho xe máy” với mã hiệu R.404e được đặt tại điểm kết thúc đoạn đường mà trước đó chỉ dành riêng hoặc ưu tiên cho xe máy lưu thông. Sau khi đi qua biển này, xe máy phải tuân thủ quy định chung áp dụng cho tất cả phương tiện trên tuyến đường tiếp theo và không còn quyền lưu thông trên làn hoặc khu vực ưu tiên trước đó. Người điều khiển xe máy cần chú ý quan sát các biển báo tiếp theo, vạch kẻ đường và điều chỉnh hướng di chuyển phù hợp để đảm bảo an toàn và đúng luật.",
+        "image": "r_404e.png"
+    },
+    {
+        "id": "p170",
+        "code": "R.404f",
+        "name": "Hết đoạn đường dành cho xe máy và xe đạp",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường dành cho xe máy và xe đạp” với mã hiệu R.404f được đặt tại vị trí kết thúc đoạn đường mà trước đó chỉ dành riêng hoặc ưu tiên cho xe máy và xe đạp lưu thông. Sau khi đi qua biển này, hai loại phương tiện trên không còn được hưởng quyền ưu tiên hoặc sử dụng làn riêng nữa và phải tuân theo quy tắc giao thông áp dụng chung cho toàn bộ phương tiện trên tuyến đường tiếp theo. Người điều khiển cần quan sát kỹ các biển báo và vạch kẻ đường tiếp theo để lựa chọn làn đường phù hợp, đảm bảo di chuyển an toàn và đúng quy định pháp luật.",
+        "image": "r_404f.png"
+    },
+    {
+        "id": "p171",
+        "code": "R.411",
+        "name": "Hướng đi trên mỗi làn đường phải theo",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hướng đi trên mỗi làn đường phải theo” được đặt tại các vị trí nút giao, cầu vượt, đoạn phân làn cố định nhằm chỉ dẫn rõ ràng hướng di chuyển bắt buộc của từng làn. Mỗi làn đường trên biển được biểu thị bằng mũi tên tương ứng, người điều khiển phương tiện phải đi đúng vào làn có mũi tên thể hiện hướng rẽ hoặc đi thẳng phù hợp với hướng đã chọn từ trước. Khi đi vào khu vực có biển báo này, người tham gia giao thông phải tuân thủ, không được tự ý đổi hướng, chuyển làn hoặc di chuyển sai quỹ đạo của làn, tránh gây mất an toàn giao thông và ùn tắc. Xe máy: phạt tiền từ 400.000 – 600.000 đồng. Ô tô: phạt tiền từ 3.000.000 – 5.000.000 đồng, đồng thời có thể bị tước quyền sử dụng Giấy phép lái xe từ 1 – 3 tháng (nếu gây nguy hiểm hoặc ùn tắc).",
+        "image": "r_411.png"
+    },
+    {
+        "id": "p172",
+        "code": "R.412a",
+        "name": "Làn đường dành cho xe ô tô khách",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe ô tô khách” cho biết làn đường phía trước chỉ dành riêng cho xe ô tô khách lưu thông, bao gồm các phương tiện chở người từ 10 chỗ trở lên (kể cả lái xe). Các phương tiện khác như ô tô con, xe tải, xe máy, xe thô sơ… không được phép đi vào làn đường này, trừ các xe ưu tiên theo quy định. Người điều khiển ô tô khách phải chấp hành việc di chuyển đúng làn, theo đúng hướng mũi tên chỉ dẫn trên biển và không tự ý chuyển làn trái phép. Biển thường được đặt tại những tuyến đường có phân luồng phương tiện theo làn nhằm giảm ùn tắc, đảm bảo giao thông an toàn và trật tự. Người điều khiển ô tô đi không đúng làn bị phạt từ 3.000.000–5.000.000 đồng và có thể bị tước GPLX 1–3 tháng nếu gây mất ATGT. Người điều khiển xe máy đi vào làn dành riêng của loại xe khác bị phạt từ 400.000–600.000 đồng",
+        "image": "r_412a.png"
+    },
+    {
+        "id": "p173",
+        "code": "R.412b",
+        "name": "Làn đường dành cho xe ô tô con",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe ô tô con” với mã hiệu R.412b quy định làn phía trước chỉ dành cho ô tô con lưu thông, bao gồm xe chở người đến 9 chỗ ngồi (kể cả lái xe) và một số xe tải nhỏ theo quy định. Xe máy, xe buýt, xe tải lớn, ô tô khách và xe thô sơ không được phép đi vào làn này, ngoại trừ phương tiện ưu tiên theo luật định. Người điều khiển ô tô con phải tuân thủ hướng mũi tên chỉ dẫn trên biển, không được tự ý chuyển làn trái phép gây nguy hiểm hoặc ùn tắc giao thông. Biển được đặt tại các tuyến đường có mật độ phương tiện cao để phân luồng hiệu quả. Ô tô đi không đúng làn bị phạt từ 3.000.000 – 5.000.000 đồng, có thể bị tước GPLX từ 1 – 3 tháng nếu gây mất an toàn. Xe máy đi vào làn dành cho ô tô con bị phạt từ 400.000 – 600.000 đồng.",
+        "image": "r_412b.png"
+    },
+    {
+        "id": "p174",
+        "code": "R.412c",
+        "name": "Làn đường dành cho xe ô tô tải",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe ô tô tải” với mã hiệu R.412c quy định làn đường phía trước chỉ dành riêng cho xe ô tô tải lưu thông. Xe ô tô tải ở đây được hiểu là phương tiện cơ giới dùng để vận chuyển hàng hóa theo cấu tạo kỹ thuật và đăng ký. Các phương tiện khác như ô tô con, ô tô khách, xe buýt, xe máy, xe thô sơ… không được phép đi vào làn đường này, trừ các phương tiện ưu tiên theo quy định của pháp luật. Người điều khiển phải tuân thủ hướng di chuyển theo mũi tên chỉ dẫn trên biển và không được tự ý chuyển làn sai quy định gây cản trở giao thông. Biển thường xuất hiện trên các tuyến đường có tổ chức phân luồng để đảm bảo an toàn giao thông, giảm xung đột giữa các nhóm phương tiện. Đối với ô tô: đi không đúng làn quy định bị phạt từ 3.000.000 – 5.000.000 đồng, có thể bị tước GPLX từ 1 – 3 tháng nếu gây mất an toàn giao thông. Đối với xe máy: đi vào làn dành riêng cho ô tô tải bị phạt từ 400.000 – 600.000 đồng.",
+        "image": "r_412c.png"
+    },
+    {
+        "id": "p175",
+        "code": "R.412d",
+        "name": "Làn đường dành cho xe máy",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe máy” với mã hiệu R.412d được đặt tại những tuyến đường có phân chia làn theo loại phương tiện, quy định làn đường phía trước chỉ dành riêng cho xe mô tô hai bánh và xe gắn máy lưu thông. Các phương tiện khác như ô tô con, ô tô khách, xe tải, xe buýt, xe thô sơ… không được phép đi vào làn này, trừ trường hợp là phương tiện ưu tiên theo luật định. Người điều khiển xe máy phải đi theo đúng hướng mũi tên trên biển và không tự ý chuyển làn gây nguy hiểm. Việc bố trí làn riêng cho xe máy nhằm giảm xung đột giao thông với nhóm xe ô tô, tăng an toàn và hạn chế tai nạn. Người điều khiển ô tô đi vào làn dành riêng cho xe máy bị phạt từ 3.000.000 – 5.000.000 đồng, có thể bị tước GPLX từ 1 – 3 tháng nếu gây mất an toàn. Người điều khiển xe máy đi không đúng làn quy định bị phạt từ 400.000 – 600.000 đồng.",
+        "image": "r_412d.png"
+    },
+    {
+        "id": "p176",
+        "code": "R.412e",
+        "name": "Làn đường dành cho xe buýt",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe buýt” với mã hiệu R.412e được sử dụng để chỉ dẫn làn đường phía trước chỉ dành riêng cho xe buýt lưu thông. Mục đích của biển là phân luồng rõ ràng cho xe buýt để đảm bảo tốc độ, an toàn và hiệu quả vận hành, đặc biệt tại khu vực đô thị đông người hoặc tuyến chuyên tuyến buýt nhanh. Các phương tiện khác như: ô tô con, ô tô khách, xe tải, xe máy, xe thô sơ… đều không được phép vào làn đường này, trừ phương tiện ưu tiên theo luật. Người điều khiển xe buýt phải tuân thủ hướng mũi tên chỉ dẫn (nếu có) và di chuyển đúng làn đường, không chuyển làn trái phép hay dừng đỗ sai quy định gây cản trở giao thông. Xe ô tô đi vào làn đường dành cho xe buýt bị phạt từ 3.000.000 – 5.000.000 đồng, và có thể bị tước GPLX từ 1-3 tháng nếu gây mất an toàn giao thông. Xe máy đi vào làn buýt bị phạt từ 400.000 – 600.000 đồng.",
+        "image": "r_412e.png"
+    },
+    {
+        "id": "p177",
+        "code": "R.412f",
+        "name": "Làn đường dành cho xe ô tô",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe ô tô” với được sử dụng để chỉ dẫn rằng làn đường phía trước chỉ dành riêng cho các loại xe ô tô (gồm ô tô con, ô tô khách, ô tô tải…). Biển thường xuất hiện ở các tuyến đường có phân làn rõ ràng nhằm tăng tính lưu thông và giảm xung đột phương tiện. Khi gặp biển này, các phương tiện không phải ô tô như: xe máy, xe đạp, xe đạp điện, xe thô sơ, xe ba gác, xe mô tô dung tích nhỏ… không được phép đi vào. Người điều khiển ô tô phải tuân thủ hướng mũi tên trên biển (nếu có) và không chuyển sang làn khác trái quy định. Ngoài ra, ô tô buýt nhanh (BRT) hoặc xe ưu tiên có chế độ đặc biệt vẫn được phép sử dụng theo quy định pháp luật. Xe máy đi vào làn dành cho ô tô: phạt 400.000 – 600.000 đồng. Xe thô sơ đi vào làn ô tô: phạt 100.000 – 200.000 đồng. Ngoài ra có thể tước GPLX nếu gây tai nạn hoặc làm ùn tắc giao thông.",
+        "image": "r_412f.png"
+    },
+    {
+        "id": "p178",
+        "code": "R.412g",
+        "name": "Làn đường dành cho xe máy và xe đạp",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Làn đường dành cho xe máy và xe đạp” với mã hiệu được đặt tại những tuyến đường đã phân chia làn rõ ràng, chỉ dẫn rằng làn phía trước chỉ dành riêng cho xe máy, xe mô tô và xe đạp di chuyển. Khi gặp biển này, các phương tiện khác như ô tô con, ô tô khách, ô tô tải, xe buýt, xe cơ giới lớn… không được phép đi vào làn này vì sẽ gây cản trở và mất an toàn cho nhóm phương tiện tốc độ thấp. Người điều khiển xe máy và xe đạp khi đi vào làn phải giữ đúng hướng di chuyển (nếu biển kèm mũi tên) và không được lấn sang làn ô tô trừ khi có chỉ dẫn khác hoặc cần chuyển hướng đúng quy định. Biển thường xuất hiện tại các khu vực nội đô đông đúc để phân tán dòng xe, hạn chế xung đột giao thông. Ô tô đi sai làn vào làn xe máy, xe đạp: phạt 4.000.000 – 6.000.000 đồng, có thể tước GPLX. Xe máy chạy sai làn (nhảy sang làn ô tô): phạt 400.000 – 600.000 đồng.",
+        "image": "r_412g.png"
+    },
+    {
+        "id": "p179",
+        "code": "R.412i",
+        "name": "Kết thúc làn đường dành cho xe ô tô khách",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe ô tô khách” được đặt tại vị trí kết thúc phạm vi hiệu lực của làn đường chuyên biệt dành riêng cho ô tô khách. Khi gặp biển này, ô tô khách không còn bắt buộc phải tiếp tục duy trì trong làn dành riêng trước đó, và người điều khiển phương tiện được phép hòa nhập trở lại dòng giao thông chung theo đúng quy tắc nhường đường, đảm bảo an toàn và không gây cản trở. Các phương tiện khác, vốn bị cấm đi vào làn này khi còn hiệu lực, từ sau biển báo cũng được quyền di chuyển tự do theo làn phù hợp tùy tình huống thực tế giao thông. Biển thường gặp tại các tuyến đô thị hoặc khu vực phân luồng phương tiện để tránh ùn tắc cục bộ trước bến xe, điểm đón trả khách.",
+        "image": "r_412i.png"
+    },
+    {
+        "id": "p180",
+        "code": "R.412j",
+        "name": "Kết thúc làn đường dành cho xe ô tô con",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe ô tô con” được đặt tại vị trí chấm dứt phạm vi làn đường chuyên biệt chỉ dành cho ô tô con sử dụng trước đó. Khi vượt qua biển này, xe ô tô con không còn bắt buộc phải lưu thông trong làn dành riêng và được phép chuyển làn phù hợp để hòa nhập vào dòng phương tiện chung theo nguyên tắc đảm bảo an toàn và không gây cản trở giao thông. Đồng thời, các loại phương tiện khác vốn bị hạn chế đi vào làn này trong đoạn đường hiệu lực cũng được phép di chuyển bình thường theo làn thích hợp. Biển thường được lắp đặt tại những đoạn phố, khu dân cư, hoặc khu vực điều tiết giao thông có mật độ ô tô con lớn, nhằm tối ưu luồng phương tiện và giảm xung đột khi ra khỏi vùng ưu tiên.",
+        "image": "r_412j.png"
+    },
+    {
+        "id": "p181",
+        "code": "R.412k",
+        "name": "Kết thúc làn đường dành cho xe ô tô tải",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe ô tô tải” được đặt tại vị trí kết thúc phạm vi làn đường chuyên biệt dành riêng cho xe ô tô tải lưu thông trước đó. Sau khi đi qua biển này, xe ô tô tải không còn bắt buộc phải di chuyển trong làn riêng và có thể chuyển sang các làn khác phù hợp theo điều kiện lưu thông thực tế, đồng thời các loại phương tiện khác bị hạn chế sử dụng làn này trước đó cũng không còn bị giới hạn. Biển được sử dụng để điều tiết lưu lượng xe tải tại những đoạn đường đông phương tiện hoặc gần khu vực giao cắt, nhằm đảm bảo an toàn, giảm ùn tắc và tránh xung đột luồng giao thông khi kết thúc khu vực ưu tiên.",
+        "image": "r_412k.png"
+    },
+    {
+        "id": "p182",
+        "code": "R.412l",
+        "name": "Kết thúc làn đường dành cho xe máy",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe máy” được đặt tại điểm kết thúc phạm vi của làn đường chuyên dùng cho xe máy trước đó. Khi đi qua biển này, xe máy không còn bắt buộc phải lưu thông trong làn dành riêng mà có thể hòa vào làn hỗn hợp theo điều kiện giao thông. Đồng thời, những phương tiện từng bị cấm vào làn dành riêng cho xe máy trước đó cũng không còn bị hạn chế. Biển này giúp báo hiệu rõ ràng giới hạn hiệu lực của làn chuyên biệt, đảm bảo trật tự giao thông và tránh xung đột phương tiện khi chuyển đổi làn.",
+        "image": "r_412l.png"
+    },
+    {
+        "id": "p183",
+        "code": "R.412m",
+        "name": "Kết thúc làn đường dành cho xe buýt",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe buýt” được đặt tại vị trí đánh dấu điểm cuối của làn đường chuyên dụng dành riêng cho xe buýt đã quy định trước đó. Sau khi đi qua biển này, xe buýt không bắt buộc tiếp tục lưu thông trong làn ưu tiên và được phép hòa vào làn hỗn hợp chung theo điều kiện thực tế; đồng thời các phương tiện khác trước đó không được phép đi vào làn dành cho xe buýt cũng không còn bị hạn chế. Biển được sử dụng nhằm điều tiết lưu thông, giảm ùn tắc tại khu vực chuyển tiếp và đảm bảo an toàn giao thông khi kết thúc đoạn đường ưu tiên.",
+        "image": "r_412m.png"
+    },
+    {
+        "id": "p184",
+        "code": "R.412n",
+        "name": "Kết thúc làn đường dành cho xe ô tô",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe ô tô\" được đặt tại điểm kết thúc phạm vi của làn đường chuyên dành cho xe ô tô trước đó. Sau khi đi qua biển này, xe ô tô không còn bắt buộc phải lưu thông trong làn ưu tiên mà có thể hòa vào làn hỗn hợp theo điều kiện giao thông thực tế. Đồng thời, các phương tiện từng bị cấm hoặc hạn chế sử dụng làn đường chuyên dụng dành cho ô tô trước đây cũng không còn bị hạn chế sau biển báo. Biển có chức năng thông báo rõ ràng phạm vi hiệu lực của làn ưu tiên, giúp phương tiện chuyển làn đúng lúc, tránh xung đột giao thông và đảm bảo trật tự, an toàn tại khu vực kết thúc đoạn đường ưu tiên.",
+        "image": "r_412n.png"
+    },
+    {
+        "id": "p185",
+        "code": "R.412o",
+        "name": "Kết thúc làn đường dành cho xe máy và xe đạp",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc làn đường dành cho xe máy và xe đạp” được sử dụng để thông báo điểm chấm dứt hiệu lực của đoạn đường chuyên dành cho xe máy và xe đạp trước đó. Sau khi đi qua biển, người điều khiển xe máy và xe đạp không còn bắt buộc phải lưu thông trong làn ưu tiên riêng mà được phép hòa vào luồng giao thông hỗn hợp theo tổ chức giao thông tại khu vực. Biển giúp phương tiện chuẩn bị thao tác chuyển làn đúng quy định, hạn chế sự xung đột và đảm bảo an toàn ở vị trí kết thúc làn riêng biệt.",
+        "image": "r_412o.png"
+    },
+    {
+        "id": "p186",
+        "code": "R.415a",
+        "name": "Phân làn",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Phân làn” được đặt tại những vị trí bắt đầu áp dụng quy định phân chia làn đường theo từng nhóm phương tiện. Khi đi qua biển, người điều khiển phải cho xe di chuyển đúng trong làn đã được quy định, không được chạy sai làn hoặc lấn làn của phương tiện khác. Việc phân làn giúp đảm bảo an toàn giao thông, giảm ùn tắc và tăng tính tổ chức. Người tham gia giao thông cần chú ý hướng dẫn kèm theo như vạch kẻ đường hoặc biển phụ nếu có. Đối với xe máy: Phạt 400.000 – 600.000 đồng nếu không đi đúng phần đường, làn đường quy định. Đối với ô tô: Phạt 4.000.000 – 6.000.000 đồng và tước GPLX từ 1–3 tháng nếu không chấp hành phân làn theo biển báo.",
+        "image": "r_415a.png"
+    },
+    {
+        "id": "p187",
+        "code": "R.415b",
+        "name": "Hết phân làn",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết phân làn” được đặt tại vị trí kết thúc hiệu lực của biển phân làn R.415 phía trước. Khi đi qua biển này, quy định phân chia làn đường theo từng loại phương tiện không còn áp dụng; các phương tiện được phép lưu thông trong các làn chung theo tổ chức giao thông hiện hành, miễn là tuân thủ đúng quy tắc an toàn. Biển giúp người điều khiển chủ động hòa vào luồng xe hỗn hợp, tránh đột ngột chuyển làn gây nguy hiểm. Trong khu vực này, người tham gia giao thông vẫn phải tuân thủ biển báo, vạch kẻ đường và quy định tốc độ.",
+        "image": "r_415b.png"
+    },
+    {
+        "id": "p188",
+        "code": "R.420",
+        "name": "Bắt đầu khu đông dân cư",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Bắt đầu khu đông dân cư” là biển hiệu lệnh dùng để báo cho người tham gia giao thông biết họ đang đi vào khu vực đông dân cư, nơi có mật độ dân cư cao, nhiều nhà dân, trường học, chợ, và các phương tiện đi lại. Khi đi vào khu vực này, người lái phương tiện phải tuân thủ giới hạn tốc độ tối đa theo quy định: đối với xe ô tô không vượt quá 50 km/h, xe mô tô, xe gắn máy không vượt quá 40 km/h. Ngoài ra, cần chú ý nhường đường cho người đi bộ, tránh vượt ẩu và quan sát cẩn thận các phương tiện nhỏ. Nếu vi phạm giới hạn tốc độ hoặc không tuân thủ quy định an toàn trong khu đông dân cư, người điều khiển phương tiện có thể bị xử phạt theo Nghị định hiện hành về xử phạt vi phạm giao thông đường bộ.",
+        "image": "r_420.png"
+    },
+    {
+        "id": "p189",
+        "code": "R.421",
+        "name": "Hết khu đông dân cư",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Hết khu đông dân cư” là biển hiệu lệnh dùng để báo cho người tham gia giao thông biết họ đã rời khỏi khu vực đông dân cư, nơi mật độ dân cư thấp hơn và các hạn chế về tốc độ trong khu đông dân cư không còn áp dụng. Khi đi qua biển này, người lái phương tiện có thể tăng tốc nhưng vẫn phải tuân thủ giới hạn tốc độ tối đa theo quy định của từng loại đường. Vi phạm các quy định về tốc độ hoặc an toàn giao thông tại khu vực này vẫn có thể bị xử phạt theo Nghị định về xử phạt vi phạm giao thông đường bộ.",
+        "image": "r_421.png"
+    },
+    {
+        "id": "p190",
+        "code": "R.E,9a",
+        "name": "Cấm đỗ xe trong khu vực",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Cấm đỗ xe trong khu vực” là biển hiệu lệnh dùng để thông báo cho người tham gia giao thông rằng việc đỗ xe hoàn toàn bị cấm trong phạm vi khu vực được biển báo đặt ra. Hành vi đỗ xe tại khu vực này sẽ bị xử phạt theo quy định của pháp luật. Cụ thể, mức phạt đối với hành vi đỗ xe sai quy định tại nơi có biển báo cấm đỗ xe dao động từ 800.000 đồng đến 1.000.000 đồng đối với xe ô tô, và từ 400.000 đồng đến 600.000 đồng đối với xe mô tô, xe gắn máy. Vi phạm có thể bị xử phạt hành chính và tạm giữ phương tiện tùy theo mức độ vi phạm.",
+        "image": "r_e_9a.png"
+    },
+    {
+        "id": "p191",
+        "code": "R.E,9b",
+        "name": "Cấm đỗ xe theo giờ trong khu vực",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển hiệu lệnh dùng để thông báo cho người tham gia giao thông rằng trong khu vực được biển báo đặt ra, việc đỗ xe bị cấm trong khoảng thời gian cụ thể ghi trên biển. Người điều khiển phương tiện phải tuân thủ đúng giờ cấm đỗ, nếu đỗ xe trong giờ cấm sẽ bị xử phạt theo Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ. Ngoài thời gian cấm, phương tiện có thể đỗ theo quy định chung của khu vực. Mức phạt đối với hành vi đỗ xe sai quy định trong khu vực cấm theo giờ dao động từ 800.000 đồng đến 1.000.000 đồng đối với xe ô tô, và từ 400.000 đồng đến 600.000 đồng đối với xe mô tô, xe gắn máy.",
+        "image": "r_e_9b.png"
+    },
+    {
+        "id": "p192",
+        "code": "R.E,9c",
+        "name": "Khu vực đỗ xe",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Khu vực đỗ xe” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết khu vực được phép đỗ xe. Người lái phương tiện có thể dừng hoặc đỗ xe trong khu vực này mà không vi phạm luật giao thông, nhưng vẫn phải tuân thủ các quy định về an toàn, không cản trở giao thông, và đỗ đúng vị trí được quy định. Trường hợp đỗ xe không đúng vị trí trong khu vực được phép đỗ, người điều khiển phương tiện vẫn có thể bị xử phạt theo Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ.",
+        "image": "r_e_9c.png"
+    },
+    {
+        "id": "p193",
+        "code": "R.E,9d",
+        "name": "Tốc độ tối đa trong khu vực",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Tốc độ tối đa trong khu vực” là biển hiệu lệnh dùng để thông báo cho người tham gia giao thông biết giới hạn tốc độ tối đa mà các phương tiện được phép di chuyển trong khu vực đó. Người lái phương tiện phải tuân thủ đúng tốc độ ghi trên biển để đảm bảo an toàn giao thông và tránh vi phạm luật. Vi phạm giới hạn tốc độ tối đa trong khu vực sẽ bị xử phạt theo Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ. Mức phạt đối với xe ô tô khi vượt tốc độ từ 5 km/h đến 10 km/h là 800.000 đồng đến 1.200.000 đồng, và đối với xe mô tô là 300.000 đồng đến 400.000 đồng, mức phạt tăng dần theo mức vượt quá tốc độ.",
+        "image": "r_e_9d.png"
+    },
+    {
+        "id": "p194",
+        "code": "R.E,11a",
+        "name": "Đường hầm",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Đường hầm” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết sắp đi vào đường hầm, nơi có không gian kín, ánh sáng hạn chế và điều kiện lưu thông đặc thù. Khi vào đường hầm, người lái phương tiện cần bật đèn chiếu sáng, giữ khoảng cách an toàn với các phương tiện trước, tuân thủ tốc độ cho phép, và không dừng đỗ xe trong hầm.",
+        "image": "r_e_11a.png"
+    },
+    {
+        "id": "p195",
+        "code": "R.E,11b",
+        "name": "Kết thúc đường hầm",
+        "type": "Biển hiệu lệnh",
+        "category": "Khác",
+        "detail": "Biển báo “Kết thúc đường hầm” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết rằng đã ra khỏi khu vực đường hầm. Sau biển này, điều kiện ánh sáng và không gian lưu thông trở lại bình thường, người lái phương tiện có thể điều chỉnh tốc độ và giữ khoảng cách phù hợp nhưng vẫn tuân thủ luật giao thông chung.",
+        "image": "r_e_11b.png"
+    },
+    {
+        "id": "p196",
+        "code": "I.401",
+        "name": "Bắt đầu đường ưu tiên",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Bắt đầu đường ưu tiên” là biển hiệu lệnh dùng để thông báo cho người tham gia giao thông rằng đường mà họ đang đi là đường ưu tiên, nghĩa là các phương tiện trên đường này được quyền đi trước tại các nút giao thông, trừ khi có tín hiệu hoặc biển báo khác quy định. Người lái phương tiện trên đường ưu tiên vẫn phải tuân thủ các quy định về tốc độ, an toàn giao thông, và nhường đường khi có biển hoặc tín hiệu điều khiển.",
+        "image": "i_401.png"
+    },
+    {
+        "id": "p197",
+        "code": "I.402",
+        "name": "Hết đoạn đường ưu tiên",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Hết đoạn đường ưu tiên” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết rằng kết thúc đoạn đường ưu tiên. Từ điểm này trở đi, các phương tiện phải tuân thủ quy tắc nhường đường thông thường tại các nút giao thông và các biển báo, tín hiệu giao thông khác.",
+        "image": "i_402.png"
+    },
+    {
+        "id": "p198",
+        "code": "I.405a",
+        "name": "Đường cụt",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường cụt” I405a là biển chỉ dẫn được đặt ở đầu đường để thông báo cho người tham gia giao thông rằng đường phía trước bị cụt, không tiếp tục thông suốt. Biển giúp người lái phương tiện chủ động giảm tốc độ, chuẩn bị quay đầu hoặc chọn lộ trình khác, tránh đi vào đường cụt bất ngờ, đảm bảo an toàn.",
+        "image": "i_405a.png"
+    },
+    {
+        "id": "p199",
+        "code": "I.405b",
+        "name": "Đường cụt",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường cụt” I405b là biến thể của I405a, thường dùng để kết hợp với biển chỉ dẫn hướng đi hoặc cảnh báo bổ sung ở các ngõ, hẻm hoặc lối rẽ cụt. Biển thông báo cho người lái phương tiện biết đường phía trước không tiếp tục thông suốt và cần chọn lộ trình khác.",
+        "image": "i_405b.png"
+    },
+    {
+        "id": "p200",
+        "code": "I.405c",
+        "name": "Đường cụt",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường cụt” I405c được sử dụng ở các trường hợp ngõ cụt nhỏ, hạn chế lưu thông, nhằm cảnh báo người điều khiển phương tiện rằng đường phía trước bị chặn, cần quay đầu hoặc tìm hướng đi khác. Biển giúp đảm bảo an toàn, đặc biệt với xe lớn hoặc phương tiện khó quay đầu.",
+        "image": "i_405c.png"
+    },
+    {
+        "id": "p201",
+        "code": "I.406",
+        "name": "Được ưu tiên qua đường hẹp",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Được ưu tiên qua đường hẹp” là biển hiệu lệnh dùng để thông báo cho người tham gia giao thông rằng phương tiện của họ được quyền đi trước khi qua đoạn đường hẹp. Biển này thường được đặt ở các đoạn đường hai chiều hẹp, nơi chỉ một làn xe đi qua được cùng lúc, giúp phương tiện đi theo hướng biển báo không phải nhường đường. Người lái vẫn cần chú ý giữ tốc độ phù hợp, quan sát các phương tiện ngược chiều và tuân thủ an toàn giao thông.",
+        "image": "i_406.png"
+    },
+    {
+        "id": "p202",
+        "code": "I.407a",
+        "name": "Đường một chiều",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường một chiều” I407a là biển chỉ dẫn được đặt ở đầu đường để thông báo rằng đường chỉ được đi theo một chiều quy định. Người lái phương tiện phải tuân thủ chiều đi, không đi ngược chiều để tránh tai nạn và ùn tắc giao thông. Vi phạm đi ngược chiều trên đường một chiều có thể bị xử phạt theo quy định: xe ô tô từ 800.000 đến 1.200.000 đồng, xe mô tô từ 300.000 đến 400.000 đồng.",
+        "image": "i_407a.png"
+    },
+    {
+        "id": "p203",
+        "code": "I.407b",
+        "name": "Đường một chiều",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường một chiều” I407b thường được dùng kết hợp với biển chỉ hướng rẽ, thông báo cho người lái rằng phải đi theo một chiều và theo hướng mũi tên trên biển. Biển giúp điều hướng giao thông tại các ngã rẽ hoặc đoạn đường cắt nhau, đảm bảo an toàn và trật tự. Mức phạt vi phạm đi ngược chiều tương tự I407a.",
+        "image": "i_407b.png"
+    },
+    {
+        "id": "p204",
+        "code": "I.407c",
+        "name": "Đường một chiều",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường một chiều” I407c thường được sử dụng ở các ngõ hoặc lối nhỏ, thông báo cho phương tiện rằng đường chỉ đi một chiều và có thể kết hợp thêm biển phụ giới hạn hoặc cảnh báo. Người lái phương tiện cần tuân thủ chiều đi và chú ý biển phụ nếu có. Mức phạt vi phạm đi ngược chiều tương tự I407a.",
+        "image": "i_407c.png"
+    },
+    {
+        "id": "p205",
+        "code": "I.408",
+        "name": "Nơi đỗ xe",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Nơi đỗ xe” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết vị trí được phép dừng hoặc đỗ xe. Người lái phương tiện có thể đỗ xe trong khu vực này mà không vi phạm luật giao thông, nhưng vẫn phải tuân thủ các quy định về an toàn, không cản trở giao thông và đỗ đúng vị trí được quy định. Trường hợp đỗ xe không đúng vị trí trong khu vực được phép đỗ, người điều khiển phương tiện có thể bị xử phạt theo Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ.",
+        "image": "i_408.png"
+    },
+    {
+        "id": "p206",
+        "code": "I.408a",
+        "name": "Nơi đỗ xe một phần trên hè phố",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Nơi đỗ xe một phần trên hè phố” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông rằng phương tiện được phép đỗ một phần trên hè phố và một phần trên lòng đường trong khu vực biển báo. Người lái phương tiện phải đỗ đúng vị trí quy định, đảm bảo không cản trở giao thông, không gây nguy hiểm cho người đi bộ và tuân thủ các quy định an toàn. Vi phạm việc đỗ xe sai quy định trong khu vực này có thể bị xử phạt theo Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ.",
+        "image": "i_408a.png"
+    },
+    {
+        "id": "p207",
+        "code": "I.409",
+        "name": "Chỗ quay xe",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Chỗ quay xe” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết vị trí được phép quay đầu xe an toàn. Biển này thường đặt ở các đoạn đường hoặc ngõ cụt, giúp phương tiện quay đầu mà không cản trở giao thông và đảm bảo an toàn cho người đi đường. Người lái phương tiện cần quan sát xung quanh, bật đèn báo hiệu khi quay xe và tuân thủ luật giao thông.",
+        "image": "i_409.png"
+    },
+    {
+        "id": "p208",
+        "code": "I.410",
+        "name": "Khu vực quay xe",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Khu vực quay xe” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết khu vực được phép quay đầu xe. Khác với biển “Chỗ quay xe” chỉ định một điểm cụ thể, biển này cho phép quay xe trong toàn bộ khu vực được giới hạn bởi biển. Người lái phương tiện cần quan sát, bật đèn báo hiệu khi quay xe và đảm bảo an toàn, không cản trở các phương tiện khác.",
+        "image": "i_410.png"
+    },
+    {
+        "id": "p209",
+        "code": "I.416",
+        "name": "Đường tránh",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Đường tránh” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết có tuyến đường đi vòng thay thế để tránh các khu vực đông dân cư, tắc nghẽn hoặc nguy hiểm trên tuyến đường chính. Biển giúp người lái phương tiện lựa chọn lộ trình an toàn, tránh ùn tắc và đảm bảo lưu thông thuận lợi.",
+        "image": "i_416.png"
+    },
+    {
+        "id": "p210",
+        "code": "I.418",
+        "name": "Lối đi ở những vị trí cấm rẽ",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Lối đi ở những vị trí cấm rẽ” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết đường hoặc lối đi riêng dành cho các phương tiện khi rẽ tại những vị trí mà rẽ trái hoặc phải bị cấm. Biển này giúp phương tiện đi đúng hướng, đảm bảo an toàn giao thông và tránh vi phạm luật cấm rẽ tại nút giao.",
+        "image": "i_418.png"
+    },
+    {
+        "id": "p211",
+        "code": "I.423a",
+        "name": "Vị trí người đi bộ sang ngang",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Vị trí người đi bộ sang ngang” I423a là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết vị trí có vạch sang đường dành cho người đi bộ. Biển giúp người lái phương tiện chú ý giảm tốc độ, nhường đường cho người đi bộ băng qua đường tại điểm được chỉ định, đảm bảo an toàn giao thông.",
+        "image": "i_423a.png"
+    },
+    {
+        "id": "p212",
+        "code": "I.423b",
+        "name": "Vị trí người đi bộ sang ngang",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Vị trí người đi bộ sang ngang” I423b là biến thể của I423a, thường được đặt kết hợp với tín hiệu đèn hoặc biển phụ cảnh báo. Biển thông báo vị trí băng qua đường dành cho người đi bộ và nhắc nhở người lái phương tiện giảm tốc độ, chú ý người đi bộ băng qua, đặc biệt trong khu vực đông dân cư hoặc gần trường học.",
+        "image": "i_423b.png"
+    },
+    {
+        "id": "p213",
+        "code": "I.423c",
+        "name": "Điểm bắt đầu đường đi bộ",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Điểm bắt đầu đường đi bộ” là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết điểm bắt đầu của khu vực đường dành riêng cho người đi bộ. Từ vị trí này, người đi bộ được phép đi trên lối đi riêng, tách biệt với làn xe cơ giới, đảm bảo an toàn. Các phương tiện giao thông phải chú ý và không đi vào khu vực dành cho người đi bộ.",
+        "image": "i_423c.png"
+    },
+    {
+        "id": "p214",
+        "code": "I.424a",
+        "name": "Cầu vượt qua đường cho người đi bộ",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Cầu vượt qua đường cho người đi bộ” I424a là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết vị trí có cầu vượt dành cho người đi bộ. Biển giúp người lái phương tiện quan sát, giảm tốc độ khi tới gần và nhường đường cho người đi bộ sử dụng cầu vượt, đảm bảo an toàn.",
+        "image": "i_424a.png"
+    },
+    {
+        "id": "p215",
+        "code": "I.424b",
+        "name": "Cầu vượt qua đường cho người đi bộ",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Cầu vượt qua đường cho người đi bộ” I424b là biến thể của I424a, thường được đặt kèm theo cảnh báo hoặc hướng dẫn đi cầu vượt. Biển thông báo cho người lái phương tiện biết vị trí cầu vượt và nhắc nhở chú ý người đi bộ, đặc biệt ở những đoạn đường đông dân cư hoặc gần trường học.",
+        "image": "i_424b.png"
+    },
+    {
+        "id": "p216",
+        "code": "I.424c",
+        "name": "Hầm chui qua đường cho người đi bộ",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Hầm chui qua đường cho người đi bộ” I424c là biển chỉ dẫn dùng để thông báo cho người tham gia giao thông biết vị trí có hầm chui dành cho người đi bộ. Biển giúp người lái phương tiện quan sát, giảm tốc độ khi tới gần, đồng thời nhường đường cho người đi bộ sử dụng hầm chui để băng qua đường an toàn.",
+        "image": "i_424c.png"
+    },
+    {
+        "id": "p217",
+        "code": "I.424d",
+        "name": "Hầm chui qua đường cho người đi bộ",
+        "type": "Biển chỉ dẫn",
+        "category": "Khác",
+        "detail": "Biển báo “Hầm chui qua đường cho người đi bộ” I424d là biến thể của I424c, thường được đặt kèm theo cảnh báo hoặc hướng dẫn đi hầm. Biển nhắc nhở người lái phương tiện chú ý người đi bộ và tuân thủ an toàn giao thông, đặc biệt ở những đoạn đường đông dân cư hoặc gần trường học.",
+        "image": "i_424d.png"
+    }
+]
