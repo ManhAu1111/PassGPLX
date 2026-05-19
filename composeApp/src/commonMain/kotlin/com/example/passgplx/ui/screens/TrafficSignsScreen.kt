@@ -23,11 +23,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.example.passgplx.models.TrafficSign
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
 import passgplx.composeapp.generated.resources.*
+import passgplx.composeapp.generated.resources.Res
 
 @OptIn(ExperimentalResourceApi::class)
 @Composable
@@ -37,8 +40,12 @@ fun TrafficSignsScreen() {
 
     LaunchedEffect(Unit) {
         try {
-            val jsonString = Res.readBytes("files/data.json").decodeToString()
-            signs = Json.decodeFromString<List<TrafficSign>>(jsonString)
+            val jsonString = withContext(Dispatchers.Default) {
+                Res.readBytes("files/data.json").decodeToString()
+            }
+            signs = withContext(Dispatchers.Default) {
+                Json.decodeFromString<List<TrafficSign>>(jsonString)
+            }
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -51,10 +58,12 @@ fun TrafficSignsScreen() {
         return
     }
 
-    val categories = signs.map { it.type }.distinct()
-    var selectedCategory by remember { mutableStateOf(categories.first()) }
+    val categories = remember(signs) { signs.map { it.type }.distinct() }
+    var selectedCategory by remember(categories) { mutableStateOf(categories.firstOrNull() ?: "") }
     
-    val filteredSigns = signs.filter { it.type == selectedCategory }
+    val filteredSigns = remember(signs, selectedCategory) { 
+        signs.filter { it.type == selectedCategory } 
+    }
 
     Column(modifier = Modifier.fillMaxSize()) {
         ScrollableTabRow(
@@ -73,13 +82,13 @@ fun TrafficSignsScreen() {
         }
 
         LazyVerticalGrid(
-            columns = GridCells.Fixed(2),
+            columns = GridCells.Adaptive(minSize = 160.dp),
             contentPadding = PaddingValues(16.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
             modifier = Modifier.fillMaxSize()
         ) {
-            items(filteredSigns) { sign ->
+            items(items = filteredSigns, key = { it.code }) { sign ->
                 TrafficSignCard(sign, onClick = { selectedSign = sign })
             }
         }
@@ -107,7 +116,7 @@ fun TrafficSignCard(sign: TrafficSign, onClick: () -> Unit) {
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
         Column(
-            modifier = Modifier.padding(12.dp),
+            modifier = Modifier.fillMaxWidth().padding(12.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Box(
