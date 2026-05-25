@@ -19,7 +19,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "2",
@@ -41,7 +49,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "3",
@@ -63,7 +79,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "4",
@@ -85,7 +109,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "5",
@@ -112,7 +144,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "6",
@@ -134,7 +174,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "7",
@@ -156,7 +204,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "8",
@@ -173,7 +229,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "9",
@@ -195,7 +259,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "10",
@@ -217,7 +289,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "11",
@@ -239,7 +319,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "12",
@@ -261,7 +349,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "13",
@@ -283,7 +379,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "14",
@@ -305,7 +409,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "15",
@@ -322,7 +434,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "16",
@@ -339,7 +459,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "17",
@@ -356,7 +484,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "18",
@@ -378,7 +514,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "19",
@@ -400,7 +544,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "20",
@@ -422,7 +574,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "21",
@@ -444,7 +604,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "22",
@@ -461,7 +629,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "23",
@@ -483,7 +659,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "24",
@@ -505,7 +689,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "25",
@@ -527,7 +719,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "26",
@@ -549,7 +749,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "27",
@@ -576,7 +784,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "28",
@@ -598,7 +814,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "29",
@@ -615,7 +839,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "30",
@@ -637,7 +869,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "31",
@@ -659,7 +899,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "32",
@@ -681,7 +929,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "33",
@@ -703,7 +959,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "34",
@@ -725,7 +989,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "35",
@@ -752,7 +1024,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "36",
@@ -779,7 +1059,15 @@
         "correct": true
       }
     ],
-    "image": "page11_img15.png"
+    "image": "page11_img15.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "37",
@@ -806,7 +1094,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "38",
@@ -828,7 +1124,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "39",
@@ -850,7 +1154,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "40",
@@ -872,7 +1184,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "41",
@@ -894,7 +1214,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "42",
@@ -911,7 +1239,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "43",
@@ -933,7 +1269,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "44",
@@ -955,7 +1299,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "45",
@@ -982,7 +1334,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "46",
@@ -999,7 +1359,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "47",
@@ -1021,7 +1389,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "48",
@@ -1043,7 +1419,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "49",
@@ -1065,7 +1449,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "50",
@@ -1087,7 +1479,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "51",
@@ -1109,7 +1509,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "52",
@@ -1126,7 +1534,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "53",
@@ -1148,7 +1564,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "54",
@@ -1170,7 +1594,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "55",
@@ -1192,7 +1624,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "56",
@@ -1219,7 +1659,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "57",
@@ -1241,7 +1689,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "58",
@@ -1268,7 +1724,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "59",
@@ -1290,7 +1754,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "60",
@@ -1317,7 +1789,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "61",
@@ -1344,7 +1824,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "62",
@@ -1366,7 +1854,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "63",
@@ -1393,7 +1889,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "64",
@@ -1410,7 +1914,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "65",
@@ -1437,7 +1949,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "66",
@@ -1464,7 +1984,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "67",
@@ -1491,7 +2019,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "68",
@@ -1513,7 +2049,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "69",
@@ -1535,7 +2079,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "70",
@@ -1562,7 +2114,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "71",
@@ -1584,7 +2144,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "72",
@@ -1606,7 +2174,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "73",
@@ -1633,7 +2209,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "74",
@@ -1655,7 +2239,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "75",
@@ -1682,7 +2274,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "76",
@@ -1704,7 +2304,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "77",
@@ -1726,7 +2334,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "78",
@@ -1748,7 +2364,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "79",
@@ -1770,7 +2394,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "80",
@@ -1792,7 +2424,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "81",
@@ -1814,7 +2454,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "82",
@@ -1836,7 +2483,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "83",
@@ -1858,7 +2512,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "84",
@@ -1880,7 +2541,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "85",
@@ -1902,7 +2570,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "86",
@@ -1924,7 +2599,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "87",
@@ -1946,7 +2628,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "88",
@@ -1973,7 +2662,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "89",
@@ -1995,7 +2691,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "90",
@@ -2017,7 +2720,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "91",
@@ -2039,7 +2749,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "92",
@@ -2061,7 +2778,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "93",
@@ -2083,7 +2807,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "94",
@@ -2105,7 +2836,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "95",
@@ -2132,7 +2870,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "96",
@@ -2154,7 +2899,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "97",
@@ -2176,7 +2928,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "98",
@@ -2203,7 +2962,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "99",
@@ -2225,7 +2991,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "100",
@@ -2247,17 +3020,43 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "101",
     "question": "Khi xe ô tô bị hư hỏng, bị tai nạn trên đường ngang, cầu chung đường sắt mà không thể di chuyển ngay khỏi phạm vi an toàn đường sắt, người lái xe và người có mặt xử lý như thế nào là đúng quy định?",
     "answers": [
-      { "id": "1", "text": "Người lái xe và người có mặt phải ngay lập tức báo hiệu để dừng tàu, thực hiện các biện pháp bảo đảm an toàn.", "correct": true },
-      { "id": "2", "text": "Để xe lại, tìm cách báo cho người quản lý đường sắt, nhà ga nơi gần nhất.", "correct": false },
-      { "id": "3", "text": "Không di chuyển phương tiện, tự khắc phục sửa chữa.", "correct": false }
+      {
+        "id": "1",
+        "text": "Người lái xe và người có mặt phải ngay lập tức báo hiệu để dừng tàu, thực hiện các biện pháp bảo đảm an toàn.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Để xe lại, tìm cách báo cho người quản lý đường sắt, nhà ga nơi gần nhất.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Không di chuyển phương tiện, tự khắc phục sửa chữa.",
+        "correct": false
+      }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "102",
@@ -2284,7 +3083,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "103",
@@ -2306,7 +3112,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "104",
@@ -2328,7 +3141,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "105",
@@ -2350,7 +3170,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "106",
@@ -2372,7 +3199,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "107",
@@ -2399,7 +3233,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "108",
@@ -2421,7 +3262,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "109",
@@ -2443,7 +3291,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "110",
@@ -2465,7 +3320,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "111",
@@ -2487,7 +3349,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "112",
@@ -2509,7 +3378,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "113",
@@ -2531,7 +3407,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "114",
@@ -2553,7 +3436,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "115",
@@ -2575,7 +3465,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "116",
@@ -2592,7 +3489,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "117",
@@ -2619,7 +3523,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "118",
@@ -2641,7 +3552,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "119",
@@ -2663,7 +3581,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "120",
@@ -2690,7 +3615,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "121",
@@ -2712,7 +3644,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "122",
@@ -2734,7 +3673,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "123",
@@ -2761,7 +3707,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "124",
@@ -2783,7 +3736,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "125",
@@ -2805,7 +3765,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "126",
@@ -2827,7 +3794,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "127",
@@ -2849,7 +3823,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "128",
@@ -2871,7 +3852,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "129",
@@ -2893,7 +3881,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "130",
@@ -2915,7 +3910,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "131",
@@ -2937,7 +3939,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "132",
@@ -2964,7 +3973,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "133",
@@ -2986,7 +4002,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "134",
@@ -3008,7 +4031,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "135",
@@ -3030,7 +4060,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "136",
@@ -3052,7 +4089,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "137",
@@ -3074,7 +4118,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "138",
@@ -3101,7 +4152,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "139",
@@ -3128,7 +4186,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "140",
@@ -3145,7 +4210,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "141",
@@ -3167,7 +4239,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "142",
@@ -3184,7 +4263,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "143",
@@ -3206,7 +4292,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "144",
@@ -3228,7 +4321,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "145",
@@ -3250,7 +4350,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "146",
@@ -3272,7 +4379,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "147",
@@ -3294,7 +4408,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "148",
@@ -3316,7 +4437,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "149",
@@ -3338,7 +4466,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "150",
@@ -3365,7 +4500,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "151",
@@ -3392,7 +4534,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "152",
@@ -3419,7 +4568,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "153",
@@ -3441,7 +4597,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "154",
@@ -3468,7 +4631,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "155",
@@ -3495,7 +4665,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "156",
@@ -3522,7 +4699,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "157",
@@ -3544,7 +4728,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "158",
@@ -3566,7 +4757,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "159",
@@ -3588,7 +4786,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "160",
@@ -3610,7 +4815,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "161",
@@ -3632,7 +4844,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "162",
@@ -3654,7 +4873,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "163",
@@ -3681,7 +4907,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "164",
@@ -3703,7 +4936,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "165",
@@ -3730,7 +4970,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "166",
@@ -3752,7 +4999,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "167",
@@ -3769,7 +5023,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "168",
@@ -3786,7 +5045,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "169",
@@ -3813,7 +5077,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "170",
@@ -3840,7 +5109,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "171",
@@ -3867,7 +5141,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "172",
@@ -3894,7 +5173,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "173",
@@ -3921,7 +5205,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "174",
@@ -3948,7 +5237,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "175",
@@ -3975,7 +5269,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "176",
@@ -3992,7 +5291,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "177",
@@ -4019,7 +5323,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "178",
@@ -4041,7 +5350,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "179",
@@ -4058,17 +5372,39 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "180",
     "question": "Xe cứu hộ giao thông đường bộ cần thực hiện yêu cầu nào sau đây để bảo đảm trật tự an toàn giao thông?",
     "answers": [
-      { "id": "1", "text": "Xe cứu hộ giao thông đường bộ phải có dấu hiệu nhận diện, niêm yết thông tin trên xe, gắn thiết bị giám sát hành trình và thiết bị ghi nhận hình ảnh người lái xe.", "correct": false },
-      { "id": "2", "text": "Phải tuân thủ quy định của pháp luật về khối lượng hàng hóa chuyên chở của xe cứu hộ và khối lượng của xe được cứu hộ ghi trên Chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.", "correct": false },
-      { "id": "3", "text": "Cả hai ý trên.", "correct": true }
+      {
+        "id": "1",
+        "text": "Xe cứu hộ giao thông đường bộ phải có dấu hiệu nhận diện, niêm yết thông tin trên xe, gắn thiết bị giám sát hành trình và thiết bị ghi nhận hình ảnh người lái xe.",
+        "correct": false
+      },
+      {
+        "id": "2",
+        "text": "Phải tuân thủ quy định của pháp luật về khối lượng hàng hóa chuyên chở của xe cứu hộ và khối lượng của xe được cứu hộ ghi trên Chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Cả hai ý trên.",
+        "correct": true
+      }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "181",
@@ -4090,7 +5426,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "182",
@@ -4117,7 +5458,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "183",
@@ -4139,7 +5485,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "184",
@@ -4161,7 +5512,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "185",
@@ -4183,7 +5539,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "186",
@@ -4205,7 +5566,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "187",
@@ -4222,7 +5588,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "188",
@@ -4239,7 +5610,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "189",
@@ -4256,7 +5632,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "190",
@@ -4273,7 +5654,12 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "191",
@@ -4295,7 +5681,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "192",
@@ -4317,7 +5708,12 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C"
+    ]
   },
   {
     "id": "193",
@@ -4344,7 +5740,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "194",
@@ -4371,7 +5775,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "195",
@@ -4388,7 +5800,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "196",
@@ -4405,7 +5825,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "197",
@@ -4427,7 +5855,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "198",
@@ -4454,7 +5890,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "199",
@@ -4481,7 +5925,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "200",
@@ -4503,7 +5955,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "201",
@@ -4520,7 +5980,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "202",
@@ -4547,7 +6015,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "203",
@@ -4569,7 +6045,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "204",
@@ -4596,18 +6080,50 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "205",
     "question": "Khi gặp nạn nhân bị bỏng trong vụ tai nạn giao thông, người lái xe cần làm gì?",
     "answers": [
-      { "id": "1", "text": "Gọi số 115 để thông báo về tình trạng tai nạn và yêu cầu hỗ trợ y tế ngay lập tức. Quan sát hiện trường để giúp nạn nhân, đồng thời tránh gây tổn thương cho mình.", "correct": false },
-      { "id": "2", "text": "Nhanh chóng loại bỏ nguyên nhân gây bỏng bằng cách tách nạn nhân khỏi vật gây cháy, cởi bỏ quần áo nếu bén lửa, ngâm vùng da bị bỏng vào nước sạch hoặc đắp khăn mát, lưu ý không dùng khăn hoặc nước quá lạnh.", "correct": false },
-      { "id": "3", "text": "Nếu nạn nhân còn tỉnh, cần cho uống bù nước. Trong thời tiết lạnh, cần giữ ấm cho cơ thể nạn nhân, sau đó nhanh chóng đưa đến cơ sở y tế gần nhất.", "correct": false },
-      { "id": "4", "text": "Cả ba ý trên.", "correct": true }
+      {
+        "id": "1",
+        "text": "Gọi số 115 để thông báo về tình trạng tai nạn và yêu cầu hỗ trợ y tế ngay lập tức. Quan sát hiện trường để giúp nạn nhân, đồng thời tránh gây tổn thương cho mình.",
+        "correct": false
+      },
+      {
+        "id": "2",
+        "text": "Nhanh chóng loại bỏ nguyên nhân gây bỏng bằng cách tách nạn nhân khỏi vật gây cháy, cởi bỏ quần áo nếu bén lửa, ngâm vùng da bị bỏng vào nước sạch hoặc đắp khăn mát, lưu ý không dùng khăn hoặc nước quá lạnh.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Nếu nạn nhân còn tỉnh, cần cho uống bù nước. Trong thời tiết lạnh, cần giữ ấm cho cơ thể nạn nhân, sau đó nhanh chóng đưa đến cơ sở y tế gần nhất.",
+        "correct": false
+      },
+      {
+        "id": "4",
+        "text": "Cả ba ý trên.",
+        "correct": true
+      }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "206",
@@ -4629,7 +6145,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "207",
@@ -4646,7 +6170,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "208",
@@ -4668,7 +6200,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "209",
@@ -4685,7 +6225,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "210",
@@ -4702,7 +6250,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "211",
@@ -4724,7 +6280,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "212",
@@ -4741,7 +6305,15 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "213",
@@ -4763,7 +6335,15 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "214",
@@ -4785,7 +6365,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "215",
@@ -4802,7 +6389,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "216",
@@ -4824,7 +6418,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "217",
@@ -4841,7 +6442,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "218",
@@ -4863,7 +6471,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "219",
@@ -4885,7 +6500,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "220",
@@ -4912,7 +6534,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "221",
@@ -4929,7 +6558,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "222",
@@ -4946,7 +6582,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "223",
@@ -4968,7 +6611,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "224",
@@ -4990,7 +6640,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "225",
@@ -5012,7 +6669,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "226",
@@ -5029,7 +6693,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "227",
@@ -5051,7 +6722,14 @@
         "correct": false
       }
     ],
-    "image": "page53_img3.png"
+    "image": "page53_img3.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "228",
@@ -5078,7 +6756,14 @@
         "correct": true
       }
     ],
-    "image": "page54_img5.png"
+    "image": "page54_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "229",
@@ -5105,7 +6790,14 @@
         "correct": false
       }
     ],
-    "image": "page54_img6.png"
+    "image": "page54_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "230",
@@ -5132,7 +6824,14 @@
         "correct": false
       }
     ],
-    "image": "page54_img7.png"
+    "image": "page54_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "231",
@@ -5159,7 +6858,14 @@
         "correct": true
       }
     ],
-    "image": "page55_img4.png"
+    "image": "page55_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "232",
@@ -5181,7 +6887,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "233",
@@ -5203,7 +6916,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "234",
@@ -5225,7 +6945,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "235",
@@ -5247,7 +6974,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "236",
@@ -5269,7 +7003,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "237",
@@ -5291,7 +7032,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "238",
@@ -5313,7 +7061,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "239",
@@ -5335,7 +7090,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "240",
@@ -5357,7 +7119,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "241",
@@ -5379,7 +7148,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "242",
@@ -5401,7 +7177,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "243",
@@ -5423,7 +7206,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "244",
@@ -5445,7 +7235,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "245",
@@ -5467,7 +7264,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "246",
@@ -5489,7 +7293,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "247",
@@ -5511,7 +7322,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "248",
@@ -5533,7 +7351,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "249",
@@ -5550,7 +7375,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "250",
@@ -5572,7 +7404,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "251",
@@ -5599,7 +7438,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "252",
@@ -5616,7 +7462,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "253",
@@ -5638,7 +7491,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "254",
@@ -5660,7 +7520,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "255",
@@ -5682,7 +7549,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "256",
@@ -5699,7 +7573,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "257",
@@ -5726,7 +7607,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "258",
@@ -5753,7 +7641,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "259",
@@ -5780,7 +7675,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "260",
@@ -5807,7 +7709,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "261",
@@ -5834,7 +7743,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "262",
@@ -5861,18 +7777,48 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "263",
     "question": "Khi lái xe ô tô điện qua khu vực ngập nước, người lái xe cần phải chú ý những vấn đề gì?",
     "answers": [
-      { "id": "1", "text": "Người lái xe phải tìm hiểu khả năng chìm trong nước của xe để xác định cung đường di chuyển.", "correct": false },
-      { "id": "2", "text": "Giữ vững tay lái, đi đều ga, tránh không để xe chết máy giữa dòng, không nên dừng xe trên đường ngập nước.", "correct": false },
-      { "id": "3", "text": "Lái xe tốc độ chậm, không tạo sóng và giữ khoảng cách an toàn với các phương tiện xung quanh, nhất là người đi bộ.", "correct": false },
-      { "id": "4", "text": "Cả ba ý trên.", "correct": true }
+      {
+        "id": "1",
+        "text": "Người lái xe phải tìm hiểu khả năng chìm trong nước của xe để xác định cung đường di chuyển.",
+        "correct": false
+      },
+      {
+        "id": "2",
+        "text": "Giữ vững tay lái, đi đều ga, tránh không để xe chết máy giữa dòng, không nên dừng xe trên đường ngập nước.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Lái xe tốc độ chậm, không tạo sóng và giữ khoảng cách an toàn với các phương tiện xung quanh, nhất là người đi bộ.",
+        "correct": false
+      },
+      {
+        "id": "4",
+        "text": "Cả ba ý trên.",
+        "correct": true
+      }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "264",
@@ -5894,7 +7840,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "265",
@@ -5916,7 +7869,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "266",
@@ -5938,7 +7898,14 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "267",
@@ -5965,16 +7932,38 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "268",
     "question": "Kính chắn gió của xe ô tô phải bảo đảm yêu cầu nào dưới đây?",
     "answers": [
-      { "id": "1", "text": "Là loại kính an toàn, kính nhiều lớp, đúng quy cách, không rạn nứt, bảo đảm hình ảnh quan sát rõ ràng, không bị méo mó.", "correct": true },
-      { "id": "2", "text": "Là loại kính trong suốt, không rạn nứt, bảo đảm tầm nhìn cho người điều khiển về phía trước mặt và hai bên.", "correct": false }
+      {
+        "id": "1",
+        "text": "Là loại kính an toàn, kính nhiều lớp, đúng quy cách, không rạn nứt, bảo đảm hình ảnh quan sát rõ ràng, không bị méo mó.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Là loại kính trong suốt, không rạn nứt, bảo đảm tầm nhìn cho người điều khiển về phía trước mặt và hai bên.",
+        "correct": false
+      }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "269",
@@ -5996,7 +7985,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "270",
@@ -6018,7 +8014,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "271",
@@ -6040,7 +8042,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "272",
@@ -6062,7 +8070,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "273",
@@ -6084,7 +8098,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "274",
@@ -6106,7 +8126,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "275",
@@ -6123,7 +8149,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "276",
@@ -6145,7 +8177,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "277",
@@ -6167,7 +8205,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "278",
@@ -6189,7 +8233,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "279",
@@ -6211,7 +8261,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "280",
@@ -6233,7 +8289,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "281",
@@ -6255,7 +8317,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "282",
@@ -6277,7 +8345,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "283",
@@ -6299,7 +8373,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "284",
@@ -6321,7 +8401,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "285",
@@ -6343,7 +8429,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "286",
@@ -6370,7 +8462,13 @@
         "correct": false
       }
     ],
-    "image": "page66_img14.png"
+    "image": "page66_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "287",
@@ -6397,7 +8495,13 @@
         "correct": true
       }
     ],
-    "image": "page66_img15.png"
+    "image": "page66_img15.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "288",
@@ -6424,7 +8528,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "289",
@@ -6451,7 +8561,13 @@
         "correct": false
       }
     ],
-    "image": "page67_img20.png"
+    "image": "page67_img20.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "290",
@@ -6473,7 +8589,13 @@
         "correct": false
       }
     ],
-    "image": "page67_img21.png"
+    "image": "page67_img21.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "291",
@@ -6500,7 +8622,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "292",
@@ -6527,7 +8655,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "293",
@@ -6544,7 +8678,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "294",
@@ -6571,7 +8711,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "295",
@@ -6598,7 +8744,13 @@
         "correct": true
       }
     ],
-    "image": "page68_img21.png"
+    "image": "page68_img21.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "296",
@@ -6625,7 +8777,13 @@
         "correct": false
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "297",
@@ -6652,7 +8810,13 @@
         "correct": false
       }
     ],
-    "image": "page69_img18.png"
+    "image": "page69_img18.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "298",
@@ -6674,7 +8838,13 @@
         "correct": false
       }
     ],
-    "image": "page69_img19.png"
+    "image": "page69_img19.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "299",
@@ -6701,40 +8871,112 @@
         "correct": false
       }
     ],
-    "image": "page69_img20.png"
+    "image": "page69_img20.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "300",
     "question": "Khi động cơ đã hoạt động, bảng đồng hồ xuất hiện biểu tượng hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe?",
     "answers": [
-      { "id": "1", "text": "Báo hiệu hệ thống túi khí đã bật.", "correct": false },
-      { "id": "2", "text": "Báo hiệu đèn chiếu sáng xa đã bật.", "correct": false },
-      { "id": "3", "text": "Báo hiệu chế độ lái tiết kiệm nhiên liệu đã bật.", "correct": true },
-      { "id": "4", "text": "Báo hiệu đèn cảnh báo khoảng cách đã bật.", "correct": false }
+      {
+        "id": "1",
+        "text": "Báo hiệu hệ thống túi khí đã bật.",
+        "correct": false
+      },
+      {
+        "id": "2",
+        "text": "Báo hiệu đèn chiếu sáng xa đã bật.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Báo hiệu chế độ lái tiết kiệm nhiên liệu đã bật.",
+        "correct": true
+      },
+      {
+        "id": "4",
+        "text": "Báo hiệu đèn cảnh báo khoảng cách đã bật.",
+        "correct": false
+      }
     ],
-    "image": "page70_img10.png"
+    "image": "page70_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "301",
     "question": "Biển nào cấm các loại xe cơ giới đi vào, trừ xe máy hai bánh, xe gắn máy và các loại xe ưu tiên theo quy định?",
     "answers": [
-      { "id": "1", "text": "Biển 1.", "correct": true },
-      { "id": "2", "text": "Biển 2.", "correct": false },
-      { "id": "3", "text": "Biển 1 và biển 3.", "correct": false },
-      { "id": "4", "text": "Cả ba biển.", "correct": false }
+      {
+        "id": "1",
+        "text": "Biển 1.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Biển 2.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Biển 1 và biển 3.",
+        "correct": false
+      },
+      {
+        "id": "4",
+        "text": "Cả ba biển.",
+        "correct": false
+      }
     ],
-    "image": "page71_img9.png"
+    "image": "page71_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "302",
     "question": "Biển nào cấm xe ô tô tải?",
     "answers": [
-      { "id": "1", "text": "Cả ba biển.", "correct": false },
-      { "id": "2", "text": "Biển 2 và biển 3.", "correct": false },
-      { "id": "3", "text": "Biển 1 và biển 3.", "correct": false },
-      { "id": "4", "text": "Biển 1 và biển 2.", "correct": true }
+      {
+        "id": "1",
+        "text": "Cả ba biển.",
+        "correct": false
+      },
+      {
+        "id": "2",
+        "text": "Biển 2 và biển 3.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Biển 1 và biển 3.",
+        "correct": false
+      },
+      {
+        "id": "4",
+        "text": "Biển 1 và biển 2.",
+        "correct": true
+      }
     ],
-    "image": "page71_img10.png"
+    "image": "page71_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "303",
@@ -6761,7 +9003,13 @@
         "correct": false
       }
     ],
-    "image": "page71_img11.png"
+    "image": "page71_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "304",
@@ -6783,7 +9031,13 @@
         "correct": false
       }
     ],
-    "image": "page72_img7.png"
+    "image": "page72_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "305",
@@ -6805,7 +9059,15 @@
         "correct": true
       }
     ],
-    "image": "page72_img8.png"
+    "image": "page72_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "306",
@@ -6827,7 +9089,15 @@
         "correct": false
       }
     ],
-    "image": "page72_img9.png"
+    "image": "page72_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "307",
@@ -6854,7 +9124,15 @@
         "correct": false
       }
     ],
-    "image": "page73_img7.png"
+    "image": "page73_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "308",
@@ -6881,7 +9159,15 @@
         "correct": false
       }
     ],
-    "image": "page73_img8.png"
+    "image": "page73_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "309",
@@ -6903,7 +9189,15 @@
         "correct": false
       }
     ],
-    "image": "page73_img9.png"
+    "image": "page73_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "310",
@@ -6930,7 +9224,15 @@
         "correct": true
       }
     ],
-    "image": "page74_img7.png"
+    "image": "page74_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "311",
@@ -6952,7 +9254,15 @@
         "correct": true
       }
     ],
-    "image": "page74_img8.png"
+    "image": "page74_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "312",
@@ -6969,7 +9279,15 @@
         "correct": true
       }
     ],
-    "image": "page74_img9.png"
+    "image": "page74_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "313",
@@ -6996,7 +9314,15 @@
         "correct": false
       }
     ],
-    "image": "page75_img7.png"
+    "image": "page75_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "314",
@@ -7018,7 +9344,15 @@
         "correct": false
       }
     ],
-    "image": "page75_img8.png"
+    "image": "page75_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "315",
@@ -7040,7 +9374,15 @@
         "correct": false
       }
     ],
-    "image": "page75_img9.png"
+    "image": "page75_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "316",
@@ -7062,7 +9404,15 @@
         "correct": true
       }
     ],
-    "image": "page76_img7.png"
+    "image": "page76_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "317",
@@ -7089,7 +9439,15 @@
         "correct": false
       }
     ],
-    "image": "page76_img8.png"
+    "image": "page76_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "318",
@@ -7116,7 +9474,15 @@
         "correct": false
       }
     ],
-    "image": "page76_img9.png"
+    "image": "page76_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "319",
@@ -7143,7 +9509,15 @@
         "correct": false
       }
     ],
-    "image": "page77_img7.png"
+    "image": "page77_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "320",
@@ -7170,7 +9544,15 @@
         "correct": false
       }
     ],
-    "image": "page77_img8.png"
+    "image": "page77_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "321",
@@ -7192,7 +9574,15 @@
         "correct": false
       }
     ],
-    "image": "page77_img9.png"
+    "image": "page77_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "322",
@@ -7214,7 +9604,15 @@
         "correct": false
       }
     ],
-    "image": "page78_img7.png"
+    "image": "page78_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "323",
@@ -7236,7 +9634,15 @@
         "correct": true
       }
     ],
-    "image": "page78_img8.png"
+    "image": "page78_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "324",
@@ -7258,7 +9664,15 @@
         "correct": false
       }
     ],
-    "image": "page78_img9.png"
+    "image": "page78_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "325",
@@ -7280,7 +9694,15 @@
         "correct": false
       }
     ],
-    "image": "page79_img7.png"
+    "image": "page79_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "326",
@@ -7302,7 +9724,15 @@
         "correct": true
       }
     ],
-    "image": "page79_img8.png"
+    "image": "page79_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "327",
@@ -7329,7 +9759,15 @@
         "correct": false
       }
     ],
-    "image": "page79_img9.png"
+    "image": "page79_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "328",
@@ -7356,7 +9794,15 @@
         "correct": false
       }
     ],
-    "image": "page80_img7.png"
+    "image": "page80_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "329",
@@ -7378,7 +9824,15 @@
         "correct": false
       }
     ],
-    "image": "page80_img8.png"
+    "image": "page80_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "330",
@@ -7400,7 +9854,15 @@
         "correct": false
       }
     ],
-    "image": "page80_img9.png"
+    "image": "page80_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "331",
@@ -7422,7 +9884,15 @@
         "correct": true
       }
     ],
-    "image": "page81_img7.png"
+    "image": "page81_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "332",
@@ -7449,7 +9919,15 @@
         "correct": true
       }
     ],
-    "image": "page81_img8.png"
+    "image": "page81_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "333",
@@ -7471,7 +9949,15 @@
         "correct": true
       }
     ],
-    "image": "page81_img9.png"
+    "image": "page81_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "334",
@@ -7493,7 +9979,15 @@
         "correct": true
       }
     ],
-    "image": "page82_img7.png"
+    "image": "page82_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "335",
@@ -7510,7 +10004,15 @@
         "correct": false
       }
     ],
-    "image": "page82_img8.png"
+    "image": "page82_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "336",
@@ -7527,7 +10029,15 @@
         "correct": true
       }
     ],
-    "image": "page82_img9.png"
+    "image": "page82_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "337",
@@ -7549,7 +10059,15 @@
         "correct": false
       }
     ],
-    "image": "page83_img11.png"
+    "image": "page83_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "338",
@@ -7566,7 +10084,15 @@
         "correct": true
       }
     ],
-    "image": "page83_img12.png"
+    "image": "page83_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "339",
@@ -7588,7 +10114,15 @@
         "correct": false
       }
     ],
-    "image": "page83_img13.png"
+    "image": "page83_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "340",
@@ -7610,7 +10144,15 @@
         "correct": true
       }
     ],
-    "image": "page84_img15.png"
+    "image": "page84_img15.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "341",
@@ -7627,7 +10169,15 @@
         "correct": false
       }
     ],
-    "image": "page84_img16.png"
+    "image": "page84_img16.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "342",
@@ -7654,7 +10204,15 @@
         "correct": false
       }
     ],
-    "image": "page84_img17.png"
+    "image": "page84_img17.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "343",
@@ -7681,7 +10239,15 @@
         "correct": false
       }
     ],
-    "image": "page85_img11.png"
+    "image": "page85_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "344",
@@ -7698,7 +10264,15 @@
         "correct": true
       }
     ],
-    "image": "page85_img12.png"
+    "image": "page85_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "345",
@@ -7715,7 +10289,15 @@
         "correct": false
       }
     ],
-    "image": "page85_img13.png"
+    "image": "page85_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "346",
@@ -7737,7 +10319,15 @@
         "correct": false
       }
     ],
-    "image": "page86_img8.png"
+    "image": "page86_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "347",
@@ -7759,7 +10349,15 @@
         "correct": false
       }
     ],
-    "image": "page86_img9.png"
+    "image": "page86_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "348",
@@ -7776,7 +10374,15 @@
         "correct": true
       }
     ],
-    "image": "page86_img10.png"
+    "image": "page86_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "349",
@@ -7798,7 +10404,15 @@
         "correct": false
       }
     ],
-    "image": "page87_img7.png"
+    "image": "page87_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "350",
@@ -7820,7 +10434,15 @@
         "correct": false
       }
     ],
-    "image": "page87_img8.png"
+    "image": "page87_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "351",
@@ -7837,17 +10459,45 @@
         "correct": false
       }
     ],
-    "image": "page87_img9.png"
+    "image": "page87_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "352",
     "question": "Biển nào báo hiệu chiều dài đoạn đường phải giữ cự ly tối thiểu giữa hai xe?",
     "answers": [
-      { "id": "1", "text": "Biển 1.", "correct": true },
-      { "id": "2", "text": "Biển 2.", "correct": false },
-      { "id": "3", "text": "Cả hai biển.", "correct": false }
+      {
+        "id": "1",
+        "text": "Biển 1.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Biển 2.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Cả hai biển.",
+        "correct": false
+      }
     ],
-    "image": "page88_img7.png"
+    "image": "page88_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "353",
@@ -7869,7 +10519,15 @@
         "correct": false
       }
     ],
-    "image": "page88_img8.png"
+    "image": "page88_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "354",
@@ -7891,7 +10549,15 @@
         "correct": false
       }
     ],
-    "image": "page88_img9.png"
+    "image": "page88_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "355",
@@ -7908,7 +10574,14 @@
         "correct": false
       }
     ],
-    "image": "page89_img7.png"
+    "image": "page89_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "356",
@@ -7925,7 +10598,14 @@
         "correct": false
       }
     ],
-    "image": "page89_img8.png"
+    "image": "page89_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "357",
@@ -7942,7 +10622,14 @@
         "correct": false
       }
     ],
-    "image": "page89_img9.png"
+    "image": "page89_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "358",
@@ -7964,7 +10651,14 @@
         "correct": false
       }
     ],
-    "image": "page89_img10.png"
+    "image": "page89_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "359",
@@ -7986,7 +10680,14 @@
         "correct": false
       }
     ],
-    "image": "page90_img8.png"
+    "image": "page90_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "360",
@@ -8008,7 +10709,14 @@
         "correct": false
       }
     ],
-    "image": "page90_img9.png"
+    "image": "page90_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "361",
@@ -8025,7 +10733,14 @@
         "correct": false
       }
     ],
-    "image": "page90_img10.png"
+    "image": "page90_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "362",
@@ -8042,7 +10757,14 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "363",
@@ -8064,7 +10786,14 @@
         "correct": false
       }
     ],
-    "image": "page91_img6.png"
+    "image": "page91_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "364",
@@ -8081,7 +10810,14 @@
         "correct": false
       }
     ],
-    "image": "page91_img7.png"
+    "image": "page91_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "365",
@@ -8103,7 +10839,14 @@
         "correct": false
       }
     ],
-    "image": "page91_img8.png"
+    "image": "page91_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "366",
@@ -8120,7 +10863,14 @@
         "correct": true
       }
     ],
-    "image": "page91_img9.png"
+    "image": "page91_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "367",
@@ -8142,7 +10892,14 @@
         "correct": false
       }
     ],
-    "image": "page92_img7.png"
+    "image": "page92_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "368",
@@ -8169,7 +10926,14 @@
         "correct": false
       }
     ],
-    "image": "page92_img8.png"
+    "image": "page92_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "369",
@@ -8191,7 +10955,14 @@
         "correct": false
       }
     ],
-    "image": "page92_img9.png"
+    "image": "page92_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "370",
@@ -8218,7 +10989,14 @@
         "correct": true
       }
     ],
-    "image": "page93_img7.png"
+    "image": "page93_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "371",
@@ -8240,7 +11018,14 @@
         "correct": false
       }
     ],
-    "image": "page93_img8.png"
+    "image": "page93_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "372",
@@ -8267,7 +11052,14 @@
         "correct": false
       }
     ],
-    "image": "page93_img9.png"
+    "image": "page93_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "373",
@@ -8294,7 +11086,14 @@
         "correct": false
       }
     ],
-    "image": "page94_img7.png"
+    "image": "page94_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "374",
@@ -8321,7 +11120,14 @@
         "correct": false
       }
     ],
-    "image": "page94_img8.png"
+    "image": "page94_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "375",
@@ -8348,7 +11154,14 @@
         "correct": false
       }
     ],
-    "image": "page94_img9.png"
+    "image": "page94_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "376",
@@ -8370,7 +11183,14 @@
         "correct": false
       }
     ],
-    "image": "page95_img9.png"
+    "image": "page95_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "377",
@@ -8392,7 +11212,14 @@
         "correct": false
       }
     ],
-    "image": "page95_img10.png"
+    "image": "page95_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "378",
@@ -8419,7 +11246,14 @@
         "correct": true
       }
     ],
-    "image": "page95_img11.png"
+    "image": "page95_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "379",
@@ -8441,7 +11275,14 @@
         "correct": true
       }
     ],
-    "image": "page96_img14.png"
+    "image": "page96_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "380",
@@ -8463,7 +11304,14 @@
         "correct": true
       }
     ],
-    "image": "page96_img15.png"
+    "image": "page96_img15.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "381",
@@ -8490,7 +11338,14 @@
         "correct": false
       }
     ],
-    "image": "page96_img16.png"
+    "image": "page96_img16.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "382",
@@ -8517,7 +11372,14 @@
         "correct": false
       }
     ],
-    "image": "page97_img12.png"
+    "image": "page97_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "383",
@@ -8539,7 +11401,14 @@
         "correct": false
       }
     ],
-    "image": "page97_img13.png"
+    "image": "page97_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "384",
@@ -8566,7 +11435,14 @@
         "correct": false
       }
     ],
-    "image": "page97_img14.png"
+    "image": "page97_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "385",
@@ -8593,7 +11469,14 @@
         "correct": false
       }
     ],
-    "image": "page98_img8.png"
+    "image": "page98_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "386",
@@ -8620,7 +11503,14 @@
         "correct": false
       }
     ],
-    "image": "page98_img9.png"
+    "image": "page98_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "387",
@@ -8642,7 +11532,14 @@
         "correct": false
       }
     ],
-    "image": "page98_img10.png"
+    "image": "page98_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "388",
@@ -8664,7 +11561,14 @@
         "correct": false
       }
     ],
-    "image": "page99_img6.png"
+    "image": "page99_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "389",
@@ -8686,7 +11590,14 @@
         "correct": false
       }
     ],
-    "image": "page99_img7.png"
+    "image": "page99_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "390",
@@ -8708,7 +11619,14 @@
         "correct": false
       }
     ],
-    "image": "page99_img8.png"
+    "image": "page99_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "391",
@@ -8735,7 +11653,14 @@
         "correct": false
       }
     ],
-    "image": "page100_img7.png"
+    "image": "page100_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "392",
@@ -8757,7 +11682,14 @@
         "correct": false
       }
     ],
-    "image": "page100_img8.png"
+    "image": "page100_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "393",
@@ -8779,7 +11711,14 @@
         "correct": true
       }
     ],
-    "image": "page100_img9.png"
+    "image": "page100_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "394",
@@ -8801,7 +11740,14 @@
         "correct": true
       }
     ],
-    "image": "page101_img10.png"
+    "image": "page101_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "395",
@@ -8823,7 +11769,14 @@
         "correct": false
       }
     ],
-    "image": "page101_img11.png"
+    "image": "page101_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "396",
@@ -8845,7 +11798,14 @@
         "correct": false
       }
     ],
-    "image": "page101_img12.png"
+    "image": "page101_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "397",
@@ -8867,7 +11827,14 @@
         "correct": false
       }
     ],
-    "image": "page102_img7.png"
+    "image": "page102_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "398",
@@ -8889,7 +11856,14 @@
         "correct": false
       }
     ],
-    "image": "page102_img8.png"
+    "image": "page102_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "399",
@@ -8911,7 +11885,14 @@
         "correct": false
       }
     ],
-    "image": "page102_img9.png"
+    "image": "page102_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "400",
@@ -8933,7 +11914,14 @@
         "correct": false
       }
     ],
-    "image": "page103_img7.png"
+    "image": "page103_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "401",
@@ -8955,7 +11943,14 @@
         "correct": false
       }
     ],
-    "image": "page103_img8.png"
+    "image": "page103_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "402",
@@ -8977,7 +11972,14 @@
         "correct": true
       }
     ],
-    "image": "page103_img9.png"
+    "image": "page103_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "403",
@@ -8999,7 +12001,14 @@
         "correct": false
       }
     ],
-    "image": "page104_img7.png"
+    "image": "page104_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "404",
@@ -9026,7 +12035,14 @@
         "correct": false
       }
     ],
-    "image": "page104_img8.png"
+    "image": "page104_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "405",
@@ -9048,7 +12064,14 @@
         "correct": false
       }
     ],
-    "image": "page104_img9.png"
+    "image": "page104_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "406",
@@ -9070,7 +12093,14 @@
         "correct": false
       }
     ],
-    "image": "page105_img7.png"
+    "image": "page105_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "407",
@@ -9092,7 +12122,14 @@
         "correct": false
       }
     ],
-    "image": "page105_img8.png"
+    "image": "page105_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "408",
@@ -9119,7 +12156,14 @@
         "correct": false
       }
     ],
-    "image": "page105_img9.png"
+    "image": "page105_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "409",
@@ -9141,7 +12185,14 @@
         "correct": false
       }
     ],
-    "image": "page106_img5.png"
+    "image": "page106_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "410",
@@ -9168,7 +12219,14 @@
         "correct": false
       }
     ],
-    "image": "page106_img6.png"
+    "image": "page106_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "411",
@@ -9185,7 +12243,14 @@
         "correct": true
       }
     ],
-    "image": "page106_img7.png"
+    "image": "page106_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "412",
@@ -9207,7 +12272,13 @@
         "correct": false
       }
     ],
-    "image": "page107_img9.png"
+    "image": "page107_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "413",
@@ -9234,7 +12305,13 @@
         "correct": false
       }
     ],
-    "image": "page107_img10.png"
+    "image": "page107_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "414",
@@ -9256,7 +12333,13 @@
         "correct": false
       }
     ],
-    "image": "page107_img11.png"
+    "image": "page107_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "415",
@@ -9273,7 +12356,13 @@
         "correct": false
       }
     ],
-    "image": "page108_img9.png"
+    "image": "page108_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "416",
@@ -9290,7 +12379,13 @@
         "correct": true
       }
     ],
-    "image": "page108_img10.png"
+    "image": "page108_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "417",
@@ -9307,7 +12402,13 @@
         "correct": false
       }
     ],
-    "image": "page108_img11.png"
+    "image": "page108_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "418",
@@ -9329,7 +12430,13 @@
         "correct": true
       }
     ],
-    "image": "page108_img12.png"
+    "image": "page108_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "419",
@@ -9346,7 +12453,13 @@
         "correct": false
       }
     ],
-    "image": "page109_img13.png"
+    "image": "page109_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "420",
@@ -9363,7 +12476,13 @@
         "correct": true
       }
     ],
-    "image": "page109_img14.png"
+    "image": "page109_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "421",
@@ -9385,7 +12504,13 @@
         "correct": true
       }
     ],
-    "image": "page109_img15.png"
+    "image": "page109_img15.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "422",
@@ -9407,7 +12532,13 @@
         "correct": false
       }
     ],
-    "image": "page110_img5.png"
+    "image": "page110_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "423",
@@ -9429,7 +12560,13 @@
         "correct": false
       }
     ],
-    "image": "page110_img6.png"
+    "image": "page110_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "424",
@@ -9446,7 +12583,13 @@
         "correct": false
       }
     ],
-    "image": "page110_img7.png"
+    "image": "page110_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "425",
@@ -9463,7 +12606,13 @@
         "correct": true
       }
     ],
-    "image": "page111_img7.png"
+    "image": "page111_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "426",
@@ -9485,7 +12634,13 @@
         "correct": false
       }
     ],
-    "image": "page111_img8.png"
+    "image": "page111_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "427",
@@ -9507,7 +12662,13 @@
         "correct": true
       }
     ],
-    "image": "page111_img9.png"
+    "image": "page111_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "428",
@@ -9524,7 +12685,13 @@
         "correct": false
       }
     ],
-    "image": "page112_img7.png"
+    "image": "page112_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "429",
@@ -9541,7 +12708,13 @@
         "correct": true
       }
     ],
-    "image": "page112_img8.png"
+    "image": "page112_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "430",
@@ -9558,7 +12731,13 @@
         "correct": false
       }
     ],
-    "image": "page112_img9.png"
+    "image": "page112_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "431",
@@ -9580,7 +12759,13 @@
         "correct": false
       }
     ],
-    "image": "page113_img7.png"
+    "image": "page113_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "432",
@@ -9602,7 +12787,13 @@
         "correct": true
       }
     ],
-    "image": "page113_img8.png"
+    "image": "page113_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "433",
@@ -9619,7 +12810,13 @@
         "correct": false
       }
     ],
-    "image": "page113_img9.png"
+    "image": "page113_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "434",
@@ -9641,7 +12838,13 @@
         "correct": false
       }
     ],
-    "image": "page114_img5.png"
+    "image": "page114_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "435",
@@ -9668,7 +12871,13 @@
         "correct": false
       }
     ],
-    "image": "page114_img6.png"
+    "image": "page114_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "436",
@@ -9695,7 +12904,13 @@
         "correct": true
       }
     ],
-    "image": "page114_img7.png"
+    "image": "page114_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "437",
@@ -9722,7 +12937,13 @@
         "correct": false
       }
     ],
-    "image": "page115_img7.png"
+    "image": "page115_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "438",
@@ -9749,7 +12970,13 @@
         "correct": true
       }
     ],
-    "image": "page115_img8.png"
+    "image": "page115_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "439",
@@ -9776,7 +13003,13 @@
         "correct": false
       }
     ],
-    "image": "page115_img9.png"
+    "image": "page115_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "440",
@@ -9803,7 +13036,13 @@
         "correct": false
       }
     ],
-    "image": "page116_img10.png"
+    "image": "page116_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "441",
@@ -9830,7 +13069,13 @@
         "correct": false
       }
     ],
-    "image": "page116_img11.png"
+    "image": "page116_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "442",
@@ -9857,7 +13102,13 @@
         "correct": false
       }
     ],
-    "image": "page116_img12.png"
+    "image": "page116_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "443",
@@ -9879,7 +13130,13 @@
         "correct": true
       }
     ],
-    "image": "page117_img7.png"
+    "image": "page117_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "444",
@@ -9906,7 +13163,13 @@
         "correct": false
       }
     ],
-    "image": "page117_img8.png"
+    "image": "page117_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "445",
@@ -9928,7 +13191,13 @@
         "correct": false
       }
     ],
-    "image": "page117_img9.png"
+    "image": "page117_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "446",
@@ -9955,7 +13224,13 @@
         "correct": false
       }
     ],
-    "image": "page118_img5.png"
+    "image": "page118_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "447",
@@ -9977,7 +13252,13 @@
         "correct": false
       }
     ],
-    "image": "page118_img6.png"
+    "image": "page118_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "448",
@@ -9999,7 +13280,13 @@
         "correct": true
       }
     ],
-    "image": "page118_img7.png"
+    "image": "page118_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "449",
@@ -10021,7 +13308,13 @@
         "correct": false
       }
     ],
-    "image": "page119_img7.png"
+    "image": "page119_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "450",
@@ -10048,7 +13341,13 @@
         "correct": false
       }
     ],
-    "image": "page119_img8.png"
+    "image": "page119_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "451",
@@ -10075,7 +13374,13 @@
         "correct": false
       }
     ],
-    "image": "page119_img9.png"
+    "image": "page119_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "452",
@@ -10097,7 +13402,13 @@
         "correct": false
       }
     ],
-    "image": "page120_img7.png"
+    "image": "page120_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "453",
@@ -10119,7 +13430,13 @@
         "correct": true
       }
     ],
-    "image": "page120_img8.png"
+    "image": "page120_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "454",
@@ -10141,7 +13458,13 @@
         "correct": true
       }
     ],
-    "image": "page120_img9.png"
+    "image": "page120_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "455",
@@ -10158,7 +13481,13 @@
         "correct": false
       }
     ],
-    "image": "page121_img6.png"
+    "image": "page121_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "456",
@@ -10180,7 +13509,13 @@
         "correct": false
       }
     ],
-    "image": "page121_img7.png"
+    "image": "page121_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "457",
@@ -10207,7 +13542,13 @@
         "correct": false
       }
     ],
-    "image": "page121_img8.png"
+    "image": "page121_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "458",
@@ -10229,7 +13570,13 @@
         "correct": true
       }
     ],
-    "image": "page122_img17.png"
+    "image": "page122_img17.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "459",
@@ -10251,7 +13598,13 @@
         "correct": false
       }
     ],
-    "image": "page122_img18.png"
+    "image": "page122_img18.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "460",
@@ -10278,7 +13631,13 @@
         "correct": false
       }
     ],
-    "image": "page122_img19.png"
+    "image": "page122_img19.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "461",
@@ -10295,7 +13654,13 @@
         "correct": false
       }
     ],
-    "image": "page123_img12.png"
+    "image": "page123_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "462",
@@ -10312,7 +13677,13 @@
         "correct": false
       }
     ],
-    "image": "page123_img13.png"
+    "image": "page123_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "463",
@@ -10329,7 +13700,13 @@
         "correct": true
       }
     ],
-    "image": "page123_img14.png"
+    "image": "page123_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "464",
@@ -10351,7 +13728,13 @@
         "correct": false
       }
     ],
-    "image": "page124_img13.png"
+    "image": "page124_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "465",
@@ -10373,7 +13756,13 @@
         "correct": false
       }
     ],
-    "image": "page124_img14.png"
+    "image": "page124_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "466",
@@ -10395,7 +13784,13 @@
         "correct": true
       }
     ],
-    "image": "page124_img15.png"
+    "image": "page124_img15.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "467",
@@ -10422,7 +13817,13 @@
         "correct": true
       }
     ],
-    "image": "page125_img17.png"
+    "image": "page125_img17.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "468",
@@ -10444,7 +13845,13 @@
         "correct": false
       }
     ],
-    "image": "page125_img18.png"
+    "image": "page125_img18.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "469",
@@ -10466,7 +13873,13 @@
         "correct": true
       }
     ],
-    "image": "page125_img19.png"
+    "image": "page125_img19.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "470",
@@ -10488,7 +13901,13 @@
         "correct": false
       }
     ],
-    "image": "page126_img5.png"
+    "image": "page126_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "471",
@@ -10510,7 +13929,13 @@
         "correct": true
       }
     ],
-    "image": "page126_img6.png"
+    "image": "page126_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "472",
@@ -10532,7 +13957,13 @@
         "correct": false
       }
     ],
-    "image": "page126_img7.png"
+    "image": "page126_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "473",
@@ -10559,7 +13990,13 @@
         "correct": false
       }
     ],
-    "image": "page127_img10.png"
+    "image": "page127_img10.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "474",
@@ -10576,7 +14013,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "475",
@@ -10593,7 +14036,13 @@
         "correct": true
       }
     ],
-    "image": null
+    "image": null,
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "476",
@@ -10620,7 +14069,13 @@
         "correct": false
       }
     ],
-    "image": "page128_img7.png"
+    "image": "page128_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "477",
@@ -10647,7 +14102,13 @@
         "correct": true
       }
     ],
-    "image": "page128_img8.png"
+    "image": "page128_img8.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "478",
@@ -10674,7 +14135,13 @@
         "correct": false
       }
     ],
-    "image": "page128_img9.png"
+    "image": "page128_img9.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "479",
@@ -10701,7 +14168,13 @@
         "correct": true
       }
     ],
-    "image": "page129_img11.png"
+    "image": "page129_img11.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "480",
@@ -10718,7 +14191,13 @@
         "correct": false
       }
     ],
-    "image": "page129_img12.png"
+    "image": "page129_img12.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "481",
@@ -10735,7 +14214,13 @@
         "correct": true
       }
     ],
-    "image": "page129_img13.png"
+    "image": "page129_img13.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "482",
@@ -10762,7 +14247,13 @@
         "correct": true
       }
     ],
-    "image": "page129_img14.png"
+    "image": "page129_img14.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "483",
@@ -10784,7 +14275,13 @@
         "correct": true
       }
     ],
-    "image": "page130_img5.png"
+    "image": "page130_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "484",
@@ -10806,17 +14303,41 @@
         "correct": false
       }
     ],
-    "image": "page130_img6.png"
+    "image": "page130_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "485",
     "question": "Vạch dưới đây có ý nghĩa như thế nào?",
     "answers": [
-      { "id": "1", "text": "Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.", "correct": true },
-      { "id": "2", "text": "Báo cho người điều khiển không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.", "correct": false },
-      { "id": "3", "text": "Dùng để xác định vị trí giữa các phương tiện trên đường.", "correct": false }
+      {
+        "id": "1",
+        "text": "Vị trí dừng xe của các phương tiện vận tải hành khách công cộng.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Báo cho người điều khiển không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Dùng để xác định vị trí giữa các phương tiện trên đường.",
+        "correct": false
+      }
     ],
-    "image": "page130_img7.png"
+    "image": "page130_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "486",
@@ -10838,7 +14359,13 @@
         "correct": true
       }
     ],
-    "image": "page131_img5.png"
+    "image": "page131_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "487",
@@ -10865,7 +14392,15 @@
         "correct": false
       }
     ],
-    "image": "page131_img6.png"
+    "image": "page131_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "488",
@@ -10892,7 +14427,15 @@
         "correct": false
       }
     ],
-    "image": "page132_img4.png"
+    "image": "page132_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "489",
@@ -10919,7 +14462,15 @@
         "correct": true
       }
     ],
-    "image": "page132_img5.png"
+    "image": "page132_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "490",
@@ -10946,7 +14497,15 @@
         "correct": false
       }
     ],
-    "image": "page133_img4.png"
+    "image": "page133_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "491",
@@ -10963,7 +14522,15 @@
         "correct": false
       }
     ],
-    "image": "page133_img5.png"
+    "image": "page133_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "492",
@@ -10980,7 +14547,15 @@
         "correct": true
       }
     ],
-    "image": "page134_img4.png"
+    "image": "page134_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "493",
@@ -11002,7 +14577,15 @@
         "correct": false
       }
     ],
-    "image": "page134_img5.png"
+    "image": "page134_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "494",
@@ -11024,7 +14607,15 @@
         "correct": false
       }
     ],
-    "image": "page135_img4.png"
+    "image": "page135_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "495",
@@ -11041,7 +14632,15 @@
         "correct": true
       }
     ],
-    "image": "page135_img5.png"
+    "image": "page135_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "496",
@@ -11063,7 +14662,15 @@
         "correct": false
       }
     ],
-    "image": "page136_img4.png"
+    "image": "page136_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "497",
@@ -11080,7 +14687,15 @@
         "correct": false
       }
     ],
-    "image": "page136_img5.png"
+    "image": "page136_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "498",
@@ -11097,7 +14712,15 @@
         "correct": true
       }
     ],
-    "image": "page137_img4.png"
+    "image": "page137_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "499",
@@ -11114,7 +14737,15 @@
         "correct": false
       }
     ],
-    "image": "page137_img5.png"
+    "image": "page137_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "500",
@@ -11136,7 +14767,15 @@
         "correct": false
       }
     ],
-    "image": "page138_img4.png"
+    "image": "page138_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "501",
@@ -11153,7 +14792,15 @@
         "correct": true
       }
     ],
-    "image": "page138_img5.png"
+    "image": "page138_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "502",
@@ -11180,7 +14827,15 @@
         "correct": false
       }
     ],
-    "image": "page139_img4.png"
+    "image": "page139_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "503",
@@ -11202,7 +14857,15 @@
         "correct": false
       }
     ],
-    "image": "page139_img5.png"
+    "image": "page139_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "504",
@@ -11229,7 +14892,15 @@
         "correct": false
       }
     ],
-    "image": "page140_img4.png"
+    "image": "page140_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "505",
@@ -11256,7 +14927,15 @@
         "correct": false
       }
     ],
-    "image": "page140_img5.png"
+    "image": "page140_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "506",
@@ -11278,17 +14957,45 @@
         "correct": false
       }
     ],
-    "image": "page141_img4.png"
+    "image": "page141_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "507",
     "question": "Theo hướng mũi tên, những hướng nào xe gắn máy được phép đi?",
     "answers": [
-      { "id": "1", "text": "Cả ba hướng.", "correct": true },
-      { "id": "2", "text": "Chỉ hướng 1 và 3.", "correct": false },
-      { "id": "3", "text": "Chỉ hướng 1.", "correct": false }
+      {
+        "id": "1",
+        "text": "Cả ba hướng.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Chỉ hướng 1 và 3.",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "text": "Chỉ hướng 1.",
+        "correct": false
+      }
     ],
-    "image": "page141_img5.png"
+    "image": "page141_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "508",
@@ -11315,7 +15022,15 @@
         "correct": false
       }
     ],
-    "image": "page142_img6.png"
+    "image": "page142_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "509",
@@ -11342,7 +15057,15 @@
         "correct": false
       }
     ],
-    "image": "page142_img7.png"
+    "image": "page142_img7.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "510",
@@ -11359,7 +15082,15 @@
         "correct": true
       }
     ],
-    "image": "page143_img4.png"
+    "image": "page143_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "511",
@@ -11376,7 +15107,15 @@
         "correct": true
       }
     ],
-    "image": "page143_img5.png"
+    "image": "page143_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "512",
@@ -11403,7 +15142,15 @@
         "correct": false
       }
     ],
-    "image": "page144_img4.png"
+    "image": "page144_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "513",
@@ -11425,7 +15172,15 @@
         "correct": false
       }
     ],
-    "image": "page144_img5.png"
+    "image": "page144_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "514",
@@ -11447,7 +15202,15 @@
         "correct": false
       }
     ],
-    "image": "page145_img4.png"
+    "image": "page145_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "515",
@@ -11464,7 +15227,15 @@
         "correct": true
       }
     ],
-    "image": "page145_img5.png"
+    "image": "page145_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "516",
@@ -11481,7 +15252,15 @@
         "correct": false
       }
     ],
-    "image": "page146_img4.png"
+    "image": "page146_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "517",
@@ -11498,7 +15277,15 @@
         "correct": true
       }
     ],
-    "image": "page146_img5.png"
+    "image": "page146_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "518",
@@ -11515,7 +15302,15 @@
         "correct": false
       }
     ],
-    "image": "page147_img4.png"
+    "image": "page147_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "519",
@@ -11542,7 +15337,15 @@
         "correct": false
       }
     ],
-    "image": "page147_img5.png"
+    "image": "page147_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "520",
@@ -11569,7 +15372,15 @@
         "correct": true
       }
     ],
-    "image": "page148_img4.png"
+    "image": "page148_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "521",
@@ -11596,7 +15407,15 @@
         "correct": false
       }
     ],
-    "image": "page148_img5.png"
+    "image": "page148_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "522",
@@ -11613,7 +15432,15 @@
         "correct": true
       }
     ],
-    "image": "page149_img4.png"
+    "image": "page149_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "523",
@@ -11640,7 +15467,15 @@
         "correct": false
       }
     ],
-    "image": "page149_img5.png"
+    "image": "page149_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "524",
@@ -11667,7 +15502,15 @@
         "correct": false
       }
     ],
-    "image": "page150_img4.png"
+    "image": "page150_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "525",
@@ -11684,7 +15527,15 @@
         "correct": false
       }
     ],
-    "image": "page150_img5.png"
+    "image": "page150_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "526",
@@ -11701,7 +15552,15 @@
         "correct": true
       }
     ],
-    "image": "page151_img4.png"
+    "image": "page151_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "527",
@@ -11728,7 +15587,15 @@
         "correct": false
       }
     ],
-    "image": "page151_img5.png"
+    "image": "page151_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "528",
@@ -11750,7 +15617,15 @@
         "correct": true
       }
     ],
-    "image": "page152_img4.png"
+    "image": "page152_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "529",
@@ -11777,7 +15652,15 @@
         "correct": false
       }
     ],
-    "image": "page152_img5.png"
+    "image": "page152_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "530",
@@ -11794,7 +15677,15 @@
         "correct": false
       }
     ],
-    "image": "page153_img4.png"
+    "image": "page153_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "531",
@@ -11816,7 +15707,15 @@
         "correct": true
       }
     ],
-    "image": "page153_img5.png"
+    "image": "page153_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "532",
@@ -11838,7 +15737,15 @@
         "correct": false
       }
     ],
-    "image": "page154_img4.png"
+    "image": "page154_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "533",
@@ -11860,7 +15767,15 @@
         "correct": true
       }
     ],
-    "image": "page154_img5.png"
+    "image": "page154_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "534",
@@ -11882,7 +15797,15 @@
         "correct": false
       }
     ],
-    "image": "page155_img4.png"
+    "image": "page155_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "535",
@@ -11904,7 +15827,15 @@
         "correct": true
       }
     ],
-    "image": "page155_img5.png"
+    "image": "page155_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A1",
+      "A"
+    ]
   },
   {
     "id": "536",
@@ -11931,7 +15862,14 @@
         "correct": false
       }
     ],
-    "image": "page156_img4.png"
+    "image": "page156_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "537",
@@ -11958,7 +15896,14 @@
         "correct": true
       }
     ],
-    "image": "page156_img5.png"
+    "image": "page156_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "538",
@@ -11980,7 +15925,14 @@
         "correct": false
       }
     ],
-    "image": "page157_img4.png"
+    "image": "page157_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "539",
@@ -12007,7 +15959,14 @@
         "correct": false
       }
     ],
-    "image": "page157_img5.png"
+    "image": "page157_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "540",
@@ -12029,7 +15988,14 @@
         "correct": false
       }
     ],
-    "image": "page158_img4.png"
+    "image": "page158_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "541",
@@ -12046,7 +16012,14 @@
         "correct": false
       }
     ],
-    "image": "page158_img5.png"
+    "image": "page158_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "542",
@@ -12063,7 +16036,14 @@
         "correct": true
       }
     ],
-    "image": "page159_img4.png"
+    "image": "page159_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "543",
@@ -12090,7 +16070,14 @@
         "correct": false
       }
     ],
-    "image": "page159_img5.png"
+    "image": "page159_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "544",
@@ -12107,7 +16094,14 @@
         "correct": false
       }
     ],
-    "image": "page160_img4.png"
+    "image": "page160_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "545",
@@ -12134,7 +16128,14 @@
         "correct": false
       }
     ],
-    "image": "page160_img5.png"
+    "image": "page160_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "546",
@@ -12151,7 +16152,14 @@
         "correct": true
       }
     ],
-    "image": "page161_img4.png"
+    "image": "page161_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "547",
@@ -12173,7 +16181,14 @@
         "correct": true
       }
     ],
-    "image": "page161_img5.png"
+    "image": "page161_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "548",
@@ -12200,7 +16215,14 @@
         "correct": false
       }
     ],
-    "image": "page162_img4.png"
+    "image": "page162_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "549",
@@ -12217,7 +16239,14 @@
         "correct": true
       }
     ],
-    "image": "page162_img5.png"
+    "image": "page162_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "550",
@@ -12239,7 +16268,14 @@
         "correct": false
       }
     ],
-    "image": "page163_img4.png"
+    "image": "page163_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "551",
@@ -12266,7 +16302,14 @@
         "correct": false
       }
     ],
-    "image": "page163_img5.png"
+    "image": "page163_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "552",
@@ -12288,7 +16331,14 @@
         "correct": false
       }
     ],
-    "image": "page164_img4.png"
+    "image": "page164_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "553",
@@ -12310,7 +16360,14 @@
         "correct": true
       }
     ],
-    "image": "page164_img5.png"
+    "image": "page164_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "554",
@@ -12332,7 +16389,14 @@
         "correct": false
       }
     ],
-    "image": "page165_img4.png"
+    "image": "page165_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "555",
@@ -12349,7 +16413,14 @@
         "correct": true
       }
     ],
-    "image": "page165_img5.png"
+    "image": "page165_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "556",
@@ -12366,7 +16437,14 @@
         "correct": true
       }
     ],
-    "image": "page166_img4.png"
+    "image": "page166_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "557",
@@ -12393,7 +16471,14 @@
         "correct": false
       }
     ],
-    "image": "page166_img5.png"
+    "image": "page166_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "558",
@@ -12420,7 +16505,14 @@
         "correct": true
       }
     ],
-    "image": "page167_img5.png"
+    "image": "page167_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "559",
@@ -12447,7 +16539,14 @@
         "correct": true
       }
     ],
-    "image": "page167_img6.png"
+    "image": "page167_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "560",
@@ -12469,7 +16568,14 @@
         "correct": false
       }
     ],
-    "image": "page168_img4.png"
+    "image": "page168_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "561",
@@ -12491,7 +16597,14 @@
         "correct": true
       }
     ],
-    "image": "page168_img5.png"
+    "image": "page168_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "562",
@@ -12518,7 +16631,14 @@
         "correct": false
       }
     ],
-    "image": "page169_img5.png"
+    "image": "page169_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "563",
@@ -12545,7 +16665,14 @@
         "correct": false
       }
     ],
-    "image": "page169_img6.png"
+    "image": "page169_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "564",
@@ -12567,7 +16694,14 @@
         "correct": false
       }
     ],
-    "image": "page170_img4.png"
+    "image": "page170_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "565",
@@ -12594,7 +16728,14 @@
         "correct": false
       }
     ],
-    "image": "page170_img5.png"
+    "image": "page170_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "566",
@@ -12621,7 +16762,14 @@
         "correct": false
       }
     ],
-    "image": "page171_img5.png"
+    "image": "page171_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "567",
@@ -12643,7 +16791,14 @@
         "correct": true
       }
     ],
-    "image": "page171_img6.png"
+    "image": "page171_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "568",
@@ -12665,7 +16820,14 @@
         "correct": false
       }
     ],
-    "image": "page172_img5.png"
+    "image": "page172_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "569",
@@ -12687,7 +16849,14 @@
         "correct": false
       }
     ],
-    "image": "page172_img6.png"
+    "image": "page172_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "570",
@@ -12714,7 +16883,14 @@
         "correct": false
       }
     ],
-    "image": "page173_img5.png"
+    "image": "page173_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "571",
@@ -12736,7 +16912,14 @@
         "correct": true
       }
     ],
-    "image": "page173_img6.png"
+    "image": "page173_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "572",
@@ -12758,7 +16941,14 @@
         "correct": false
       }
     ],
-    "image": "page174_img5.png"
+    "image": "page174_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "573",
@@ -12780,7 +16970,14 @@
         "correct": true
       }
     ],
-    "image": "page174_img6.png"
+    "image": "page174_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "574",
@@ -12802,7 +16999,14 @@
         "correct": true
       }
     ],
-    "image": "page175_img5.png"
+    "image": "page175_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "575",
@@ -12824,7 +17028,14 @@
         "correct": false
       }
     ],
-    "image": "page175_img6.png"
+    "image": "page175_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "576",
@@ -12841,7 +17052,14 @@
         "correct": true
       }
     ],
-    "image": "page176_img5.png"
+    "image": "page176_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "577",
@@ -12858,7 +17076,14 @@
         "correct": true
       }
     ],
-    "image": "page176_img6.png"
+    "image": "page176_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "578",
@@ -12885,7 +17110,14 @@
         "correct": true
       }
     ],
-    "image": "page177_img5.png"
+    "image": "page177_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "579",
@@ -12907,7 +17139,14 @@
         "correct": true
       }
     ],
-    "image": "page177_img6.png"
+    "image": "page177_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "580",
@@ -12929,7 +17168,14 @@
         "correct": false
       }
     ],
-    "image": "page178_img5.png"
+    "image": "page178_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "581",
@@ -12951,7 +17197,14 @@
         "correct": false
       }
     ],
-    "image": "page178_img6.png"
+    "image": "page178_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "582",
@@ -12973,7 +17226,14 @@
         "correct": true
       }
     ],
-    "image": "page179_img5.png"
+    "image": "page179_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "583",
@@ -12995,7 +17255,14 @@
         "correct": true
       }
     ],
-    "image": "page179_img6.png"
+    "image": "page179_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "584",
@@ -13022,7 +17289,14 @@
         "correct": true
       }
     ],
-    "image": "page180_img5.png"
+    "image": "page180_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "585",
@@ -13039,7 +17313,14 @@
         "correct": false
       }
     ],
-    "image": "page180_img6.png"
+    "image": "page180_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "586",
@@ -13056,7 +17337,14 @@
         "correct": true
       }
     ],
-    "image": "page181_img5.png"
+    "image": "page181_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1",
+      "A"
+    ]
   },
   {
     "id": "587",
@@ -13078,7 +17366,13 @@
         "correct": true
       }
     ],
-    "image": "page181_img6.png"
+    "image": "page181_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "588",
@@ -13095,7 +17389,13 @@
         "correct": true
       }
     ],
-    "image": "page182_img4.png"
+    "image": "page182_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "589",
@@ -13117,7 +17417,13 @@
         "correct": false
       }
     ],
-    "image": "page182_img5.png"
+    "image": "page182_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "590",
@@ -13139,7 +17445,13 @@
         "correct": true
       }
     ],
-    "image": "page183_img5.png"
+    "image": "page183_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "591",
@@ -13156,7 +17468,13 @@
         "correct": false
       }
     ],
-    "image": "page183_img6.png"
+    "image": "page183_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "592",
@@ -13178,7 +17496,13 @@
         "correct": false
       }
     ],
-    "image": "page184_img5.png"
+    "image": "page184_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "593",
@@ -13200,7 +17524,13 @@
         "correct": true
       }
     ],
-    "image": "page184_img6.png"
+    "image": "page184_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "594",
@@ -13222,7 +17552,13 @@
         "correct": false
       }
     ],
-    "image": "page185_img4.png"
+    "image": "page185_img4.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "595",
@@ -13244,7 +17580,13 @@
         "correct": false
       }
     ],
-    "image": "page185_img5.png"
+    "image": "page185_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "596",
@@ -13266,7 +17608,13 @@
         "correct": false
       }
     ],
-    "image": "page186_img5.png"
+    "image": "page186_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "597",
@@ -13283,7 +17631,13 @@
         "correct": true
       }
     ],
-    "image": "page186_img6.png"
+    "image": "page186_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "598",
@@ -13300,16 +17654,36 @@
         "correct": true
       }
     ],
-    "image": "page187_img5.png"
+    "image": "page187_img5.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "599",
     "question": "Trong tình huống dưới đây, xe con màu vàng vượt xe con màu đỏ là đúng quy tắc giao thông hay không?",
     "answers": [
-      { "id": "1", "text": "Đúng.", "correct": true },
-      { "id": "2", "text": "Không đúng.", "correct": false }
+      {
+        "id": "1",
+        "text": "Đúng.",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "Không đúng.",
+        "correct": false
+      }
     ],
-    "image": "page187_img6.png"
+    "image": "page187_img6.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   },
   {
     "id": "600",
@@ -13331,6 +17705,12 @@
         "correct": false
       }
     ],
-    "image": "page188_img3.png"
+    "image": "page188_img3.png",
+    "licenseClasses": [
+      "B",
+      "C1",
+      "C",
+      "B1"
+    ]
   }
 ]

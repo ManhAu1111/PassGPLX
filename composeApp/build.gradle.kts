@@ -30,6 +30,9 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.tensorflow.lite)
+            implementation(libs.tensorflow.lite.support)
+            implementation(libs.tensorflow.lite.metadata)
         }
         commonMain.dependencies {
             implementation(libs.compose.runtime)
@@ -45,6 +48,8 @@ kotlin {
             implementation(libs.peekaboo.ui)
             implementation(libs.peekaboo.image.picker)
             implementation(libs.kotlinx.serialization.json)
+            implementation(libs.multiplatform.settings)
+            implementation(libs.kotlinx.datetime)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

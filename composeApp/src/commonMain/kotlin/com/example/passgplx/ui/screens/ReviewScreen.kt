@@ -27,22 +27,60 @@ import com.example.passgplx.models.Answer
 import com.example.passgplx.models.Category
 import com.example.passgplx.models.Question
 import com.example.passgplx.viewmodels.ReviewViewModel
+import com.example.passgplx.data.ImageBitmapCache
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
+import kotlinx.coroutines.withContext
 import org.jetbrains.compose.resources.decodeToImageBitmap
+import com.example.passgplx.ui.components.shimmerEffect
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.itemsIndexed
+import kotlinx.coroutines.launch
+import androidx.compose.material.icons.filled.AccessTime
+import com.example.passgplx.ui.components.CategoryListSkeleton
+import com.example.passgplx.ui.components.QuestionCardSkeleton
 @OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)
 @Composable
-fun ReviewScreen() {
+fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
     val viewModel = viewModel { ReviewViewModel() }
     val questions by viewModel.questions.collectAsState()
-    val categories by viewModel.categories.collectAsState()
+    val selectedLicenseType by viewModel.selectedLicenseType.collectAsState()
+    val activeCategories by viewModel.activeCategories.collectAsState()
     val selectedCategory by viewModel.selectedCategory.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
+    val selectedAnswers by viewModel.selectedAnswers.collectAsState()
+
+    var categoryToPrompt by remember { mutableStateOf<com.example.passgplx.models.Category?>(null) }
+
+    LaunchedEffect(selectedCategory) {
+        val showNavBar = selectedCategory == null
+        onNavBarVisibilityChanged(showNavBar)
+    }
 
     if (isLoading) {
-        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            CircularProgressIndicator()
+        Scaffold(
+            topBar = {
+                TopAppBar(
+                    title = { Text("Ôn tập lý thuyết", fontWeight = FontWeight.Bold) },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surface)
+                )
+            }
+        ) { padding ->
+            Column(
+                modifier = Modifier.fillMaxSize().padding(padding).background(MaterialTheme.colorScheme.background)
+            ) {
+                // Skeleton dropdown
+                Box(modifier = Modifier.fillMaxWidth().padding(16.dp).height(56.dp)
+                    .clip(RoundedCornerShape(8.dp)).shimmerEffect())
+                CategoryListSkeleton()
+            }
         }
         return
     }
+
+    var expanded by remember { mutableStateOf(false) }
 
     if (selectedCategory == null) {
         // Show Category List
@@ -56,31 +94,67 @@ fun ReviewScreen() {
                 )
             }
         ) { padding ->
-            LazyColumn(
+            Column(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(padding)
-                    .background(MaterialTheme.colorScheme.background),
-                contentPadding = PaddingValues(16.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
+                    .background(MaterialTheme.colorScheme.background)
             ) {
-                items(categories) { category ->
-                    CategoryCard(category = category) {
-                        viewModel.selectCategory(category)
+                Box(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
+                    ExposedDropdownMenuBox(
+                        expanded = expanded,
+                        onExpandedChange = { expanded = !expanded }
+                    ) {
+                        OutlinedTextField(
+                            value = selectedLicenseType.displayName,
+                            onValueChange = {},
+                            readOnly = true,
+                            label = { Text("Hạng bằng lái") },
+                            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+                            modifier = Modifier.menuAnchor().fillMaxWidth()
+                        )
+                        ExposedDropdownMenu(
+                            expanded = expanded,
+                            onDismissRequest = { expanded = false }
+                        ) {
+                            com.example.passgplx.models.LicenseType.entries.forEach { licenseType ->
+                                DropdownMenuItem(
+                                    text = { Text(licenseType.displayName) },
+                                    onClick = {
+                                        viewModel.selectLicenseType(licenseType)
+                                        expanded = false
+                                    }
+                                )
+                            }
+                        }
+                    }
+                }
+
+                LazyColumn(
+                    modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 100.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    items(activeCategories) { info ->
+                        CategoryCard(
+                            category = info.category, 
+                            questionCount = info.questionCount, 
+                            answeredCount = info.answeredCount
+                        ) {
+                            if (info.answeredCount > 0) {
+                                categoryToPrompt = info.category
+                            } else {
+                                viewModel.selectCategory(info.category)
+                            }
+                        }
                     }
                 }
             }
         }
     } else {
-        // Show Questions for Selected Category
-        if (questions.isEmpty()) {
-            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text("Không có dữ liệu câu hỏi.", style = MaterialTheme.typography.bodyLarge)
-            }
-            return
-        }
-
         val pagerState = rememberPagerState(pageCount = { questions.size })
+        val coroutineScope = rememberCoroutineScope()
+        var showBottomSheet by remember { mutableStateOf(false) }
 
         Scaffold(
             topBar = {
@@ -98,20 +172,47 @@ fun ReviewScreen() {
                         }
                     },
                     actions = {
+                        IconButton(onClick = { showBottomSheet = true }) {
+                            Icon(Icons.Default.AccessTime, contentDescription = "Tiến độ")
+                        }
+                    }
+                )
+            },
+            bottomBar = {
+                BottomAppBar {
+                    Row(
+                        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        TextButton(
+                            onClick = { coroutineScope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) } },
+                            enabled = pagerState.currentPage > 0
+                        ) {
+                            Text("< Câu trước")
+                        }
+                        
                         Surface(
                             color = MaterialTheme.colorScheme.primaryContainer,
                             shape = RoundedCornerShape(16.dp),
-                            modifier = Modifier.padding(end = 16.dp)
+                            modifier = Modifier.clickable { showBottomSheet = true }
                         ) {
                             Text(
-                                text = "${pagerState.currentPage + 1}/${questions.size}",
-                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                                text = "Tiến độ: ${pagerState.currentPage + 1}/${questions.size}",
+                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
                                 style = MaterialTheme.typography.labelLarge,
                                 color = MaterialTheme.colorScheme.onPrimaryContainer
                             )
                         }
+
+                        TextButton(
+                            onClick = { coroutineScope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) } },
+                            enabled = pagerState.currentPage < questions.size - 1
+                        ) {
+                            Text("Câu sau >")
+                        }
                     }
-                )
+                }
             }
         ) { padding ->
             Column(modifier = Modifier.fillMaxSize().padding(padding).background(MaterialTheme.colorScheme.background)) {
@@ -126,15 +227,94 @@ fun ReviewScreen() {
                     state = pagerState,
                     modifier = Modifier.fillMaxSize()
                 ) { page ->
-                    QuestionCard(question = questions[page])
+                    val question = questions[page]
+                    QuestionCard(
+                        question = question,
+                        index = page,
+                        selectedAnswerProvider = { selectedAnswers[question.id] },
+                        onAnswerSelected = { answerId ->
+                            viewModel.selectAnswer(question.id, answerId)
+                        }
+                    )
+                }
+            }
+        }
+
+        if (showBottomSheet) {
+            ModalBottomSheet(
+                onDismissRequest = { showBottomSheet = false }
+            ) {
+                LazyVerticalGrid(
+                    columns = GridCells.Fixed(5),
+                    modifier = Modifier.padding(16.dp)
+                ) {
+                    itemsIndexed(questions) { index, question ->
+                        val isCurrent = pagerState.currentPage == index
+                        val isAnswered = selectedAnswers.containsKey(question.id)
+                        
+                        val color = when {
+                            isCurrent -> MaterialTheme.colorScheme.primary
+                            isAnswered -> MaterialTheme.colorScheme.primaryContainer
+                            else -> MaterialTheme.colorScheme.surfaceVariant
+                        }
+                        val contentColor = when {
+                            isCurrent -> MaterialTheme.colorScheme.onPrimary
+                            isAnswered -> MaterialTheme.colorScheme.onPrimaryContainer
+                            else -> MaterialTheme.colorScheme.onSurfaceVariant
+                        }
+
+                        Box(
+                            modifier = Modifier
+                                .padding(4.dp)
+                                .size(48.dp)
+                                .clip(CircleShape)
+                                .background(color)
+                                .clickable {
+                                    coroutineScope.launch { pagerState.animateScrollToPage(index) }
+                                    showBottomSheet = false
+                                },
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                text = "${index + 1}",
+                                color = contentColor,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+                    }
                 }
             }
         }
     }
+
+    if (categoryToPrompt != null) {
+        androidx.compose.material3.AlertDialog(
+            onDismissRequest = { categoryToPrompt = null },
+            title = { Text("Tiếp tục ôn tập") },
+            text = { Text("Bạn đang ôn tập dở bộ câu hỏi này. Bạn muốn làm tiếp hay làm lại từ đầu?") },
+            confirmButton = {
+                TextButton(onClick = {
+                    viewModel.selectCategory(categoryToPrompt)
+                    categoryToPrompt = null
+                }) {
+                    Text("Làm tiếp")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = {
+                    viewModel.clearHistoryForCategory(categoryToPrompt!!)
+                    viewModel.selectCategory(categoryToPrompt)
+                    categoryToPrompt = null
+                }) {
+                    Text("Làm lại từ đầu", color = MaterialTheme.colorScheme.error)
+                }
+            }
+        )
+    }
 }
 
 @Composable
-fun CategoryCard(category: Category, onClick: () -> Unit) {
+fun CategoryCard(category: Category, questionCount: Int, answeredCount: Int, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -167,7 +347,7 @@ fun CategoryCard(category: Category, onClick: () -> Unit) {
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = category.description,
+                    text = "${category.description} (Đã làm $answeredCount/$questionCount câu)",
                     style = MaterialTheme.typography.bodyMedium,
                     color = if (category.isParalyzing) MaterialTheme.colorScheme.onErrorContainer.copy(alpha = 0.8f) else MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -184,10 +364,14 @@ fun CategoryCard(category: Category, onClick: () -> Unit) {
 
 @OptIn(org.jetbrains.compose.resources.ExperimentalResourceApi::class)
 @Composable
-fun QuestionCard(question: Question) {
-    // Map of Answer ID -> Boolean (true if selected)
-    var selectedAnswerId by remember(question.id) { mutableStateOf<String?>(null) }
-    var showCorrectAnswer by remember(question.id) { mutableStateOf(false) }
+fun QuestionCard(
+    question: Question,
+    index: Int,
+    selectedAnswerProvider: () -> String?,
+    onAnswerSelected: (String) -> Unit
+) {
+    val selectedAnswerId = selectedAnswerProvider()
+    val showCorrectStatus = selectedAnswerId != null
 
     Column(
         modifier = Modifier
@@ -201,7 +385,7 @@ fun QuestionCard(question: Question) {
         ) {
             Column(modifier = Modifier.padding(16.dp)) {
                 Text(
-                    text = "Câu ${question.id}: ${question.question}",
+                    text = "Câu ${index + 1}: ${question.question}",
                     style = MaterialTheme.typography.titleMedium.copy(
                         fontWeight = FontWeight.Bold,
                         lineHeight = 24.sp
@@ -210,25 +394,47 @@ fun QuestionCard(question: Question) {
                 )
                 
                 if (!question.image.isNullOrEmpty()) {
-                    var imageBitmap by remember(question.image) { mutableStateOf<androidx.compose.ui.graphics.ImageBitmap?>(null) }
+                    var imageBitmap by remember(question.image) { mutableStateOf<androidx.compose.ui.graphics.ImageBitmap?>(ImageBitmapCache.get(question.image ?: "")) }
                     
-                    LaunchedEffect(question.image) {
-                        try {
-                            val bytes = passgplx.composeapp.generated.resources.Res.readBytes("files/questions/${question.image}")
-                            imageBitmap = bytes.decodeToImageBitmap()
-                        } catch (e: Exception) {
-                            e.printStackTrace()
+                    if (imageBitmap == null) {
+                        LaunchedEffect(question.image) {
+                            val bmp = withContext(Dispatchers.IO) {
+                                try {
+                                    val bytes = passgplx.composeapp.generated.resources.Res.readBytes("files/questions/${question.image}")
+                                    bytes.decodeToImageBitmap()
+                                } catch (e: Exception) {
+                                    null
+                                }
+                            }
+                            if (bmp != null) {
+                                ImageBitmapCache.put(question.image ?: "", bmp)
+                                imageBitmap = bmp
+                            }
                         }
                     }
 
-                    if (imageBitmap != null) {
-                        Spacer(modifier = Modifier.height(16.dp))
-                        androidx.compose.foundation.Image(
-                            bitmap = imageBitmap!!,
-                            contentDescription = null,
-                            modifier = Modifier.fillMaxWidth().heightIn(max = 200.dp),
-                            contentScale = androidx.compose.ui.layout.ContentScale.Fit
-                        )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(180.dp)
+                            .clip(RoundedCornerShape(8.dp)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        if (imageBitmap != null) {
+                            androidx.compose.foundation.Image(
+                                bitmap = imageBitmap!!,
+                                contentDescription = null,
+                                modifier = Modifier.fillMaxSize(),
+                                contentScale = androidx.compose.ui.layout.ContentScale.Fit
+                            )
+                        } else {
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxSize()
+                                    .shimmerEffect()
+                            )
+                        }
                     }
                 }
                 
@@ -238,11 +444,10 @@ fun QuestionCard(question: Question) {
                     AnswerRow(
                         answer = answer,
                         isSelected = selectedAnswerId == answer.id,
-                        showCorrectStatus = showCorrectAnswer,
+                        showCorrectStatus = showCorrectStatus,
                         onClick = {
-                            if (!showCorrectAnswer) {
-                                selectedAnswerId = answer.id
-                                showCorrectAnswer = true
+                            if (!showCorrectStatus) {
+                                onAnswerSelected(answer.id)
                             }
                         }
                     )
@@ -253,7 +458,7 @@ fun QuestionCard(question: Question) {
         
         Spacer(modifier = Modifier.height(16.dp))
         
-        if (showCorrectAnswer) {
+        if (showCorrectStatus) {
             val isCorrect = question.answers.find { it.id == selectedAnswerId }?.correct == true
             val message = if (isCorrect) "Chính xác!" else "Chưa chính xác!"
             val color = if (isCorrect) Color(0xFF4CAF50) else MaterialTheme.colorScheme.error
@@ -283,14 +488,14 @@ fun AnswerRow(
 ) {
     val backgroundColor = when {
         showCorrectStatus && answer.correct -> Color(0xFF4CAF50).copy(alpha = 0.2f) // Light Green
-        showCorrectStatus && isSelected && !answer.correct -> MaterialTheme.colorScheme.error.copy(alpha = 0.2f) // Light Red
+        showCorrectStatus && isSelected && !answer.correct -> Color(0xFFE53935).copy(alpha = 0.2f) // Light Red
         isSelected -> MaterialTheme.colorScheme.primaryContainer
         else -> MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
     }
 
     val borderColor = when {
         showCorrectStatus && answer.correct -> Color(0xFF4CAF50)
-        showCorrectStatus && isSelected && !answer.correct -> MaterialTheme.colorScheme.error
+        showCorrectStatus && isSelected && !answer.correct -> Color(0xFFE53935)
         isSelected -> MaterialTheme.colorScheme.primary
         else -> Color.Transparent
     }
@@ -298,8 +503,8 @@ fun AnswerRow(
     Surface(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(12.dp))
             .clickable(enabled = !showCorrectStatus, onClick = onClick),
+        shape = RoundedCornerShape(12.dp),
         color = backgroundColor,
         border = androidx.compose.foundation.BorderStroke(1.dp, borderColor)
     ) {
@@ -312,7 +517,7 @@ fun AnswerRow(
                 onClick = null,
                 colors = RadioButtonDefaults.colors(
                     selectedColor = if (showCorrectStatus && answer.correct) Color(0xFF4CAF50) 
-                                    else if (showCorrectStatus && isSelected) MaterialTheme.colorScheme.error
+                                    else if (showCorrectStatus && isSelected) Color(0xFFE53935)
                                     else MaterialTheme.colorScheme.primary
                 )
             )
