@@ -9,23 +9,37 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Image
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.window.Dialog
+import androidx.compose.animation.core.*
+import androidx.compose.foundation.background
+import androidx.compose.ui.composed
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.layout.onGloballyPositioned
+import com.example.passgplx.data.ImageBitmapCache
+import com.example.passgplx.data.TrafficSignRepository
+import com.example.passgplx.ui.components.shimmerEffect
+import com.example.passgplx.ui.components.TrafficSignGridSkeleton
 import com.example.passgplx.models.TrafficSign
+import com.example.passgplx.toImageBitmap
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
@@ -38,31 +52,21 @@ fun TrafficSignsScreen() {
     var signs by remember { mutableStateOf<List<TrafficSign>>(emptyList()) }
     var selectedSign by remember { mutableStateOf<TrafficSign?>(null) }
 
+    // Dùng TrafficSignRepository singleton – data.json chỉ parse 1 lần toàn app
     LaunchedEffect(Unit) {
-        try {
-            val jsonString = withContext(Dispatchers.Default) {
-                Res.readBytes("files/data.json").decodeToString()
-            }
-            signs = withContext(Dispatchers.Default) {
-                Json.decodeFromString<List<TrafficSign>>(jsonString)
-            }
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
+        signs = TrafficSignRepository.getSigns()
     }
 
     if (signs.isEmpty()) {
-        Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            CircularProgressIndicator()
-        }
+        TrafficSignGridSkeleton()
         return
     }
 
     val categories = remember(signs) { signs.map { it.type }.distinct() }
     var selectedCategory by remember(categories) { mutableStateOf(categories.firstOrNull() ?: "") }
-    
-    val filteredSigns = remember(signs, selectedCategory) { 
-        signs.filter { it.type == selectedCategory } 
+
+    val filteredSigns = remember(signs, selectedCategory) {
+        signs.filter { it.type == selectedCategory }
     }
 
     Column(modifier = Modifier.fillMaxSize()) {
@@ -83,7 +87,7 @@ fun TrafficSignsScreen() {
 
         LazyVerticalGrid(
             columns = GridCells.Adaptive(minSize = 160.dp),
-            contentPadding = PaddingValues(16.dp),
+            contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 100.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
             modifier = Modifier.fillMaxSize()
@@ -106,7 +110,28 @@ fun TrafficSignsScreen() {
 @Composable
 fun TrafficSignCard(sign: TrafficSign, onClick: () -> Unit) {
     val resourceName = sign.image.removeSuffix(".png").lowercase()
-    
+    // Kiểm tra cache trước, tránh load lại ảnh đã từng tải
+    var imageBitmap by remember(resourceName) {
+        mutableStateOf<ImageBitmap?>(ImageBitmapCache.get(resourceName))
+    }
+
+    // Chỉ launch LaunchedEffect khi cache miss
+    if (imageBitmap == null) {
+        LaunchedEffect(resourceName) {
+            val bmp = withContext(Dispatchers.IO) {
+                try {
+                    Res.readBytes("drawable/${resourceName}.png").toImageBitmap()
+                } catch (e: Exception) {
+                    null
+                }
+            }
+            if (bmp != null) {
+                ImageBitmapCache.put(resourceName, bmp)
+                imageBitmap = bmp
+            }
+        }
+    }
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -125,12 +150,22 @@ fun TrafficSignCard(sign: TrafficSign, onClick: () -> Unit) {
                     .padding(8.dp),
                 contentAlignment = Alignment.Center
             ) {
-                Image(
-                    painter = painterResource(getDrawableResource(resourceName)),
-                    contentDescription = sign.name,
-                    modifier = Modifier.fillMaxSize(),
-                    contentScale = ContentScale.Fit
-                )
+                if (imageBitmap != null) {
+                    Image(
+                        bitmap = imageBitmap!!,
+                        contentDescription = sign.name,
+                        modifier = Modifier.fillMaxSize(),
+                        contentScale = ContentScale.Fit
+                    )
+                } else {
+                    // Skeleton Loading Effect
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .clip(RoundedCornerShape(8.dp))
+                            .shimmerEffect()
+                    )
+                }
             }
             
             Text(
@@ -463,3 +498,5 @@ fun getDrawableResource(name: String): DrawableResource {
         else -> Res.drawable.compose_multiplatform
     }
 }
+
+// shimmerEffect is now imported from com.example.passgplx.ui.components.shimmerEffect
