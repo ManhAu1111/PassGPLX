@@ -64,7 +64,7 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
             topBar = {
                 TopAppBar(
                     title = { Text("Ôn tập lý thuyết", fontWeight = FontWeight.Bold) },
-                    colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surface)
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.background)
                 )
             }
         ) { padding ->
@@ -89,7 +89,7 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                 TopAppBar(
                     title = { Text("Ôn tập lý thuyết", fontWeight = FontWeight.Bold) },
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = MaterialTheme.colorScheme.surface,
+                        containerColor = MaterialTheme.colorScheme.background,
                     )
                 )
             }
@@ -100,31 +100,53 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                     .padding(padding)
                     .background(MaterialTheme.colorScheme.background)
             ) {
-                Box(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
-                    ExposedDropdownMenuBox(
-                        expanded = expanded,
-                        onExpandedChange = { expanded = !expanded }
+                Card(
+                    modifier = Modifier.fillMaxWidth().padding(16.dp),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 0.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp)
                     ) {
-                        OutlinedTextField(
-                            value = selectedLicenseType.displayName,
-                            onValueChange = {},
-                            readOnly = true,
-                            label = { Text("Hạng bằng lái") },
-                            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                            modifier = Modifier.menuAnchor().fillMaxWidth()
+                        Text(
+                            text = "Hạng bằng ôn tập",
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.onSurface
                         )
-                        ExposedDropdownMenu(
+                        Spacer(modifier = Modifier.height(12.dp))
+                        ExposedDropdownMenuBox(
                             expanded = expanded,
-                            onDismissRequest = { expanded = false }
+                            onExpandedChange = { expanded = !expanded }
                         ) {
-                            com.example.passgplx.models.LicenseType.entries.forEach { licenseType ->
-                                DropdownMenuItem(
-                                    text = { Text(licenseType.displayName) },
-                                    onClick = {
-                                        viewModel.selectLicenseType(licenseType)
-                                        expanded = false
-                                    }
+                            OutlinedTextField(
+                                value = selectedLicenseType.displayName,
+                                onValueChange = {},
+                                readOnly = true,
+                                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+                                modifier = Modifier.menuAnchor().fillMaxWidth(),
+                                shape = RoundedCornerShape(12.dp),
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    focusedBorderColor = Color.Black,
+                                    unfocusedBorderColor = Color.Black,
+                                    focusedTextColor = Color.Black,
+                                    unfocusedTextColor = Color.Black
                                 )
+                            )
+                            ExposedDropdownMenu(
+                                expanded = expanded,
+                                onDismissRequest = { expanded = false }
+                            ) {
+                                com.example.passgplx.models.LicenseType.entries.forEach { licenseType ->
+                                    DropdownMenuItem(
+                                        text = { Text(licenseType.displayName) },
+                                        onClick = {
+                                            viewModel.selectLicenseType(licenseType)
+                                            expanded = false
+                                        }
+                                    )
+                                }
                             }
                         }
                     }
@@ -175,7 +197,8 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                         IconButton(onClick = { showBottomSheet = true }) {
                             Icon(Icons.Default.AccessTime, contentDescription = "Tiến độ")
                         }
-                    }
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.background)
                 )
             },
             bottomBar = {
@@ -185,15 +208,16 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        TextButton(
+                        OutlinedButton(
                             onClick = { coroutineScope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) } },
-                            enabled = pagerState.currentPage > 0
+                            enabled = pagerState.currentPage > 0,
+                            colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)
                         ) {
                             Text("< Câu trước")
                         }
                         
                         Surface(
-                            color = MaterialTheme.colorScheme.primaryContainer,
+                            color = MaterialTheme.colorScheme.surfaceVariant,
                             shape = RoundedCornerShape(16.dp),
                             modifier = Modifier.clickable { showBottomSheet = true }
                         ) {
@@ -201,13 +225,14 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                                 text = "Tiến độ: ${pagerState.currentPage + 1}/${questions.size}",
                                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
                                 style = MaterialTheme.typography.labelLarge,
-                                color = MaterialTheme.colorScheme.onPrimaryContainer
+                                color = MaterialTheme.colorScheme.onSurface
                             )
                         }
 
-                        TextButton(
+                        OutlinedButton(
                             onClick = { coroutineScope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) } },
-                            enabled = pagerState.currentPage < questions.size - 1
+                            enabled = pagerState.currentPage < questions.size - 1,
+                            colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)
                         ) {
                             Text("Câu sau >")
                         }
@@ -293,20 +318,26 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
             title = { Text("Tiếp tục ôn tập") },
             text = { Text("Bạn đang ôn tập dở bộ câu hỏi này. Bạn muốn làm tiếp hay làm lại từ đầu?") },
             confirmButton = {
-                TextButton(onClick = {
-                    viewModel.selectCategory(categoryToPrompt)
-                    categoryToPrompt = null
-                }) {
+                OutlinedButton(
+                    onClick = {
+                        viewModel.selectCategory(categoryToPrompt)
+                        categoryToPrompt = null
+                    },
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                ) {
                     Text("Làm tiếp")
                 }
             },
             dismissButton = {
-                TextButton(onClick = {
-                    viewModel.clearHistoryForCategory(categoryToPrompt!!)
-                    viewModel.selectCategory(categoryToPrompt)
-                    categoryToPrompt = null
-                }) {
-                    Text("Làm lại từ đầu", color = MaterialTheme.colorScheme.error)
+                OutlinedButton(
+                    onClick = {
+                        viewModel.clearHistoryForCategory(categoryToPrompt!!)
+                        viewModel.selectCategory(categoryToPrompt)
+                        categoryToPrompt = null
+                    },
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.error)
+                ) {
+                    Text("Làm lại từ đầu")
                 }
             }
         )
@@ -351,7 +382,15 @@ fun CategoryCard(category: Category, questionCount: Int, answeredCount: Int, onC
                     style = MaterialTheme.typography.bodyMedium,
                     color = if (category.isParalyzing) MaterialTheme.colorScheme.onErrorContainer.copy(alpha = 0.8f) else MaterialTheme.colorScheme.onSurfaceVariant
                 )
+                Spacer(modifier = Modifier.height(8.dp))
+                androidx.compose.material3.LinearProgressIndicator(
+                    progress = { if (questionCount > 0) answeredCount.toFloat() / questionCount else 0f },
+                    modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(4.dp)),
+                    color = if (category.isParalyzing) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary,
+                    trackColor = if (category.isParalyzing) MaterialTheme.colorScheme.error.copy(alpha = 0.2f) else MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
+                )
             }
+            Spacer(modifier = Modifier.width(16.dp))
             Icon(
                 Icons.Default.ArrowForwardIos,
                 contentDescription = null,
@@ -440,9 +479,10 @@ fun QuestionCard(
                 
                 Spacer(modifier = Modifier.height(24.dp))
                 
-                question.answers.forEach { answer ->
+                question.answers.forEachIndexed { ansIndex, answer ->
                     AnswerRow(
                         answer = answer,
+                        index = ansIndex,
                         isSelected = selectedAnswerId == answer.id,
                         showCorrectStatus = showCorrectStatus,
                         onClick = {
@@ -482,15 +522,16 @@ fun QuestionCard(
 @Composable
 fun AnswerRow(
     answer: Answer,
+    index: Int,
     isSelected: Boolean,
     showCorrectStatus: Boolean,
     onClick: () -> Unit
 ) {
     val backgroundColor = when {
-        showCorrectStatus && answer.correct -> Color(0xFF4CAF50).copy(alpha = 0.2f) // Light Green
-        showCorrectStatus && isSelected && !answer.correct -> Color(0xFFE53935).copy(alpha = 0.2f) // Light Red
-        isSelected -> MaterialTheme.colorScheme.primaryContainer
-        else -> MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+        showCorrectStatus && answer.correct -> Color(0xFF4CAF50).copy(alpha = 0.15f) // Light Green
+        showCorrectStatus && isSelected && !answer.correct -> Color(0xFFE53935).copy(alpha = 0.15f) // Light Red
+        isSelected -> MaterialTheme.colorScheme.primaryContainer // Light teal
+        else -> MaterialTheme.colorScheme.surfaceVariant
     }
 
     val borderColor = when {
@@ -500,31 +541,45 @@ fun AnswerRow(
         else -> Color.Transparent
     }
 
+    val borderWidth = if (isSelected || (showCorrectStatus && (answer.correct || isSelected))) 2.dp else 1.dp
+
+    val labelChar = ('A' + index).toString()
+
     Surface(
         modifier = Modifier
             .fillMaxWidth()
             .clickable(enabled = !showCorrectStatus, onClick = onClick),
         shape = RoundedCornerShape(12.dp),
         color = backgroundColor,
-        border = androidx.compose.foundation.BorderStroke(1.dp, borderColor)
+        border = androidx.compose.foundation.BorderStroke(borderWidth, borderColor)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            RadioButton(
-                selected = isSelected || (showCorrectStatus && answer.correct),
-                onClick = null,
-                colors = RadioButtonDefaults.colors(
-                    selectedColor = if (showCorrectStatus && answer.correct) Color(0xFF4CAF50) 
-                                    else if (showCorrectStatus && isSelected) Color(0xFFE53935)
-                                    else MaterialTheme.colorScheme.primary
+            val labelColor = if (showCorrectStatus && answer.correct) Color(0xFF4CAF50)
+                             else if (showCorrectStatus && isSelected) Color(0xFFE53935)
+                             else if (isSelected) MaterialTheme.colorScheme.primary
+                             else MaterialTheme.colorScheme.onSurfaceVariant
+                             
+            Box(
+                modifier = Modifier
+                    .size(32.dp)
+                    .clip(androidx.compose.foundation.shape.CircleShape)
+                    .background(if (isSelected || (showCorrectStatus && answer.correct)) labelColor else labelColor.copy(alpha = 0.1f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = labelChar,
+                    fontWeight = FontWeight.Bold,
+                    color = if (isSelected || (showCorrectStatus && answer.correct)) Color.White else labelColor
                 )
-            )
+            }
             Spacer(modifier = Modifier.width(12.dp))
             Text(
                 text = answer.text,
                 style = MaterialTheme.typography.bodyLarge,
+                fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
                 color = MaterialTheme.colorScheme.onSurface
             )
         }

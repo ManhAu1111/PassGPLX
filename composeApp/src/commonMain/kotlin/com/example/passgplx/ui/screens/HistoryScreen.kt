@@ -45,7 +45,7 @@ fun HistoryScreen(
             TopAppBar(
                 title = { Text("Lịch sử thi thử", fontWeight = FontWeight.Bold) },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.surface,
+                    containerColor = MaterialTheme.colorScheme.background,
                 )
             )
         }
@@ -87,7 +87,9 @@ fun ExamRecordCard(record: MockExamRecord, onClick: () -> Unit) {
 
     Card(
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        shape = RoundedCornerShape(12.dp)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
@@ -95,27 +97,43 @@ fun ExamRecordCard(record: MockExamRecord, onClick: () -> Unit) {
         ) {
             Box(
                 modifier = Modifier
-                    .size(48.dp)
-                    .clip(RoundedCornerShape(8.dp))
-                    .background(if (isPassed) Color(0xFF4CAF50) else MaterialTheme.colorScheme.error),
+                    .size(56.dp)
+                    .clip(CircleShape)
+                    .background(if (isPassed) Color(0xFF4CAF50).copy(alpha = 0.15f) else Color(0xFFE53935).copy(alpha = 0.15f)),
                 contentAlignment = Alignment.Center
             ) {
                 Text(
                     text = "${record.data.score}",
-                    color = Color.White,
+                    color = if (isPassed) Color(0xFF4CAF50) else Color(0xFFE53935),
                     fontWeight = FontWeight.Bold,
-                    fontSize = 18.sp
+                    fontSize = 20.sp
                 )
             }
             Spacer(Modifier.width(16.dp))
             Column(modifier = Modifier.weight(1f)) {
-                Text("Hạng ${record.data.licenseType}", fontWeight = FontWeight.Bold)
-                Text(dateString, fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(
+                    text = "Hạng ${record.data.licenseType}",
+                    style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text = dateString,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
             }
-            Text(if (isPassed) "ĐẠT" else "TRƯỢT", 
-                fontWeight = FontWeight.Bold, 
-                color = if (isPassed) Color(0xFF4CAF50) else MaterialTheme.colorScheme.error
-            )
+            Surface(
+                color = if (isPassed) Color(0xFF4CAF50).copy(alpha = 0.15f) else Color(0xFFE53935).copy(alpha = 0.15f),
+                shape = RoundedCornerShape(8.dp)
+            ) {
+                Text(
+                    text = if (isPassed) "ĐẠT" else "TRƯỢT",
+                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+                    style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold),
+                    color = if (isPassed) Color(0xFF4CAF50) else Color(0xFFE53935)
+                )
+            }
         }
     }
 }

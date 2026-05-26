@@ -13,6 +13,9 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccessTime
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Cancel
+import androidx.compose.material.icons.filled.Description
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -44,6 +47,7 @@ fun MockExamScreen(
     val viewModel = viewModel { MockExamViewModel() }
     val state by viewModel.state.collectAsState()
     val hasSavedExam by viewModel.hasSavedExam.collectAsState()
+    val timeRemaining by viewModel.timeRemainingSeconds.collectAsState()
     val coroutineScope = rememberCoroutineScope()
 
     LaunchedEffect(pastExamRecord) {
@@ -63,7 +67,7 @@ fun MockExamScreen(
             topBar = {
                 TopAppBar(
                     title = { Text("Thi Thử", fontWeight = FontWeight.Bold) },
-                    colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surface)
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.background)
                 )
             }
         ) { padding ->
@@ -107,29 +111,52 @@ fun MockExamScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Icon(Icons.Default.AccessTime, contentDescription = "Time")
-                        Spacer(modifier = Modifier.width(8.dp))
-                        val minutes = state.timeRemainingSeconds / 60
-                        val seconds = state.timeRemainingSeconds % 60
-                        Text(
-                            text = "${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}",
-                            style = MaterialTheme.typography.titleLarge,
-                            color = if (state.timeRemainingSeconds < 60) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurface
-                        )
+                    Surface(
+                        color = if (timeRemaining < 60 && !state.isSubmitted) MaterialTheme.colorScheme.error.copy(alpha = 0.1f) else MaterialTheme.colorScheme.surfaceVariant,
+                        shape = RoundedCornerShape(16.dp)
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                        ) {
+                            Icon(
+                                Icons.Default.AccessTime, 
+                                contentDescription = "Time",
+                                tint = if (timeRemaining < 60 && !state.isSubmitted) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurface,
+                                modifier = Modifier.size(20.dp)
+                            )
+                            Spacer(modifier = Modifier.width(8.dp))
+                            val minutes = timeRemaining / 60
+                            val seconds = timeRemaining % 60
+                            Text(
+                                text = "${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}",
+                                style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                                color = if (timeRemaining < 60 && !state.isSubmitted) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurface
+                            )
+                        }
                     }
                 },
                 actions = {
                     if (!state.isSubmitted) {
-                        Button(onClick = { showSubmitDialog = true }) {
-                            Text("Nộp bài")
+                        Button(
+                            onClick = { showSubmitDialog = true },
+                            modifier = Modifier.padding(end = 16.dp),
+                            shape = RoundedCornerShape(12.dp)
+                        ) {
+                            Text("Nộp bài", fontWeight = FontWeight.Bold)
                         }
                     } else {
-                        Button(onClick = { viewModel.quitExam() }) {
-                            Text("Thoát")
+                        Button(
+                            onClick = { viewModel.quitExam() },
+                            modifier = Modifier.padding(end = 16.dp),
+                            shape = RoundedCornerShape(12.dp),
+                            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                        ) {
+                            Text("Thoát", fontWeight = FontWeight.Bold)
                         }
                     }
-                }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.background)
             )
         },
         bottomBar = {
@@ -139,15 +166,16 @@ fun MockExamScreen(
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    TextButton(
+                    OutlinedButton(
                         onClick = { coroutineScope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) } },
-                        enabled = pagerState.currentPage > 0
+                        enabled = pagerState.currentPage > 0,
+                        colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)
                     ) {
                         Text("< Câu trước")
                     }
                     
                     Surface(
-                        color = MaterialTheme.colorScheme.primaryContainer,
+                        color = MaterialTheme.colorScheme.surfaceVariant,
                         shape = RoundedCornerShape(16.dp),
                         modifier = Modifier.clickable { showBottomSheet = true }
                     ) {
@@ -155,13 +183,14 @@ fun MockExamScreen(
                             text = "Tiến độ: ${pagerState.currentPage + 1}/${state.questions.size}",
                             modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
                             style = MaterialTheme.typography.labelLarge,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer
+                            color = MaterialTheme.colorScheme.onSurface
                         )
                     }
 
-                    TextButton(
+                    OutlinedButton(
                         onClick = { coroutineScope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) } },
-                        enabled = pagerState.currentPage < state.questions.size - 1
+                        enabled = pagerState.currentPage < state.questions.size - 1,
+                        colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)
                     ) {
                         Text("Câu sau >")
                     }
@@ -176,25 +205,40 @@ fun MockExamScreen(
                 .background(MaterialTheme.colorScheme.background)
         ) {
             if (state.isSubmitted) {
+                val passed = state.score >= state.selectedLicenseType.passingScore
+                val bannerColor = if (passed) Color(0xFF4CAF50) else Color(0xFFE53935)
+                val bannerIcon = if (passed) Icons.Default.CheckCircle else Icons.Default.Cancel
+                
                 Card(
                     modifier = Modifier.fillMaxWidth().padding(16.dp),
-                    colors = CardDefaults.cardColors(
-                        containerColor = if (state.score >= 21) Color(0xFF4CAF50).copy(alpha = 0.2f) else MaterialTheme.colorScheme.error.copy(alpha = 0.2f)
-                    )
+                    shape = RoundedCornerShape(16.dp),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                    colors = CardDefaults.cardColors(containerColor = bannerColor.copy(alpha = 0.15f))
                 ) {
-                    Column(
-                        modifier = Modifier.padding(16.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
+                    Row(
+                        modifier = Modifier.fillMaxWidth().padding(16.dp),
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(
-                            text = if (state.score >= 21) "ĐẠT" else "KHÔNG ĐẠT",
-                            style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
-                            color = if (state.score >= 21) Color(0xFF2E7D32) else MaterialTheme.colorScheme.error
+                        Icon(
+                            imageVector = bannerIcon,
+                            contentDescription = null,
+                            tint = bannerColor,
+                            modifier = Modifier.size(48.dp)
                         )
-                        Text(
-                            text = "Điểm: ${state.score}/${state.questions.size}",
-                            style = MaterialTheme.typography.titleLarge
-                        )
+                        Spacer(modifier = Modifier.width(16.dp))
+                        Column {
+                            Text(
+                                text = if (passed) "KẾT QUẢ: ĐẠT" else "KẾT QUẢ: KHÔNG ĐẠT",
+                                style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+                                color = bannerColor
+                            )
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text(
+                                text = "Số điểm: ${state.score} / ${state.questions.size}",
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                        }
                     }
                 }
             }
@@ -279,16 +323,22 @@ fun MockExamScreen(
                 title = { Text("Xác nhận nộp bài") },
                 text = { Text(dialogText) },
                 confirmButton = {
-                    TextButton(onClick = {
-                        viewModel.submitExam()
-                        showSubmitDialog = false
-                    }) {
-                        Text("Nộp bài", color = MaterialTheme.colorScheme.primary)
+                    OutlinedButton(
+                        onClick = {
+                            viewModel.submitExam()
+                            showSubmitDialog = false
+                        },
+                        colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                    ) {
+                        Text("Nộp bài")
                     }
                 },
                 dismissButton = {
-                    TextButton(onClick = { showSubmitDialog = false }) {
-                        Text("Làm tiếp", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    OutlinedButton(
+                        onClick = { showSubmitDialog = false },
+                        colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurfaceVariant)
+                    ) {
+                        Text("Làm tiếp")
                     }
                 }
             )
@@ -372,9 +422,10 @@ fun ExamQuestionCard(
                 
                 Spacer(modifier = Modifier.height(24.dp))
                 
-                question.answers.forEach { answer ->
+                question.answers.forEachIndexed { ansIndex, answer ->
                     ExamAnswerRow(
                         answer = answer,
+                        index = ansIndex,
                         isSelected = selectedAnswerId == answer.id,
                         isSubmitted = isSubmitted,
                         onClick = { onAnswerSelected(answer.id) }
@@ -389,15 +440,16 @@ fun ExamQuestionCard(
 @Composable
 fun ExamAnswerRow(
     answer: Answer,
+    index: Int,
     isSelected: Boolean,
     isSubmitted: Boolean,
     onClick: () -> Unit
 ) {
     val backgroundColor = when {
-        isSubmitted && answer.correct -> Color(0xFF4CAF50).copy(alpha = 0.2f)
-        isSubmitted && isSelected && !answer.correct -> Color(0xFFE53935).copy(alpha = 0.2f)
-        isSelected -> MaterialTheme.colorScheme.primaryContainer
-        else -> MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+        isSubmitted && answer.correct -> Color(0xFF4CAF50).copy(alpha = 0.15f)
+        isSubmitted && isSelected && !answer.correct -> Color(0xFFE53935).copy(alpha = 0.15f)
+        isSelected -> MaterialTheme.colorScheme.primaryContainer // Light teal
+        else -> MaterialTheme.colorScheme.surfaceVariant
     }
 
     val borderColor = when {
@@ -406,6 +458,10 @@ fun ExamAnswerRow(
         isSelected -> MaterialTheme.colorScheme.primary
         else -> Color.Transparent
     }
+    
+    val borderWidth = if (isSelected || (isSubmitted && (answer.correct || isSelected))) 2.dp else 1.dp
+
+    val labelChar = ('A' + index).toString()
 
     Surface(
         modifier = Modifier
@@ -413,25 +469,35 @@ fun ExamAnswerRow(
             .clickable(enabled = !isSubmitted, onClick = onClick),
         shape = RoundedCornerShape(12.dp),
         color = backgroundColor,
-        border = androidx.compose.foundation.BorderStroke(1.dp, borderColor)
+        border = androidx.compose.foundation.BorderStroke(borderWidth, borderColor)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            RadioButton(
-                selected = isSelected || (isSubmitted && answer.correct),
-                onClick = null,
-                colors = RadioButtonDefaults.colors(
-                    selectedColor = if (isSubmitted && answer.correct) Color(0xFF4CAF50) 
-                                    else if (isSubmitted && isSelected) Color(0xFFE53935)
-                                    else MaterialTheme.colorScheme.primary
+            val labelColor = if (isSubmitted && answer.correct) Color(0xFF4CAF50)
+                             else if (isSubmitted && isSelected) Color(0xFFE53935)
+                             else if (isSelected) MaterialTheme.colorScheme.primary
+                             else MaterialTheme.colorScheme.onSurfaceVariant
+                             
+            Box(
+                modifier = Modifier
+                    .size(32.dp)
+                    .clip(androidx.compose.foundation.shape.CircleShape)
+                    .background(if (isSelected || (isSubmitted && answer.correct)) labelColor else labelColor.copy(alpha = 0.1f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = labelChar,
+                    fontWeight = FontWeight.Bold,
+                    color = if (isSelected || (isSubmitted && answer.correct)) Color.White else labelColor
                 )
-            )
+            }
             Spacer(modifier = Modifier.width(12.dp))
             Text(
                 text = answer.text,
                 style = MaterialTheme.typography.bodyLarge,
+                fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
                 color = MaterialTheme.colorScheme.onSurface
             )
         }
@@ -454,7 +520,7 @@ fun MockExamSetupScreen(
             TopAppBar(
                 title = { Text("Thi Thử", fontWeight = FontWeight.Bold) },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.surface,
+                    containerColor = MaterialTheme.colorScheme.background,
                 )
             )
         }
@@ -468,75 +534,128 @@ fun MockExamSetupScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Icon(
-                imageVector = Icons.Default.AccessTime,
-                contentDescription = null,
-                modifier = Modifier.size(100.dp),
-                tint = MaterialTheme.colorScheme.primary
-            )
-            Spacer(modifier = Modifier.height(32.dp))
-            
-            Text(
-                text = "Chọn hạng bằng lái",
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold
-            )
-            Spacer(modifier = Modifier.height(16.dp))
-
-            ExposedDropdownMenuBox(
-                expanded = expanded,
-                onExpandedChange = { expanded = !expanded }
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                elevation = CardDefaults.cardElevation(defaultElevation = 0.dp),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+                shape = RoundedCornerShape(16.dp)
             ) {
-                OutlinedTextField(
-                    value = selectedLicenseType.displayName,
-                    onValueChange = {},
-                    readOnly = true,
-                    label = { Text("Hạng bằng lái") },
-                    trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                    modifier = Modifier.menuAnchor().fillMaxWidth()
-                )
-                ExposedDropdownMenu(
-                    expanded = expanded,
-                    onDismissRequest = { expanded = false }
+                Column(
+                    modifier = Modifier.padding(24.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    com.example.passgplx.models.LicenseType.entries.forEach { licenseType ->
-                        DropdownMenuItem(
-                            text = { Text(licenseType.displayName) },
-                            onClick = {
-                                onLicenseTypeSelected(licenseType)
-                                expanded = false
-                            }
+                    Icon(
+                        imageVector = Icons.Default.AccessTime,
+                        contentDescription = null,
+                        modifier = Modifier.size(48.dp),
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Spacer(modifier = Modifier.height(24.dp))
+                    
+                    Text(
+                        text = "Chọn hạng bằng lái",
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+
+                    ExposedDropdownMenuBox(
+                        expanded = expanded,
+                        onExpandedChange = { expanded = !expanded }
+                    ) {
+                        OutlinedTextField(
+                            value = selectedLicenseType.displayName,
+                            onValueChange = {},
+                            readOnly = true,
+                            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+                            modifier = Modifier.menuAnchor().fillMaxWidth(),
+                            shape = RoundedCornerShape(12.dp),
+                            colors = OutlinedTextFieldDefaults.colors(
+                                focusedBorderColor = Color.Black,
+                                unfocusedBorderColor = Color.Black,
+                                focusedTextColor = Color.Black,
+                                unfocusedTextColor = Color.Black
+                            )
                         )
+                        ExposedDropdownMenu(
+                            expanded = expanded,
+                            onDismissRequest = { expanded = false }
+                        ) {
+                            com.example.passgplx.models.LicenseType.entries.forEach { licenseType ->
+                                DropdownMenuItem(
+                                    text = { Text(licenseType.displayName) },
+                                    onClick = {
+                                        onLicenseTypeSelected(licenseType)
+                                        expanded = false
+                                    }
+                                )
+                            }
+                        }
+                    }
+                    
+                    Spacer(modifier = Modifier.height(24.dp))
+                    
+                    Surface(
+                        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+                        shape = RoundedCornerShape(12.dp),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Column(modifier = Modifier.padding(16.dp)) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(Icons.Default.Description, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                                Spacer(modifier = Modifier.width(8.dp))
+                                Text(
+                                    text = "Số câu hỏi: ${selectedLicenseType.totalMockQuestions}",
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    color = MaterialTheme.colorScheme.onSurface
+                                )
+                            }
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(Icons.Default.AccessTime, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                                Spacer(modifier = Modifier.width(8.dp))
+                                Text(
+                                    text = "Thời gian: ${selectedLicenseType.timeMinutes} phút",
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    color = MaterialTheme.colorScheme.onSurface
+                                )
+                            }
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(Icons.Default.CheckCircle, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                                Spacer(modifier = Modifier.width(8.dp))
+                                Text(
+                                    text = "Điểm đạt: ${selectedLicenseType.passingScore}/${selectedLicenseType.totalMockQuestions}",
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    color = MaterialTheme.colorScheme.onSurface
+                                )
+                            }
+                        }
                     }
                 }
             }
             
-            Spacer(modifier = Modifier.height(24.dp))
-            Text(
-                text = "Số câu hỏi: ${selectedLicenseType.totalMockQuestions}\nThời gian: ${selectedLicenseType.timeMinutes} phút\nĐiểm đạt: ${selectedLicenseType.passingScore}/${selectedLicenseType.totalMockQuestions}",
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = androidx.compose.ui.text.style.TextAlign.Center
-            )
-            
-            Spacer(modifier = Modifier.height(48.dp))
+            Spacer(modifier = Modifier.height(32.dp))
             
             if (hasSavedExam) {
                 Button(
                     onClick = onContinueExam,
                     modifier = Modifier.fillMaxWidth().height(56.dp),
                     shape = RoundedCornerShape(12.dp),
-                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
                 ) {
-                    Text("TIẾP TỤC BÀI ĐANG THI", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                    Text("TIẾP TỤC BÀI ĐANG THI", fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 }
                 Spacer(modifier = Modifier.height(16.dp))
                 OutlinedButton(
                     onClick = onStartExam,
                     modifier = Modifier.fillMaxWidth().height(56.dp),
-                    shape = RoundedCornerShape(12.dp)
+                    shape = RoundedCornerShape(12.dp),
+                    border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.primary),
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary)
                 ) {
-                    Text("BẮT ĐẦU BÀI MỚI", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                    Text("BẮT ĐẦU BÀI MỚI", fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 }
             } else {
                 Button(
@@ -544,7 +663,7 @@ fun MockExamSetupScreen(
                     modifier = Modifier.fillMaxWidth().height(56.dp),
                     shape = RoundedCornerShape(12.dp)
                 ) {
-                    Text("BẮT ĐẦU THI", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                    Text("BẮT ĐẦU THI", fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 }
             }
         }

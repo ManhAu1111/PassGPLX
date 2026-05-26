@@ -12,6 +12,8 @@ import androidx.compose.material.icons.filled.CameraAlt
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Image
 import androidx.compose.material.icons.filled.PhotoLibrary
+import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -72,21 +74,27 @@ fun SignDetectionScreen() {
         }
     )
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 100.dp)
-            .verticalScroll(rememberScrollState()),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(
-            text = "Nhận diện biển báo",
-            style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(bottom = 24.dp)
-        )
-
-        Box(
+    Scaffold(
+        topBar = {
+            @OptIn(ExperimentalMaterial3Api::class)
+            TopAppBar(
+                title = { Text("Nhận diện biển báo", fontWeight = FontWeight.Bold) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background,
+                )
+            )
+        }
+    ) { padding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+                .background(MaterialTheme.colorScheme.background)
+                .padding(horizontal = 16.dp, vertical = 16.dp)
+                .verticalScroll(rememberScrollState()),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(300.dp)
@@ -169,7 +177,8 @@ fun SignDetectionScreen() {
             OutlinedButton(
                 onClick = { singleImagePicker.launch() },
                 modifier = Modifier.weight(1f),
-                shape = RoundedCornerShape(12.dp)
+                shape = RoundedCornerShape(12.dp),
+                colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)
             ) {
                 Icon(Icons.Default.PhotoLibrary, contentDescription = null)
                 Spacer(modifier = Modifier.width(8.dp))
@@ -183,18 +192,20 @@ fun SignDetectionScreen() {
                 text = "KẾT QUẢ NHẬN DIỆN",
                 style = MaterialTheme.typography.titleMedium,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.primary,
+                color = MaterialTheme.colorScheme.onSurface,
                 modifier = Modifier.padding(bottom = 8.dp)
             )
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
                 shape = RoundedCornerShape(16.dp)
             ) {
                 if (recognitionResult != null) {
-                    val matchingSign = signs.find { it.code == recognitionResult!!.label }
+                    val isConfident = recognitionResult!!.confidence >= 0.35f
+                    val matchingSign = if (isConfident) signs.find { it.code == recognitionResult!!.label } else null
                     
-                    if (matchingSign != null) {
+                    if (isConfident && matchingSign != null) {
                         Row(
                             modifier = Modifier.fillMaxWidth().padding(16.dp),
                             verticalAlignment = Alignment.CenterVertically
@@ -215,7 +226,7 @@ fun SignDetectionScreen() {
                                     text = matchingSign.name,
                                     style = MaterialTheme.typography.labelMedium,
                                     fontWeight = FontWeight.Bold,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    color = MaterialTheme.colorScheme.onSurface,
                                     textAlign = TextAlign.Center,
                                     maxLines = 2,
                                     overflow = TextOverflow.Ellipsis
@@ -233,7 +244,7 @@ fun SignDetectionScreen() {
                                     text = "Mã biển: ${matchingSign.code}",
                                     style = MaterialTheme.typography.titleSmall,
                                     fontWeight = FontWeight.Bold,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    color = MaterialTheme.colorScheme.onSurface,
                                     modifier = Modifier.padding(bottom = 4.dp)
                                 )
                                 
@@ -244,59 +255,83 @@ fun SignDetectionScreen() {
                                     modifier = Modifier.padding(bottom = 4.dp)
                                 )
                                 
-                                Text(
-                                    text = "Độ tin cậy: ${(recognitionResult!!.confidence * 100).toInt()}%",
-                                    style = MaterialTheme.typography.bodySmall,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
-                                    modifier = Modifier.padding(bottom = 12.dp)
-                                )
+                                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(bottom = 12.dp)) {
+                                    if (recognitionResult!!.confidence < 0.50f) {
+                                        Icon(Icons.Default.Warning, contentDescription = null, tint = Color(0xFFE65100), modifier = Modifier.size(16.dp))
+                                        Spacer(modifier = Modifier.width(4.dp))
+                                    }
+                                    Text(
+                                        text = "Độ tin cậy: ${(recognitionResult!!.confidence * 100).toInt()}%",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = if (recognitionResult!!.confidence < 0.50f) Color(0xFFE65100) else MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
+                                }
                                 
-                                Button(
+                                TextButton(
                                     onClick = { detailedSign = matchingSign },
-                                    shape = RoundedCornerShape(8.dp),
-                                    modifier = Modifier.fillMaxWidth()
+                                    modifier = Modifier.align(Alignment.End)
                                 ) {
-                                    Text("Xem chi tiết")
+                                    Text("Xem chi tiết", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
+                                    Icon(Icons.Default.ChevronRight, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                                 }
                             }
                         }
                     } else {
+                        // Dưới ngưỡng 35% hoặc không tìm thấy biển phù hợp
                         Column(
-                            modifier = Modifier.padding(16.dp).fillMaxWidth(),
+                            modifier = Modifier.padding(24.dp).fillMaxWidth(),
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
-                            Text(
-                                text = recognitionResult!!.label,
-                                style = MaterialTheme.typography.headlineSmall,
-                                fontWeight = FontWeight.Bold,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                textAlign = TextAlign.Center,
-                                modifier = Modifier.padding(vertical = 8.dp)
+                            Icon(
+                                imageVector = Icons.Default.Image,
+                                contentDescription = null,
+                                modifier = Modifier.size(48.dp),
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
                             )
+                            Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "Độ tin cậy: ${(recognitionResult!!.confidence * 100).toInt()}%",
+                                text = "Không nhận diện được biển báo",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface,
+                                textAlign = TextAlign.Center
+                            )
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text(
+                                text = "Độ tin cậy quá thấp (< 35%). Hãy thử chụp lại rõ hơn.",
                                 style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f)
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                textAlign = TextAlign.Center
                             )
                         }
                     }
                 } else {
                     Column(
-                        modifier = Modifier.padding(16.dp).fillMaxWidth(),
+                        modifier = Modifier.padding(24.dp).fillMaxWidth(),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
+                        Icon(
+                            imageVector = Icons.Default.Image,
+                            contentDescription = null,
+                            modifier = Modifier.size(48.dp),
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
                         Text(
                             text = "Không nhận diện được biển báo",
                             style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            textAlign = TextAlign.Center,
-                            modifier = Modifier.padding(vertical = 8.dp)
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.onSurface,
+                            textAlign = TextAlign.Center
                         )
                     }
                 }
             }
         }
+        
+        Spacer(modifier = Modifier.height(100.dp))
     }
+    } // Close Scaffold
 
     if (detailedSign != null) {
         TrafficSignDetailDialog(

@@ -8,6 +8,10 @@ import com.example.passgplx.data.ReviewHistoryRepository
 import com.example.passgplx.models.Category
 import com.example.passgplx.models.LicenseType
 import com.example.passgplx.models.Question
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -25,6 +29,8 @@ data class CategoryInfo(
 class ReviewViewModel(
     private val historyRepository: ReviewHistoryRepository = ReviewHistoryRepository()
 ) : ViewModel() {
+
+    private var pendingAnswerSave: Job? = null
 
     private val _allQuestions = MutableStateFlow<List<Question>>(emptyList())
 
@@ -95,10 +101,15 @@ class ReviewViewModel(
     }
 
     fun selectAnswer(questionId: String, answerId: String) {
-        val currentAnswers = _selectedAnswers.value.toMutableMap()
-        currentAnswers[questionId] = answerId
-        _selectedAnswers.value = currentAnswers
-        historyRepository.saveAnswer(questionId, answerId)
+        val newAnswers = _selectedAnswers.value.toMutableMap().also { it[questionId] = answerId }
+        _selectedAnswers.value = newAnswers
+        
+        pendingAnswerSave?.cancel()
+        pendingAnswerSave = viewModelScope.launch {
+            delay(1500)
+            val snapshot = _selectedAnswers.value
+            launch(Dispatchers.IO) { historyRepository.saveAnswers(snapshot) }
+        }
     }
 
     fun clearHistoryForCategory(category: Category) {
