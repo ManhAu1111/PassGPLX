@@ -5,6 +5,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.passgplx.data.QuestionRepository
 import com.example.passgplx.models.LicenseType
 import com.example.passgplx.models.Question
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -24,7 +26,6 @@ data class MockExamState(
     val questions: List<Question> = emptyList(),
     val currentIndex: Int = 0,
     val selectedAnswers: Map<String, String> = emptyMap(), // Map of Question ID -> Answer ID
-    val timeRemainingSeconds: Int = 19 * 60, // 19 minutes
     val isSubmitted: Boolean = false,
     val score: Int = 0,
     val isLoading: Boolean = false,
@@ -41,7 +42,11 @@ class MockExamViewModel(
     private val _hasSavedExam = MutableStateFlow(false)
     val hasSavedExam: StateFlow<Boolean> = _hasSavedExam.asStateFlow()
 
+    private val _timeRemainingSeconds = MutableStateFlow(0)
+    val timeRemainingSeconds: StateFlow<Int> = _timeRemainingSeconds.asStateFlow()
+
     private var timerJob: Job? = null
+    private var pendingSave: Job? = null
 
     init {
         checkSavedExam()
@@ -58,12 +63,12 @@ class MockExamViewModel(
                 try {
                     val savedData = Json.decodeFromString<MockExamStateData>(json)
                     val licenseType = LicenseType.valueOf(savedData.licenseType)
+                    _timeRemainingSeconds.value = savedData.timeRemainingSeconds
                     _state.update { 
                         it.copy(
                             selectedLicenseType = licenseType,
                             questions = savedData.questions,
                             selectedAnswers = savedData.selectedAnswers,
-                            timeRemainingSeconds = savedData.timeRemainingSeconds,
                             currentIndex = savedData.currentIndex,
                             isSubmitted = savedData.isSubmitted,
                             score = savedData.score,
@@ -82,14 +87,14 @@ class MockExamViewModel(
         }
     }
 
-    private fun saveCurrentState() {
+    private fun flushSave() {
         val currentState = _state.value
         if (!currentState.isExamStarted) return
         val data = MockExamStateData(
             licenseType = currentState.selectedLicenseType.name,
             questions = currentState.questions,
             selectedAnswers = currentState.selectedAnswers,
-            timeRemainingSeconds = currentState.timeRemainingSeconds,
+            timeRemainingSeconds = _timeRemainingSeconds.value,
             currentIndex = currentState.currentIndex,
             isSubmitted = currentState.isSubmitted,
             score = currentState.score
@@ -100,30 +105,40 @@ class MockExamViewModel(
         }
     }
 
+    private fun scheduleSave() {
+        pendingSave?.cancel()
+        pendingSave = viewModelScope.launch(Dispatchers.IO) {
+            delay(1500)
+            flushSave()
+        }
+    }
+
     fun startNewExam() {
         timerJob?.cancel()
         historyRepository.clearMockExam()
         _hasSavedExam.value = false
         viewModelScope.launch {
             val licenseType = _state.value.selectedLicenseType
-            _state.update { it.copy(isLoading = true, isSubmitted = false, isExamStarted = true, selectedAnswers = emptyMap(), score = 0, currentIndex = 0, timeRemainingSeconds = licenseType.timeMinutes * 60) }
+            _timeRemainingSeconds.value = licenseType.timeMinutes * 60
+            _state.update { it.copy(isLoading = true, isSubmitted = false, isExamStarted = true, selectedAnswers = emptyMap(), score = 0, currentIndex = 0) }
             val randomQuestions = QuestionRepository.getRandomQuestions(_state.value.selectedLicenseType)
             _state.update { it.copy(questions = randomQuestions, isLoading = false) }
-            saveCurrentState()
+            scheduleSave()
             startTimer()
         }
     }
 
     private fun startTimer() {
         timerJob = viewModelScope.launch {
-            while (_state.value.timeRemainingSeconds > 0 && !_state.value.isSubmitted) {
+            while (_timeRemainingSeconds.value > 0 && !_state.value.isSubmitted) {
                 delay(1000)
-                _state.update { it.copy(timeRemainingSeconds = it.timeRemainingSeconds - 1) }
-                if (_state.value.timeRemainingSeconds % 5 == 0) {
-                    saveCurrentState()
+                val newTime = _timeRemainingSeconds.value - 1
+                _timeRemainingSeconds.value = newTime
+                if (newTime % 30 == 0) {
+                    flushSave()
                 }
             }
-            if (_state.value.timeRemainingSeconds == 0 && !_state.value.isSubmitted) {
+            if (_timeRemainingSeconds.value == 0 && !_state.value.isSubmitted) {
                 submitExam()
             }
         }
@@ -136,7 +151,7 @@ class MockExamViewModel(
             newAnswers[questionId] = answerId
             it.copy(selectedAnswers = newAnswers)
         }
-        saveCurrentState()
+        scheduleSave()
     }
 
     fun selectLicenseType(licenseType: LicenseType) {
@@ -145,8 +160,9 @@ class MockExamViewModel(
     
     fun quitExam() {
         timerJob?.cancel()
+        pendingSave?.cancel()
         if (!_state.value.isSubmitted) {
-            saveCurrentState()
+            flushSave()
         }
         _state.update { it.copy(isExamStarted = false) }
         checkSavedExam()
@@ -173,6 +189,7 @@ class MockExamViewModel(
     fun submitExam() {
         if (_state.value.isSubmitted) return
         timerJob?.cancel()
+        pendingSave?.cancel()
         
         var calculatedScore = 0
         val currentQuestions = _state.value.questions
@@ -193,7 +210,7 @@ class MockExamViewModel(
             licenseType = currentState.selectedLicenseType.name,
             questions = currentState.questions,
             selectedAnswers = currentState.selectedAnswers,
-            timeRemainingSeconds = currentState.timeRemainingSeconds,
+            timeRemainingSeconds = _timeRemainingSeconds.value,
             currentIndex = currentState.currentIndex,
             isSubmitted = true,
             score = calculatedScore
@@ -204,21 +221,25 @@ class MockExamViewModel(
             timestamp = Clock.System.now().toEpochMilliseconds(),
             data = data
         )
-        historyRepository.addCompletedMockExam(record)
-        historyRepository.clearMockExam() // Clear the in-progress exam
+        
+        viewModelScope.launch(Dispatchers.IO) {
+            historyRepository.addCompletedMockExam(record)
+            historyRepository.clearMockExam() // Clear the in-progress exam
+        }
         _hasSavedExam.value = false
     }
 
     fun loadPastExam(record: MockExamRecord) {
         timerJob?.cancel()
+        pendingSave?.cancel()
         val savedData = record.data
         val licenseType = LicenseType.valueOf(savedData.licenseType)
+        _timeRemainingSeconds.value = savedData.timeRemainingSeconds
         _state.update { 
             it.copy(
                 selectedLicenseType = licenseType,
                 questions = savedData.questions,
                 selectedAnswers = savedData.selectedAnswers,
-                timeRemainingSeconds = savedData.timeRemainingSeconds,
                 currentIndex = 0,
                 isSubmitted = true,
                 score = savedData.score,

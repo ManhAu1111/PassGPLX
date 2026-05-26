@@ -17,6 +17,7 @@ import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.CameraAlt
 import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material.icons.filled.LibraryBooks
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -33,6 +34,7 @@ import com.example.passgplx.ui.screens.ReviewScreen
 import com.example.passgplx.ui.screens.SignDetectionScreen
 import com.example.passgplx.ui.screens.TrafficSignsScreen
 import com.example.passgplx.ui.screens.HistoryScreen
+import com.example.passgplx.ui.theme.PassGPLXTheme
 import androidx.compose.ui.tooling.preview.Preview
 import kotlinx.coroutines.launch
 import kotlin.math.abs
@@ -41,7 +43,7 @@ expect fun ByteArray.toImageBitmap(): ImageBitmap
 
 sealed class Screen(val route: String, val icon: ImageVector) {
     object History : Screen("history", Icons.Default.History)
-    object Review : Screen("review", Icons.Default.Book)
+    object Review : Screen("review", Icons.Default.LibraryBooks)
     object MockExam : Screen("mock_exam", Icons.AutoMirrored.Filled.Assignment)
     object TrafficSigns : Screen("traffic_signs", Icons.Default.Warning)
     object SignDetection : Screen("sign_detection", Icons.Default.CameraAlt)
@@ -58,9 +60,7 @@ val items = listOf(
 @Composable
 @Preview
 fun App() {
-    MaterialTheme(
-        colorScheme = darkColorScheme()
-    ) {
+    PassGPLXTheme {
         val pagerState = rememberPagerState(pageCount = { items.size })
         val coroutineScope = rememberCoroutineScope()
 

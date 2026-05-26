@@ -45,8 +45,12 @@ import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
 import passgplx.composeapp.generated.resources.*
 import passgplx.composeapp.generated.resources.Res
+import androidx.compose.ui.text.withStyle
 
-@OptIn(ExperimentalResourceApi::class)
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.BorderStroke
+
+@OptIn(ExperimentalResourceApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun TrafficSignsScreen() {
     var signs by remember { mutableStateOf<List<TrafficSign>>(emptyList()) }
@@ -69,31 +73,59 @@ fun TrafficSignsScreen() {
         signs.filter { it.type == selectedCategory }
     }
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        ScrollableTabRow(
-            selectedTabIndex = categories.indexOf(selectedCategory),
-            edgePadding = 16.dp,
-            containerColor = MaterialTheme.colorScheme.surface,
-            contentColor = MaterialTheme.colorScheme.primary
-        ) {
-            categories.forEach { category ->
-                Tab(
-                    selected = selectedCategory == category,
-                    onClick = { selectedCategory = category },
-                    text = { Text(category) }
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text("Biển báo đường bộ", fontWeight = FontWeight.Bold) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background,
                 )
-            }
+            )
         }
-
-        LazyVerticalGrid(
-            columns = GridCells.Adaptive(minSize = 160.dp),
-            contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 100.dp),
-            horizontalArrangement = Arrangement.spacedBy(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-            modifier = Modifier.fillMaxSize()
+    ) { padding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+                .background(MaterialTheme.colorScheme.background)
         ) {
-            items(items = filteredSigns, key = { it.code }) { sign ->
-                TrafficSignCard(sign, onClick = { selectedSign = sign })
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .horizontalScroll(rememberScrollState())
+                    .padding(vertical = 12.dp, horizontal = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                categories.forEach { category ->
+                    val isSelected = selectedCategory == category
+                    OutlinedButton(
+                        onClick = { selectedCategory = category },
+                        shape = RoundedCornerShape(12.dp),
+                        colors = ButtonDefaults.outlinedButtonColors(
+                            containerColor = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surface,
+                            contentColor = if (isSelected) Color.White else MaterialTheme.colorScheme.onSurface
+                        ),
+                        border = BorderStroke(
+                            width = 1.dp,
+                            color = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.12f)
+                        ),
+                        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
+                    ) {
+                        Text(category)
+                    }
+                }
+            }
+
+            LazyVerticalGrid(
+                columns = GridCells.Adaptive(minSize = 160.dp),
+                contentPadding = PaddingValues(start = 16.dp, top = 8.dp, end = 16.dp, bottom = 100.dp),
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+                modifier = Modifier.fillMaxSize()
+            ) {
+                items(items = filteredSigns, key = { it.code }) { sign ->
+                    TrafficSignCard(sign, onClick = { selectedSign = sign })
+                }
             }
         }
     }
@@ -171,7 +203,7 @@ fun TrafficSignCard(sign: TrafficSign, onClick: () -> Unit) {
             Text(
                 text = sign.code,
                 style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.primary,
+                color = MaterialTheme.colorScheme.onSurface,
                 fontWeight = FontWeight.Bold
             )
             
@@ -225,7 +257,7 @@ fun TrafficSignDetailDialog(sign: TrafficSign, onDismiss: () -> Unit) {
                 Text(
                     text = sign.code,
                     style = MaterialTheme.typography.titleLarge,
-                    color = MaterialTheme.colorScheme.primary,
+                    color = MaterialTheme.colorScheme.onSurface,
                     fontWeight = FontWeight.Bold
                 )
                 
@@ -254,13 +286,31 @@ fun TrafficSignDetailDialog(sign: TrafficSign, onDismiss: () -> Unit) {
                         text = "Chi tiết:",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold,
-                        modifier = Modifier.fillMaxWidth().padding(bottom = 4.dp)
+                        modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
                     )
-                    Text(
-                        text = sign.detail,
-                        style = MaterialTheme.typography.bodyMedium,
-                        modifier = Modifier.fillMaxWidth()
-                    )
+                    
+                    // Split into bullet points based on vehicle types/conditions
+                    val bulletPoints = sign.detail
+                        .split(Regex("(?=(?:Người điều khiển|Nếu|Đối với|Ô tô|Xe máy|Mô tô|Phạt))"))
+                        .filter { it.isNotBlank() }
+                        .map { it.trim().trimEnd(';', '.') }
+                    
+                    Column(modifier = Modifier.fillMaxWidth()) {
+                        bulletPoints.forEach { point ->
+                            Row(modifier = Modifier.padding(bottom = 6.dp)) {
+                                Text(
+                                    text = "•",
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.padding(end = 8.dp)
+                                )
+                                Text(
+                                    text = formatPenaltyText(point),
+                                    style = MaterialTheme.typography.bodyMedium
+                                )
+                            }
+                        }
+                    }
                 }
                 
                 Button(
@@ -500,3 +550,19 @@ fun getDrawableResource(name: String): DrawableResource {
 }
 
 // shimmerEffect is now imported from com.example.passgplx.ui.components.shimmerEffect
+
+fun formatPenaltyText(text: String): androidx.compose.ui.text.AnnotatedString {
+    val pattern = Regex("(\\d+[.,\\d]*\\s*(?:triệu\\s+đồng|triệu|đ\\b))|(\\d+\\s*(?:-|–|đến)\\s*\\d+[.,\\d]*\\s*(?:triệu\\s+đồng|triệu|đ\\b))|(\\d+[.,\\d]*\\s*đ\\s+đến\\s+\\d+[.,\\d]*\\s*đ)", RegexOption.IGNORE_CASE)
+    
+    val builder = androidx.compose.ui.text.AnnotatedString.Builder()
+    var lastIndex = 0
+    pattern.findAll(text).forEach { matchResult ->
+        builder.append(text.substring(lastIndex, matchResult.range.first))
+        builder.withStyle(androidx.compose.ui.text.SpanStyle(fontWeight = FontWeight.Bold)) {
+            append(matchResult.value)
+        }
+        lastIndex = matchResult.range.last + 1
+    }
+    builder.append(text.substring(lastIndex))
+    return builder.toAnnotatedString()
+}
