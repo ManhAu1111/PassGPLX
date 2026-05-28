@@ -13,15 +13,26 @@ import androidx.compose.ui.graphics.ImageBitmap
 object ImageBitmapCache {
     private const val MAX_SIZE = 120
 
-    private val cache = object : LinkedHashMap<String, ImageBitmap>(MAX_SIZE, 0.75f, true) {
-        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, ImageBitmap>?): Boolean {
-            return size > MAX_SIZE
-        }
+    private val cache = LinkedHashMap<String, ImageBitmap>()
+
+    fun get(key: String): ImageBitmap? {
+        val bitmap = cache[key] ?: return null
+        // Di chuyển phần tử vừa truy cập xuống cuối map để giữ thứ tự LRU (Least Recently Used)
+        cache.remove(key)
+        cache[key] = bitmap
+        return bitmap
     }
 
-    fun get(key: String): ImageBitmap? = cache[key]
-
     fun put(key: String, bitmap: ImageBitmap) {
+        if (cache.containsKey(key)) {
+            cache.remove(key)
+        } else if (cache.size >= MAX_SIZE) {
+            // Loại bỏ phần tử ít được sử dụng nhất (phần tử đầu tiên trong map)
+            val eldestKey = cache.keys.firstOrNull()
+            if (eldestKey != null) {
+                cache.remove(eldestKey)
+            }
+        }
         cache[key] = bitmap
     }
 

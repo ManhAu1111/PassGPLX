@@ -18,7 +18,7 @@ import com.example.passgplx.data.ReviewHistoryRepository
 import com.example.passgplx.models.MockExamStateData
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import kotlinx.datetime.Clock
+import com.example.passgplx.utils.getCurrentTimeMillis
 import com.example.passgplx.models.MockExamRecord
 
 data class MockExamState(
@@ -216,9 +216,10 @@ class MockExamViewModel(
             score = calculatedScore
         )
         
+        val currentTime = getCurrentTimeMillis()
         val record = MockExamRecord(
-            id = Clock.System.now().toEpochMilliseconds().toString(),
-            timestamp = Clock.System.now().toEpochMilliseconds(),
+            id = currentTime.toString(),
+            timestamp = currentTime,
             data = data
         )
         
