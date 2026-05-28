@@ -14,6 +14,12 @@ object QuestionDataHelper {
 
     val categories = listOf(
         Category(
+            id = "c0",
+            name = "Tất cả các câu",
+            description = "Tập hợp toàn bộ 600 câu hỏi ôn tập",
+            filter = { true }
+        ),
+        Category(
             id = "c1",
             name = "Câu điểm liệt",
             description = "60 câu hỏi về tình huống mất an toàn giao thông nghiêm trọng",
@@ -22,45 +28,39 @@ object QuestionDataHelper {
         ),
         Category(
             id = "c2",
-            name = "Khái niệm và quy tắc",
-            description = "Câu 1 - 166: Khái niệm và quy tắc giao thông đường bộ",
-            filter = { it.id.toIntOrNull() in 1..166 }
+            name = "Khái niệm quy tắc lý thuyết",
+            description = "Câu 1 - 180: Khái niệm và quy tắc giao thông đường bộ",
+            filter = { it.id.toIntOrNull() in 1..180 }
         ),
         Category(
             id = "c3",
-            name = "Nghiệp vụ vận tải",
-            description = "Câu 167 - 192: Nghiệp vụ vận tải",
-            filter = { it.id.toIntOrNull() in 167..192 }
+            name = "Văn hóa giao thông",
+            description = "Câu 181 - 205: Văn hóa giao thông và đạo đức người lái xe",
+            filter = { it.id.toIntOrNull() in 181..205 }
         ),
         Category(
             id = "c4",
-            name = "Văn hóa & Đạo đức",
-            description = "Câu 193 - 213: Văn hóa giao thông và đạo đức người lái xe",
-            filter = { it.id.toIntOrNull() in 193..213 }
+            name = "Kỹ thuật lái xe",
+            description = "Câu 206 - 263: Hướng dẫn kỹ thuật điều khiển xe",
+            filter = { it.id.toIntOrNull() in 206..263 }
         ),
         Category(
             id = "c5",
-            name = "Kỹ thuật lái xe",
-            description = "Câu 214 - 269: Kỹ thuật lái xe",
-            filter = { it.id.toIntOrNull() in 214..269 }
+            name = "Cấu tạo sửa chữa",
+            description = "Câu 264 - 300: Cấu tạo cơ bản và sửa chữa xe ô tô",
+            filter = { it.id.toIntOrNull() in 264..300 }
         ),
         Category(
             id = "c6",
-            name = "Cấu tạo & Sửa chữa",
-            description = "Câu 270 - 304: Cấu tạo và sửa chữa xe ô tô",
-            filter = { it.id.toIntOrNull() in 270..304 }
+            name = "Biển báo",
+            description = "Câu 301 - 485: Hệ thống biển báo hiệu đường bộ",
+            filter = { it.id.toIntOrNull() in 301..485 }
         ),
         Category(
             id = "c7",
-            name = "Biển báo đường bộ",
-            description = "Câu 305 - 486: Hệ thống biển báo hiệu đường bộ",
-            filter = { it.id.toIntOrNull() in 305..486 }
-        ),
-        Category(
-            id = "c8",
-            name = "Sa hình",
-            description = "Câu 487 - 600: Giải các thế sa hình",
-            filter = { it.id.toIntOrNull() in 487..600 }
+            name = "Tình huống giao thông",
+            description = "Câu 486 - 600: Sa hình và tình huống giao thông",
+            filter = { it.id.toIntOrNull() in 486..600 }
         )
     )
 }

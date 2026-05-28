@@ -48,7 +48,6 @@ import com.example.passgplx.ui.components.QuestionCardSkeleton
 fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
     val viewModel = viewModel { ReviewViewModel() }
     val questions by viewModel.questions.collectAsState()
-    val selectedLicenseType by viewModel.selectedLicenseType.collectAsState()
     val activeCategories by viewModel.activeCategories.collectAsState()
     val selectedCategory by viewModel.selectedCategory.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
@@ -82,8 +81,6 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
         return
     }
 
-    var expanded by remember { mutableStateOf(false) }
-
     if (selectedCategory == null) {
         // Show Category List
         Scaffold(
@@ -102,61 +99,9 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                     .padding(padding)
                     .background(MaterialTheme.colorScheme.background)
             ) {
-                Card(
-                    modifier = Modifier.fillMaxWidth().padding(16.dp),
-                    elevation = CardDefaults.cardElevation(defaultElevation = 0.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Column(
-                        modifier = Modifier.padding(16.dp)
-                    ) {
-                        Text(
-                            text = "Hạng bằng ôn tập",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.onSurface
-                        )
-                        Spacer(modifier = Modifier.height(12.dp))
-                        ExposedDropdownMenuBox(
-                            expanded = expanded,
-                            onExpandedChange = { expanded = !expanded }
-                        ) {
-                            OutlinedTextField(
-                                value = selectedLicenseType.displayName,
-                                onValueChange = {},
-                                readOnly = true,
-                                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                                modifier = Modifier.menuAnchor().fillMaxWidth(),
-                                shape = RoundedCornerShape(12.dp),
-                                colors = OutlinedTextFieldDefaults.colors(
-                                    focusedBorderColor = Color.Black,
-                                    unfocusedBorderColor = Color.Black,
-                                    focusedTextColor = Color.Black,
-                                    unfocusedTextColor = Color.Black
-                                )
-                            )
-                            ExposedDropdownMenu(
-                                expanded = expanded,
-                                onDismissRequest = { expanded = false }
-                            ) {
-                                com.example.passgplx.models.LicenseType.entries.forEach { licenseType ->
-                                    DropdownMenuItem(
-                                        text = { Text(licenseType.displayName) },
-                                        onClick = {
-                                            viewModel.selectLicenseType(licenseType)
-                                            expanded = false
-                                        }
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
-
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
-                    contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 100.dp),
+                    contentPadding = PaddingValues(16.dp, 16.dp, 16.dp, 100.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     items(activeCategories) { info ->
@@ -223,8 +168,10 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                             shape = RoundedCornerShape(16.dp),
                             modifier = Modifier.clickable { showBottomSheet = true }
                         ) {
+                            val currentId = questions.getOrNull(pagerState.currentPage)?.id ?: ""
+                            val lastId = questions.lastOrNull()?.id ?: ""
                             Text(
-                                text = "Tiến độ: ${pagerState.currentPage + 1}/${questions.size}",
+                                text = "Câu $currentId/$lastId",
                                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
                                 style = MaterialTheme.typography.labelLarge,
                                 color = MaterialTheme.colorScheme.onSurface
@@ -303,7 +250,7 @@ fun ReviewScreen(onNavBarVisibilityChanged: (Boolean) -> Unit = {}) {
                             contentAlignment = Alignment.Center
                         ) {
                             Text(
-                                text = "${index + 1}",
+                                text = question.id,
                                 color = contentColor,
                                 fontWeight = FontWeight.Bold
                             )
@@ -427,7 +374,7 @@ fun QuestionCard(
         ) {
             Column(modifier = Modifier.padding(16.dp)) {
                 Text(
-                    text = "Câu ${index + 1}: ${question.question}",
+                    text = "Câu ${question.id}: ${question.question}",
                     style = MaterialTheme.typography.titleMedium.copy(
                         fontWeight = FontWeight.Bold,
                         lineHeight = 24.sp
