@@ -2,6 +2,8 @@ package com.example.passgplx.ui.screens
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -207,7 +209,16 @@ fun MockExamScreen(
                 .background(MaterialTheme.colorScheme.background)
         ) {
             if (state.isSubmitted) {
-                val passed = state.score >= state.selectedLicenseType.passingScore
+                val hasFailedParalyzing = state.questions.any { q ->
+                    if (com.example.passgplx.data.QuestionDataHelper.paralyzingQuestionIds.contains(q.id)) {
+                        val selected = state.selectedAnswers[q.id]
+                        val correct = q.answers.find { it.correct }?.id
+                        selected != correct
+                    } else {
+                        false
+                    }
+                }
+                val passed = state.score >= state.selectedLicenseType.passingScore && !hasFailedParalyzing
                 val bannerColor = if (passed) Color(0xFF4CAF50) else Color(0xFFE53935)
                 val bannerIcon = if (passed) Icons.Default.CheckCircle else Icons.Default.Cancel
                 
@@ -236,9 +247,21 @@ fun MockExamScreen(
                             )
                             Spacer(modifier = Modifier.height(4.dp))
                             Text(
-                                text = "Số điểm: ${state.score} / ${state.questions.size}",
-                                style = MaterialTheme.typography.bodyLarge,
-                                color = MaterialTheme.colorScheme.onSurface
+                                text = if (hasFailedParalyzing) {
+                                    "Số điểm: ${state.score} / ${state.questions.size} (Trượt câu điểm liệt)"
+                                } else {
+                                    "Số điểm: ${state.score} / ${state.questions.size}"
+                                },
+                                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold),
+                                color = if (hasFailedParalyzing) Color(0xFFE53935) else MaterialTheme.colorScheme.onSurface
+                            )
+                            Spacer(modifier = Modifier.height(2.dp))
+                            val unansweredCount = state.questions.size - state.selectedAnswers.size
+                            val incorrectCount = state.questions.size - state.score - unansweredCount
+                            Text(
+                                text = "Đúng: ${state.score} | Sai: $incorrectCount | Chưa trả lời: $unansweredCount",
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
                     }
@@ -273,11 +296,14 @@ fun MockExamScreen(
                     itemsIndexed(state.questions) { index, question ->
                         val isAnswered = state.selectedAnswers.containsKey(question.id)
                         val isCurrent = pagerState.currentPage == index
+                        val isParalyzing = com.example.passgplx.data.QuestionDataHelper.paralyzingQuestionIds.contains(question.id)
+                        val selectedAnswerId = state.selectedAnswers[question.id]
+                        val isCorrect = question.answers.find { it.correct }?.id == selectedAnswerId
                         val color = when {
                             state.isSubmitted -> {
-                                val selectedAnswerId = state.selectedAnswers[question.id]
-                                val isCorrect = question.answers.find { it.correct }?.id == selectedAnswerId
-                                if (isCorrect) Color(0xFF4CAF50) else MaterialTheme.colorScheme.error
+                                if (isCorrect) Color(0xFF4CAF50)
+                                else if (isParalyzing) Color(0xFFB71C1C) // Deep warning red for paralyzing error
+                                else MaterialTheme.colorScheme.error
                             }
                             isCurrent -> MaterialTheme.colorScheme.primary
                             isAnswered -> MaterialTheme.colorScheme.primaryContainer
@@ -289,10 +315,15 @@ fun MockExamScreen(
                             else -> MaterialTheme.colorScheme.onSurfaceVariant
                         }
 
+                        val borderModifier = if (state.isSubmitted && !isCorrect && isParalyzing) {
+                            Modifier.border(2.dp, Color(0xFFFFEB3B), CircleShape)
+                        } else Modifier
+
                         Box(
                             modifier = Modifier
                                 .padding(4.dp)
                                 .size(48.dp)
+                                .then(borderModifier)
                                 .clip(CircleShape)
                                 .background(color)
                                 .clickable {
@@ -358,6 +389,10 @@ fun ExamQuestionCard(
     onAnswerSelected: (String) -> Unit
 ) {
     val selectedAnswerId = selectedAnswerProvider()
+    val isParalyzing = com.example.passgplx.data.QuestionDataHelper.paralyzingQuestionIds.contains(question.id)
+    val isCorrect = question.answers.find { it.correct }?.id == selectedAnswerId
+    val isFailedParalyzing = isSubmitted && isParalyzing && !isCorrect
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -370,6 +405,30 @@ fun ExamQuestionCard(
             colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
         ) {
             Column(modifier = Modifier.padding(16.dp)) {
+                if (isParalyzing) {
+                    val labelColor = if (isFailedParalyzing) Color(0xFFE53935) else Color(0xFFFF9800)
+                    val labelText = when {
+                        isSubmitted && selectedAnswerId == null -> "⚠️ CÂU HỎI ĐIỂM LIỆT (BẠN CHƯA TRẢ LỜI!)"
+                        isFailedParalyzing -> "⚠️ CÂU HỎI ĐIỂM LIỆT (BẠN ĐÃ TRẢ LỜI SAI!)"
+                        else -> "⭐ CÂU HỎI ĐIỂM LIỆT"
+                    }
+                    Text(
+                        text = labelText,
+                        style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
+                        color = labelColor,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                }
+
+                if (isSubmitted && selectedAnswerId == null && !isParalyzing) {
+                    Text(
+                        text = "⚠️ BẠN CHƯA TRẢ LỜI CÂU HỎI NÀY",
+                        style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
+                        color = Color(0xFFE53935),
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                }
+
                 Text(
                     text = "Câu ${index + 1}: ${question.question}",
                     style = MaterialTheme.typography.titleMedium.copy(

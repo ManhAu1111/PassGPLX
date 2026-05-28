@@ -83,7 +83,8 @@ fun ExamRecordCard(record: MockExamRecord, onClick: () -> Unit) {
     val date = Instant.fromEpochMilliseconds(record.timestamp)
         .toLocalDateTime(TimeZone.currentSystemDefault())
     val dateString = "${date.dayOfMonth}/${date.monthNumber}/${date.year} ${date.hour}:${date.minute}"
-    val isPassed = record.data.score >= LicenseType.valueOf(record.data.licenseType).passingScore
+    val passingScore = LicenseType.valueOf(record.data.licenseType).passingScore
+    val isPassed = record.data.isPassed(passingScore)
 
     Card(
         modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
@@ -122,6 +123,14 @@ fun ExamRecordCard(record: MockExamRecord, onClick: () -> Unit) {
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
+                if (!isPassed && record.data.score >= passingScore) {
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        text = "Trượt điểm liệt",
+                        style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
+                        color = MaterialTheme.colorScheme.error
+                    )
+                }
             }
             Surface(
                 color = if (isPassed) Color(0xFF4CAF50).copy(alpha = 0.15f) else Color(0xFFE53935).copy(alpha = 0.15f),
